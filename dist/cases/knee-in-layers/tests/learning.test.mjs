@@ -1,10 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { createRequire } from 'node:module';
 import fs from 'node:fs';
-const require=createRequire(import.meta.url);
-const file=new URL('../learning.cjs',import.meta.url);
-const api=fs.existsSync(file)?require(file.pathname):{};
+const file=new URL('../learning.mjs',import.meta.url);
+const api=fs.existsSync(file)?await import(file.href):{};
 test('choosing each topic yields the correct visible family and question',()=>{
   assert.equal(typeof api.lesson,'function');
   assert.deepEqual(api.lesson('meniscus').visible,['femur','tibia','menisci']);

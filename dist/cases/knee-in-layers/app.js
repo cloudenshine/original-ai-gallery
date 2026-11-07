@@ -1,3 +1,4 @@
+import * as KneeLearning from './learning.mjs';
 (()=>{
 let topic='bone';
 const el=id=>document.getElementById(id);
