@@ -1,0 +1,1 @@
+{"name":"original-ai-case-gallery","private":true,"version":"0.1.0","type":"module","scripts":{"test":"node --test tests/*.test.mjs && node dist/cases/phase-garden/test-core.cjs","build":"node scripts/make-posters.mjs && python3 scripts/assemble.py"}}

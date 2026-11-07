@@ -1,0 +1,11 @@
+{
+  "title": "回到平衡",
+  "category": "interactive",
+  "method": "code",
+  "engine": "JavaScript + SVG",
+  "model": "ChatGPT 协作，具体底层模型未披露",
+  "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+  "verification": "归一化模型的起点、收敛、超调与临界阻尼测试通过；不是实测或工程性能数据。",
+  "createdAt": "2026-11-07",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。"
+}

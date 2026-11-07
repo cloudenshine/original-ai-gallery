@@ -1,0 +1,2 @@
+export function springPosition(t,z=.55){t=Math.max(0,Math.min(6,Number(t)||0));z=Math.max(.15,Math.min(1.2,Number(z)||.55));const w=5;if(!t)return 0;if(Math.abs(z-1)<1e-8)return 1-Math.exp(-w*t)*(1+w*t);if(z<1){const s=Math.sqrt(1-z*z);return 1-Math.exp(-z*w*t)*(Math.cos(w*s*t)+z/s*Math.sin(w*s*t))}const s=Math.sqrt(z*z-1);return 1-Math.exp(-z*w*t)*(Math.cosh(w*s*t)+z/s*Math.sinh(w*s*t))}
+export function springCurve(z=.55){return Array.from({length:181},(_,i)=>[i/30,springPosition(i/30,z)])}

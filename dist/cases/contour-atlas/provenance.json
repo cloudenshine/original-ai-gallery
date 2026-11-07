@@ -1,0 +1,11 @@
+{
+  "title": "无名地形",
+  "category": "procedural-image",
+  "method": "code",
+  "engine": "SVG + JavaScript",
+  "model": "ChatGPT 协作，具体底层模型未披露",
+  "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+  "verification": "确定性、闭合性、有限值与种子差异已通过测试；封面由真实源码生成。不是实际地理数据。",
+  "createdAt": "2026-11-07",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。"
+}
