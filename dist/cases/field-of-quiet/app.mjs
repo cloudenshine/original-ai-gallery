@@ -1,6 +1,6 @@
 import * as THREE from './vendor/three.module.min.js';
 import {SVGRenderer} from './vendor/SVGRenderer.js';
-import {DEFAULTS,sanitize,sampleField,wavelength,snapProbe,ringRadius} from './model.mjs';
+import {DEFAULTS,sanitize,sampleField,wavelength,snapProbe,ringRadius} from './model.mjs?v=4';
 const $=id=>document.getElementById(id),stage=$('stage');
 let params={...DEFAULTS},probe={x:0,z:1.8},playing=!matchMedia('(prefers-reduced-motion: reduce)').matches,dirty=true,frames=0,fieldRevision=0;
 let svgMode=false,lastPaint=0;
