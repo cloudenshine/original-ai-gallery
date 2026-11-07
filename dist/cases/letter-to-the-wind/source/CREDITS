@@ -1,0 +1,25 @@
+LETTER TO THE WIND / 风的信 (2026)
+Original fictional plant, geometry, story, animation, score, material foley, and film source created for this original film. No real-world botanical claim is intended.
+
+STYLE AND METHOD REFERENCE
+Lemo-Opuscar, Copperplate Engraving:
+https://github.com/lemomo-ai/lemo-opuscar
+https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/engraving/STYLE.md
+https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/engraving/DEMO.md
+The repository is MIT licensed. We used the documented visual grammar and directing method; no source geometry, composition, timeline, music, voice, images or video from the demo are embedded in this film. Reference film was inspected privately before production. See REFERENCES.md for exact source identity and differences. This work is not made by, endorsed by, or an official release of LemoLab.
+
+FONTS (bundled)
+Noto Serif (Latin), Google and contributors. SIL Open Font License 1.1.
+Noto Serif CJK (Chinese), Adobe and Google contributors. SIL Open Font License 1.1.
+https://github.com/notofonts/noto-fonts
+https://github.com/notofonts/noto-cjk
+Full installed-distribution notices: assets/Noto-font-license.txt and assets/Noto-CJK-license.txt.
+
+MUSIC / SOUND
+Entirely original deterministic procedural synthesis. Lute-like string plucks, harmonic bowed tones, workshop air, engraving scratches, paper opening, wind and water sounds. No commercial music, recorded samples, generated voice service or external audio asset. The synthetic timbres are not represented as recordings of real instruments.
+
+TOOLS
+Native Skia Canvas via the already installed @napi-rs/canvas; Node.js; Python; NumPy; SciPy; Pillow; FFmpeg. Source is supplied, but these system dependencies are not bundled. No paid generation or RunningHub charge. Public gallery inclusion authorized by the owner.
+
+RIGHTS
+This package contains no third-party footage or reference-film audio. Reuse must preserve the font license notices. If you add other assets, you are responsible for obtaining rights for those additions.

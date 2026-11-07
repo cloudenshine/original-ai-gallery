@@ -1,0 +1,32 @@
+{
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "24/1",
+  "decoded_frames": 864,
+  "video_seconds": 36.0,
+  "audio_seconds": 36.0,
+  "audio_channels": 2,
+  "sample_rate": "48000",
+  "final_lufs": -14.0,
+  "final_true_peak_dbtp": -1.22,
+  "min_frame_mean": 211.55177662037036,
+  "max_adjacent_frame_MAD": 9.371168981481482,
+  "max_adjacent_frame_index": 29,
+  "near_silences": [
+    {
+      "from": 14.53,
+      "to": 15.37,
+      "rms_dbfs": -240.0
+    },
+    {
+      "from": 21.53,
+      "to": 22.17,
+      "rms_dbfs": -240.0
+    }
+  ],
+  "sha256": "8ab61db323256283a8d4229ff5b2e590a8c44e152c924fe2ab51c3c73a63850c",
+  "full_speed_human_av_review": false,
+  "limitation": "No continuous audiovisual perception tool available; all-frame decode, numerical audio checks, contact sheet and action strips do not establish full aesthetic playback or listening approval."
+}

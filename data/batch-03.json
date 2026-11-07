@@ -1,0 +1,374 @@
+[
+  {
+    "id": "making-winter-smaller",
+    "title": "把冬天拆小",
+    "category": "image-editing",
+    "method": "image-model",
+    "useCase": "概念视觉",
+    "summary": "一根毛线从成人尺寸旧手套连到小手套，保留初稿与局部修订。",
+    "engine": "ChatGPT 图像生成与编辑",
+    "model": "Exact image model not disclosed",
+    "tags": [
+      "图像编辑",
+      "源码与过程"
+    ],
+    "verification": "已核对媒体文件 SHA-256；虚构静物，不是针织教学或真实事件照片。",
+    "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+    "steps": [
+      "打开作品页查看实际产物与验证边界。",
+      "下载源包，阅读提示词、制作过程与 SOURCE-MANIFEST.json。",
+      "参考资料只标示影响与知识来源，不意味着获得第三方素材的复用许可。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/making-winter-smaller/index.html",
+    "poster": "cases/making-winter-smaller/artwork.png",
+    "media": "artwork.png",
+    "audio": false,
+    "extraProvenance": {
+      "references": [],
+      "limitations": [
+        "虚构静物，不是针织教学或真实事件照片。"
+      ],
+      "files": [
+        {
+          "path": "artwork.png",
+          "bytes": 2423652,
+          "sha256": "b1b3a1327c4b3093e03ca351207ccd7e5cc60849d506a6bad838528152d39e10"
+        },
+        {
+          "path": "source.zip",
+          "bytes": 4933849,
+          "sha256": "c580a4ec1d8d0ff94fd7557c425e11b1cd38c5ee24d99f96830baf2d4ac414cb"
+        }
+      ],
+      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。"
+    }
+  },
+  {
+    "id": "negative-of-a-moon",
+    "title": "月相的负形",
+    "category": "image-generation",
+    "method": "image-model",
+    "useCase": "概念视觉",
+    "summary": "层叠的半透明薄片和潮线围绕留白，暗示一轮没有画出的月亮。",
+    "engine": "ChatGPT 图像生成与编辑",
+    "model": "Exact image model not disclosed",
+    "tags": [
+      "模型生图",
+      "源码与过程"
+    ],
+    "verification": "已核对媒体文件 SHA-256；单帧 PNG，不证明原生 GIF、SVG 或特定模型能力。 提示词可复用，生成图像不承诺逐像素复现。",
+    "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+    "steps": [
+      "打开作品页查看实际产物与验证边界。",
+      "下载源包，阅读提示词、制作过程与 SOURCE-MANIFEST.json。",
+      "参考资料只标示影响与知识来源，不意味着获得第三方素材的复用许可。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/negative-of-a-moon/index.html",
+    "poster": "cases/negative-of-a-moon/artwork.png",
+    "media": "artwork.png",
+    "audio": false,
+    "extraProvenance": {
+      "references": [],
+      "limitations": [
+        "单帧 PNG，不证明原生 GIF、SVG 或特定模型能力。",
+        "提示词可复用，生成图像不承诺逐像素复现。"
+      ],
+      "files": [
+        {
+          "path": "artwork.png",
+          "bytes": 2486616,
+          "sha256": "da4a13a2b4d68c2ee36fa2ceb61c8bbc65f49dc9ae6c8af9a3b77502db653ef8"
+        },
+        {
+          "path": "source.zip",
+          "bytes": 2378586,
+          "sha256": "4d8fc41cfc16bb397c34cb196d4015ec47e40cdb7f80c73a700955ed9aa6c6b1"
+        }
+      ],
+      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。"
+    }
+  },
+  {
+    "id": "borrowed-moonlight",
+    "title": "借一弯月光",
+    "category": "image-code-animation",
+    "method": "image-and-code",
+    "useCase": "图像与代码动画",
+    "summary": "月轮借出一片，触及水面，再由水波归还。",
+    "engine": "图像生成 + Python 动画",
+    "model": "Image backend not disclosed; Python animation",
+    "tags": [
+      "代码制作 GIF",
+      "源码与过程"
+    ],
+    "verification": "已核对媒体文件 SHA-256；生成工具原生 GIF 请求实际返回单帧 PNG。 本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。",
+    "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+    "steps": [
+      "打开作品页查看实际产物与验证边界。",
+      "下载源包，阅读提示词、制作过程与 SOURCE-MANIFEST.json。",
+      "参考资料只标示影响与知识来源，不意味着获得第三方素材的复用许可。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/borrowed-moonlight/index.html",
+    "poster": "cases/borrowed-moonlight/poster.png",
+    "media": "film.mp4",
+    "audio": false,
+    "extraProvenance": {
+      "references": [],
+      "limitations": [
+        "生成工具原生 GIF 请求实际返回单帧 PNG。",
+        "本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。"
+      ],
+      "files": [
+        {
+          "path": "animation.gif",
+          "bytes": 9939759,
+          "sha256": "6858d959e9599db1ec1fa89926a06d311cc0f0f99032d15f6a502d4631193864"
+        },
+        {
+          "path": "film.mp4",
+          "bytes": 231144,
+          "sha256": "a161f1fb56faa06c75258e1aaf0b5ccd2b89c0e06368238a9432dc8591711e9b"
+        },
+        {
+          "path": "poster.png",
+          "bytes": 532405,
+          "sha256": "d4cac341c684b57769542c373da906268ba48e4ac9e4d1dfa97002f43409e7cd"
+        },
+        {
+          "path": "source.zip",
+          "bytes": 1331357,
+          "sha256": "61b3b2a56cfa403881a2e2db7e8f9aef3ce9c4a5797825b5fccfdb8148bf79e2"
+        }
+      ],
+      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。"
+    },
+    "gif": "animation.gif"
+  },
+  {
+    "id": "aftertone",
+    "title": "余响织成光",
+    "category": "coding-film",
+    "method": "code",
+    "useCase": "叙事短片",
+    "summary": "弦的振动与回响织成光，最后留下两道痕迹。",
+    "engine": "Canvas + Python + FFmpeg / 合成声音",
+    "model": "Procedural Canvas and synthesized audio",
+    "tags": [
+      "有声影片",
+      "源码与过程"
+    ],
+    "verification": "已核对媒体文件 SHA-256；抽象寓言，不是声学或物理仿真。 连续原速观看和真实听审未完成。",
+    "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+    "steps": [
+      "打开作品页查看实际产物与验证边界。",
+      "下载源包，阅读提示词、制作过程与 SOURCE-MANIFEST.json。",
+      "参考资料只标示影响与知识来源，不意味着获得第三方素材的复用许可。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/aftertone/index.html",
+    "poster": "cases/aftertone/poster.png",
+    "media": "film.mp4",
+    "audio": true,
+    "extraProvenance": {
+      "references": [],
+      "limitations": [
+        "抽象寓言，不是声学或物理仿真。",
+        "连续原速观看和真实听审未完成。"
+      ],
+      "files": [
+        {
+          "path": "film.mp4",
+          "bytes": 9096518,
+          "sha256": "393e26e5e3f251d7ebbdbd95073c3d1f6396b401dfb6ca7e1c50901c01bb2744"
+        },
+        {
+          "path": "poster.png",
+          "bytes": 673592,
+          "sha256": "6252c68aefca30607c3c0afcf49324f4b100fe1a41cb4f7a1ba164333549e1c2"
+        },
+        {
+          "path": "source.zip",
+          "bytes": 32128417,
+          "sha256": "9f215e0780646ab434c0bd1f14f25ed507af5e55e4d73e89c30f76cb8e127e1c"
+        }
+      ],
+      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。"
+    }
+  },
+  {
+    "id": "tidal-memory",
+    "title": "月汐",
+    "category": "image-editing",
+    "method": "image-model",
+    "useCase": "概念视觉",
+    "summary": "先生成海玻璃玉兰与月海，再把同一场景编辑成出框海报。",
+    "engine": "ChatGPT 图像生成与编辑",
+    "model": "Exact image model not disclosed",
+    "tags": [
+      "图像编辑",
+      "源码与过程"
+    ],
+    "verification": "已核对媒体文件 SHA-256；主要保留主体关系，但不是像素级保真编辑。 现有 1086 × 1448 像素不应称为大幅印刷母版。",
+    "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+    "steps": [
+      "打开作品页查看实际产物与验证边界。",
+      "下载源包，阅读提示词、制作过程与 SOURCE-MANIFEST.json。",
+      "参考资料只标示影响与知识来源，不意味着获得第三方素材的复用许可。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/tidal-memory/index.html",
+    "poster": "cases/tidal-memory/artwork.png",
+    "media": "artwork.png",
+    "audio": false,
+    "extraProvenance": {
+      "references": [
+        "https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api/blob/codex/gpt-image-2-5-prompts/cases/gpt-image-2-6.md#gpt-image-2-6-case-255",
+        "https://x.com/Goodmanprotocol/status/2118193088128745875"
+      ],
+      "limitations": [
+        "主要保留主体关系，但不是像素级保真编辑。",
+        "现有 1086 × 1448 像素不应称为大幅印刷母版。"
+      ],
+      "files": [
+        {
+          "path": "artwork.png",
+          "bytes": 2502146,
+          "sha256": "6cc2ad06551aac05a782377d85e2167896b2035513172ea9ba09cdcc5846c36d"
+        },
+        {
+          "path": "source-art.png",
+          "bytes": 1845155,
+          "sha256": "2f02439e5e71f1ddfaa89f9618d08ddbd5dd907a5b48fcdd4e1fd28ae0257e83"
+        },
+        {
+          "path": "source.zip",
+          "bytes": 4132544,
+          "sha256": "2493f0d6ee92b6c84198c919fc41511f5369b2db94778c4665ef8ff01edb4e9c"
+        }
+      ],
+      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。"
+    },
+    "sourceImage": "source-art.png"
+  },
+  {
+    "id": "letter-to-the-wind",
+    "title": "风的信",
+    "category": "coding-film",
+    "method": "code",
+    "useCase": "叙事短片",
+    "summary": "原创虚构种荚张开，翼种离开，以铜版画语言记录。",
+    "engine": "Canvas + Python + FFmpeg / 合成声音",
+    "model": "Procedural Canvas and synthesized audio",
+    "tags": [
+      "有声影片",
+      "源码与过程"
+    ],
+    "verification": "已核对媒体文件 SHA-256；借鉴铜版画视觉语法，不使用上游原视频、图像或音轨。 虚构植物，不是植物学图解。 原速连续观看和真实听审未完成。",
+    "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+    "steps": [
+      "打开作品页查看实际产物与验证边界。",
+      "下载源包，阅读提示词、制作过程与 SOURCE-MANIFEST.json。",
+      "参考资料只标示影响与知识来源，不意味着获得第三方素材的复用许可。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/letter-to-the-wind/index.html",
+    "poster": "cases/letter-to-the-wind/poster.jpg",
+    "media": "film.mp4",
+    "audio": true,
+    "extraProvenance": {
+      "references": [
+        "https://github.com/lemomo-ai/lemo-opuscar"
+      ],
+      "limitations": [
+        "借鉴铜版画视觉语法，不使用上游原视频、图像或音轨。",
+        "虚构植物，不是植物学图解。",
+        "原速连续观看和真实听审未完成。"
+      ],
+      "files": [
+        {
+          "path": "film.mp4",
+          "bytes": 18563825,
+          "sha256": "395af37cb3647194a1b3ad57456f7a720d100320fdff092af1e054998796a0d9"
+        },
+        {
+          "path": "poster.jpg",
+          "bytes": 374967,
+          "sha256": "303d5671eb8f91ec7acc937f95b480423acecba53c23b4b9ef5241fe9643e098"
+        },
+        {
+          "path": "source.zip",
+          "bytes": 38953536,
+          "sha256": "5f1989476a7d7b288b292cdacd6a7fb4f3f34e455103706485c205ac14ff4c2b"
+        },
+        {
+          "path": "subtitles.srt",
+          "bytes": 206,
+          "sha256": "64e04b2c780479769f5a9b07d5bace3fa6ebb4589aa5291b4163127e9b14997c"
+        }
+      ],
+      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。"
+    },
+    "subtitles": "subtitles.srt",
+    "master": "master.mp4"
+  },
+  {
+    "id": "sunset-in-a-box",
+    "title": "把黄昏装进盒子",
+    "category": "coding-film",
+    "method": "code",
+    "useCase": "叙事短片",
+    "summary": "纸盒针孔成像，以同一装置贯穿外观、光路和倒像。",
+    "engine": "Canvas + Python + FFmpeg / 合成声音",
+    "model": "Procedural Canvas and synthesized audio",
+    "tags": [
+      "有声影片",
+      "源码与过程"
+    ],
+    "verification": "已核对媒体文件 SHA-256；理想化中心投影示意，不是曝光、衍射或测量模拟。 光路渐显只是解释顺序；末段太阳变化为加速示意。 原速连续播放和主观听审未完成。",
+    "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+    "steps": [
+      "打开作品页查看实际产物与验证边界。",
+      "下载源包，阅读提示词、制作过程与 SOURCE-MANIFEST.json。",
+      "参考资料只标示影响与知识来源，不意味着获得第三方素材的复用许可。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/sunset-in-a-box/index.html",
+    "poster": "cases/sunset-in-a-box/poster.png",
+    "media": "film.mp4",
+    "audio": true,
+    "extraProvenance": {
+      "references": [
+        "https://guanmo-ai.github.io/awesome-ai-motion/#case-2102591147927654847",
+        "https://x.com/RyanSael/status/2102591147927654847",
+        "https://www.schoolsobservatory.org/things-to-do/make-your-own-pinhole-camera",
+        "https://visionbook.mit.edu/imaging.html"
+      ],
+      "limitations": [
+        "理想化中心投影示意，不是曝光、衍射或测量模拟。",
+        "光路渐显只是解释顺序；末段太阳变化为加速示意。",
+        "原速连续播放和主观听审未完成。"
+      ],
+      "files": [
+        {
+          "path": "film.mp4",
+          "bytes": 2450171,
+          "sha256": "14ffd1a5f98558793234bc8e2717bf31f247b87ac1b967da73a5c88b5cd46053"
+        },
+        {
+          "path": "poster.png",
+          "bytes": 658431,
+          "sha256": "12535c9447948982cfaaa9d46cde225c63d503e7f10ede49826aa91c4507a485"
+        },
+        {
+          "path": "source.zip",
+          "bytes": 13085086,
+          "sha256": "e0652daee139266a1c7c5b3935359906791f127e4fbdd17c1133c7a883b37b8d"
+        }
+      ],
+      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。"
+    }
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "CREATIVE-NOTES.md": {
+    "bytes": 1290,
+    "sha256": "d79de0be8facc7c6ec469f4c69bc5934fde9790d6e838e400d8c4b42cb084089"
+  },
+  "ENVIRONMENT.md": {
+    "bytes": 592,
+    "sha256": "37b559f3c7194fe05150493e3097f5d4088a8ab0016c350cf60b93afff44eef8"
+  },
+  "README.md": {
+    "bytes": 1021,
+    "sha256": "7ecec83ad38e2326b1c5a94f1a47686b3028458240e253209d5f09efd37b3ba1"
+  },
+  "RESTORE-CHECK.json": {
+    "bytes": 1283,
+    "sha256": "45029cea8e7f2358dc3a2074a524def52169346f1c4527d6a9204c2cf18c0a5d"
+  },
+  "SOURCE-PACKAGE-NOTE.md": {
+    "bytes": 250,
+    "sha256": "7f6071499d655ba99f32f1f1b940a2f6eca708d52b1d69a33a38b3df7d17211e"
+  },
+  "VERIFICATION.md": {
+    "bytes": 1463,
+    "sha256": "ca13b068f374a68b04a0f57ede4d3a3484885bfb3e3b34d45fe8c809ec4f850d"
+  },
+  "audio/bgm.wav": {
+    "bytes": 12288058,
+    "sha256": "83d3791829315c967b4925478103f98103d5a3365531c53dbf7f0693e0816a97"
+  },
+  "audio/mix.wav": {
+    "bytes": 12288058,
+    "sha256": "1e7fe28f2754a5ce38e50f62e51d338fb60774cb78af7bae6bbdff58f40f5cc0"
+  },
+  "audio/score-events.json": {
+    "bytes": 12916,
+    "sha256": "a6dc8aad929758d2653128074d44a0bc279ac50e6461f97e298a787339f695c6"
+  },
+  "audio/sfx.wav": {
+    "bytes": 12288058,
+    "sha256": "7688eb083aef62b749cb8e3e3b5e281b8223c45c740091ffffeb274a7e33c77a"
+  },
+  "audio/technical-report.json": {
+    "bytes": 1472,
+    "sha256": "4cf3a57270680a284b64f690de045f9d2405b2c8fe2d02b45832adbe21355502"
+  },
+  "build.sh": {
+    "bytes": 451,
+    "sha256": "9ecd4919ce53c687ea8031890bc640e143bcba4bdc496f84f7828c6a4ebef58a"
+  },
+  "player.html": {
+    "bytes": 318,
+    "sha256": "de2ae598b76a577084c6d53e951b04d30d678c0fea4739b568d874f08f2fdb7c"
+  },
+  "preview.png": {
+    "bytes": 673592,
+    "sha256": "6252c68aefca30607c3c0afcf49324f4b100fe1a41cb4f7a1ba164333549e1c2"
+  },
+  "src/render.cjs": {
+    "bytes": 1654,
+    "sha256": "d6cc9a14254f6b5cda339ca8f0029d311f5e0da622cb54e73746d391fe0c1f35"
+  },
+  "src/scene.cjs": {
+    "bytes": 9658,
+    "sha256": "ac77d02f97d65d7a423eb213c94b7c2681652cfcdf0b283294694cf1929266cd"
+  },
+  "src/score.py": {
+    "bytes": 8612,
+    "sha256": "d57ccd656ca2c7520e674135f639f7e174251e9add5d3b913941743c0c6b73ee"
+  },
+  "src/test_scene.cjs": {
+    "bytes": 2296,
+    "sha256": "dbacc840e2211f8c8abec1187ddbec5891eb2cc28ae71fccc5653f914b2c92a6"
+  },
+  "src/timeline.json": {
+    "bytes": 1205,
+    "sha256": "f6e0843dbb626c7fd849b93c0edcb2f3db76a5dc53cded16a9b6fd666bd84e7d"
+  }
+}

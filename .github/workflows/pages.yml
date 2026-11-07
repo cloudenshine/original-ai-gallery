@@ -18,7 +18,7 @@ jobs:
           node-version: '22'
       - uses: actions/configure-pages@v5
       - name: Test and build
-        run: npm test && npm run build
+        run: python3 scripts/restore-binaries.py && npm test && npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

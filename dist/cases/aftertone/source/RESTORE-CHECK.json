@@ -1,0 +1,30 @@
+{
+  "method": "Extracted clean archive into a new directory, rebuilt the entire 32-second picture, three PCM stems, AAC mix and MP4 using build.sh. No original project files read by the build.",
+  "results": [
+    {
+      "file": "out/aftertone-final.mp4",
+      "original_sha256": "393e26e5e3f251d7ebbdbd95073c3d1f6396b401dfb6ca7e1c50901c01bb2744",
+      "restored_sha256": "393e26e5e3f251d7ebbdbd95073c3d1f6396b401dfb6ca7e1c50901c01bb2744",
+      "identical": true
+    },
+    {
+      "file": "audio/bgm.wav",
+      "original_sha256": "83d3791829315c967b4925478103f98103d5a3365531c53dbf7f0693e0816a97",
+      "restored_sha256": "83d3791829315c967b4925478103f98103d5a3365531c53dbf7f0693e0816a97",
+      "identical": true
+    },
+    {
+      "file": "audio/sfx.wav",
+      "original_sha256": "7688eb083aef62b749cb8e3e3b5e281b8223c45c740091ffffeb274a7e33c77a",
+      "restored_sha256": "7688eb083aef62b749cb8e3e3b5e281b8223c45c740091ffffeb274a7e33c77a",
+      "identical": true
+    },
+    {
+      "file": "audio/mix.wav",
+      "original_sha256": "1e7fe28f2754a5ce38e50f62e51d338fb60774cb78af7bae6bbdff58f40f5cc0",
+      "restored_sha256": "1e7fe28f2754a5ce38e50f62e51d338fb60774cb78af7bae6bbdff58f40f5cc0",
+      "identical": true
+    }
+  ],
+  "full_decode": "passed with no errors"
+}

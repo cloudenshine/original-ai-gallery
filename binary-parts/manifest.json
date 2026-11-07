@@ -1,0 +1,127 @@
+[
+  {
+    "target": "dist/cases/letter-to-the-wind/film.mp4",
+    "bytes": 18563825,
+    "sha256": "395af37cb3647194a1b3ad57456f7a720d100320fdff092af1e054998796a0d9",
+    "parts": [
+      {
+        "path": "binary-parts/wind-film/part-001.bin",
+        "bytes": 9000000,
+        "sha256": "5a18768b35379c460b74db8faf282fc274ebceb0974e7ea0f45ccad818f8e659"
+      },
+      {
+        "path": "binary-parts/wind-film/part-002.bin",
+        "bytes": 9000000,
+        "sha256": "680101dffac6d76c755f3f40dad14d0a699e04a5b726c7f82c386248a4610b7b"
+      },
+      {
+        "path": "binary-parts/wind-film/part-003.bin",
+        "bytes": 563825,
+        "sha256": "56870dc89002abae9d25dc14e0578cf43a6e6ac325e80c4916f3b4e8e546a568"
+      }
+    ]
+  },
+  {
+    "target": "dist/cases/sunset-in-a-box/source.zip",
+    "bytes": 13085086,
+    "sha256": "e0652daee139266a1c7c5b3935359906791f127e4fbdd17c1133c7a883b37b8d",
+    "parts": [
+      {
+        "path": "binary-parts/sunset-source/part-001.bin",
+        "bytes": 9000000,
+        "sha256": "04b7fa81e98c14682de4c2190fb272c604b7ca1b35dfd4c3aae1e195c54b012b"
+      },
+      {
+        "path": "binary-parts/sunset-source/part-002.bin",
+        "bytes": 4085086,
+        "sha256": "ad2fef77ec822bdd04766e39c56f814da96021403ad21656d5afd8bd4435b59f"
+      }
+    ]
+  },
+  {
+    "target": "dist/cases/letter-to-the-wind/source.zip",
+    "bytes": 38953536,
+    "sha256": "5f1989476a7d7b288b292cdacd6a7fb4f3f34e455103706485c205ac14ff4c2b",
+    "parts": [
+      {
+        "path": "binary-parts/wind-source/part-001.bin",
+        "bytes": 9000000,
+        "sha256": "25debc0eafdc1945d12d69d1eb5557e69b9cea7d0670681de1fe6075da525088"
+      },
+      {
+        "path": "binary-parts/wind-source/part-002.bin",
+        "bytes": 9000000,
+        "sha256": "be28a14d2b5afa71314946f8f651e231642ac2a81678a77d52f2a14525cf1b09"
+      },
+      {
+        "path": "binary-parts/wind-source/part-003.bin",
+        "bytes": 9000000,
+        "sha256": "9f85e44316b337c6e3bb15d5b77e93766df67833507b3e1deb05f519522d8735"
+      },
+      {
+        "path": "binary-parts/wind-source/part-004.bin",
+        "bytes": 9000000,
+        "sha256": "6b1194b7344236a5f8f20aa2a82feaf7271d03f03c759859afec78f0c717f4f3"
+      },
+      {
+        "path": "binary-parts/wind-source/part-005.bin",
+        "bytes": 2953536,
+        "sha256": "cfa41c0c6a6b05ac2a444b20e7f125b657fd14e38b31701c6d1e0e1532579167"
+      }
+    ]
+  },
+  {
+    "target": "dist/cases/aftertone/source.zip",
+    "bytes": 32128417,
+    "sha256": "9f215e0780646ab434c0bd1f14f25ed507af5e55e4d73e89c30f76cb8e127e1c",
+    "parts": [
+      {
+        "path": "binary-parts/aftertone-source/part-001.bin",
+        "bytes": 9000000,
+        "sha256": "6bdfe5dfe73244c40e12d315b4dcf8b83545053af0fcae9d6ae6cfaf4c8c3727"
+      },
+      {
+        "path": "binary-parts/aftertone-source/part-002.bin",
+        "bytes": 9000000,
+        "sha256": "f6dd99974c8a751cbdaf62356acdab2162e53d2f16ce730b19cad8a01a5ef9ab"
+      },
+      {
+        "path": "binary-parts/aftertone-source/part-003.bin",
+        "bytes": 9000000,
+        "sha256": "027b54579159e77eebf50d309f3b8fb72cfcf773787594c8e2a264783ff59ca8"
+      },
+      {
+        "path": "binary-parts/aftertone-source/part-004.bin",
+        "bytes": 5128417,
+        "sha256": "2e0a6a6f1cc94ca49728bb0dddcf7b3a16d7ddaa0ae3556926ae68b06c9ed73c"
+      }
+    ]
+  },
+  {
+    "target": "dist/cases/letter-to-the-wind/master.mp4",
+    "bytes": 35192025,
+    "sha256": "8ab61db323256283a8d4229ff5b2e590a8c44e152c924fe2ab51c3c73a63850c",
+    "parts": [
+      {
+        "path": "binary-parts/wind-master/part-001.bin",
+        "bytes": 9000000,
+        "sha256": "0ae92c7d9289ba20d53e69e083d9b3ec323aec82a62b5adefbc5de5708318938"
+      },
+      {
+        "path": "binary-parts/wind-master/part-002.bin",
+        "bytes": 9000000,
+        "sha256": "ff79b851d90b276bedafee9a2e19b1ace8cd69b55c78fb8f743a94848e03c0ee"
+      },
+      {
+        "path": "binary-parts/wind-master/part-003.bin",
+        "bytes": 9000000,
+        "sha256": "bc14e096ceea046459436ba5ea283cb7e210b04c5006f48a28336d67ac29bbe3"
+      },
+      {
+        "path": "binary-parts/wind-master/part-004.bin",
+        "bytes": 8192025,
+        "sha256": "8f377ab727967df8f3f874e709db4916ae71d722484691878814d33a04b885f0"
+      }
+    ]
+  }
+]

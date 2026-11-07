@@ -1,0 +1,53 @@
+{
+  "duration": 36,
+  "events": [
+    {
+      "t": 0,
+      "type": "engrave"
+    },
+    {
+      "t": 5,
+      "type": "plant_build"
+    },
+    {
+      "t": 10,
+      "type": "ring"
+    },
+    {
+      "t": 13.7,
+      "type": "paper_jcut"
+    },
+    {
+      "t": 14.5,
+      "type": "silence_start"
+    },
+    {
+      "t": 15.4,
+      "type": "open_pod"
+    },
+    {
+      "t": 17,
+      "type": "release"
+    },
+    {
+      "t": 18,
+      "type": "wind_lcut"
+    },
+    {
+      "t": 21.5,
+      "type": "silence_start"
+    },
+    {
+      "t": 22.2,
+      "type": "wash"
+    },
+    {
+      "t": 27.2,
+      "type": "title"
+    },
+    {
+      "t": 28,
+      "type": "final_note"
+    }
+  ]
+}

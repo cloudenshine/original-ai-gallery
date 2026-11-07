@@ -4,7 +4,11 @@
 
 ## 运行
 
-零第三方运行依赖。Node 20+ 运行 `npm test`。以静态服务器服务 `dist/`；请勿直接用 file:// 打开首页。
+零第三方运行依赖。需要 Node 20+ 和 Python 3；`npm test` 与 `npm run build` 会先用 Python 3 恢复并校验大文件。以静态服务器服务 `dist/`；请勿直接用 file:// 打开首页。
+
+## 在线作品集
+
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 24 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -16,7 +20,7 @@
 - 制作方式：image-generation
 - 工具：ChatGPT 内置图像生成
 - 模型：ChatGPT 图像生成，具体模型版本未披露
-- [真实产物](dist/cases/folded-dusk/original.png) · [源码或提示词](dist/cases/folded-dusk/prompt.txt) · [来源与验证](dist/cases/folded-dusk/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/folded-dusk/original.png) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/folded-dusk/prompt.txt) · [来源与验证](dist/cases/folded-dusk/provenance.json)
 - 验证：已实际生成并目视检查；1536 × 1024 PNG，SHA-256 已核。累计生成 2 次，本页为当前新输出。具体模型版本未披露，不是真实摄影。
 
 ## 无名地形
@@ -29,7 +33,7 @@
 - 制作方式：procedural-image
 - 工具：SVG + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/contour-atlas/index.html) · [源码或提示词](dist/cases/contour-atlas/geometry.mjs) · [来源与验证](dist/cases/contour-atlas/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/contour-atlas/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/contour-atlas/geometry.mjs) · [来源与验证](dist/cases/contour-atlas/provenance.json)
 - 验证：确定性、闭合性、有限值与种子差异已通过测试；封面由真实源码生成。不是实际地理数据。
 
 ## 相位花园
@@ -42,7 +46,7 @@
 - 制作方式：coding-motion
 - 工具：Canvas + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/phase-garden/index.html) · [源码或提示词](dist/cases/phase-garden/index.html) · [来源与验证](dist/cases/phase-garden/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/phase-garden/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/phase-garden/index.html) · [来源与验证](dist/cases/phase-garden/provenance.json)
 - 验证：播放、暂停、重播、时间与幅度改变几何的核心测试通过。封面为同一算法第 6 秒。不是已导出影片。
 
 ## 回到平衡
@@ -55,7 +59,7 @@
 - 制作方式：interactive
 - 工具：JavaScript + SVG
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/spring-lab/index.html) · [源码或提示词](dist/cases/spring-lab/model.mjs) · [来源与验证](dist/cases/spring-lab/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/spring-lab/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/spring-lab/model.mjs) · [来源与验证](dist/cases/spring-lab/provenance.json)
 - 验证：归一化模型的起点、收敛、超调与临界阻尼测试通过；不是实测或工程性能数据。
 
 ## 夜航路线
@@ -68,7 +72,7 @@
 - 制作方式：coding-motion
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/night-transit/index.html) · [源码或提示词](dist/cases/night-transit/scene.mjs) · [来源与验证](dist/cases/night-transit/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/night-transit/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/night-transit/scene.mjs) · [来源与验证](dist/cases/night-transit/provenance.json)
 - 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
 
 ## 轨道观测台
@@ -81,7 +85,7 @@
 - 制作方式：coding-motion
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/orbit-observatory/index.html) · [源码或提示词](dist/cases/orbit-observatory/scene.mjs) · [来源与验证](dist/cases/orbit-observatory/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/orbit-observatory/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/orbit-observatory/scene.mjs) · [来源与验证](dist/cases/orbit-observatory/provenance.json)
 - 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
 
 ## 两色之间
@@ -94,7 +98,7 @@
 - 制作方式：interactive
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/overprint-studio/index.html) · [源码或提示词](dist/cases/overprint-studio/scene.mjs) · [来源与验证](dist/cases/overprint-studio/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/overprint-studio/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/overprint-studio/scene.mjs) · [来源与验证](dist/cases/overprint-studio/provenance.json)
 - 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
 
 ## 纸城入夜
@@ -107,7 +111,7 @@
 - 制作方式：coding-motion
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/paper-city/index.html) · [源码或提示词](dist/cases/paper-city/scene.mjs) · [来源与验证](dist/cases/paper-city/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/paper-city/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/paper-city/scene.mjs) · [来源与验证](dist/cases/paper-city/provenance.json)
 - 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
 
 ## 一束光的岔路
@@ -120,7 +124,7 @@
 - 制作方式：interactive
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/prism-desk/index.html) · [源码或提示词](dist/cases/prism-desk/scene.mjs) · [来源与验证](dist/cases/prism-desk/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/prism-desk/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/prism-desk/scene.mjs) · [来源与验证](dist/cases/prism-desk/provenance.json)
 - 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
 
 ## 檐下听雨
@@ -133,7 +137,7 @@
 - 制作方式：coding-motion
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/rain-study/index.html) · [源码或提示词](dist/cases/rain-study/scene.mjs) · [来源与验证](dist/cases/rain-study/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/rain-study/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/rain-study/scene.mjs) · [来源与验证](dist/cases/rain-study/provenance.json)
 - 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
 
 ## 信号成字
@@ -146,7 +150,7 @@
 - 制作方式：coding-motion
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/signal-letterpress/index.html) · [源码或提示词](dist/cases/signal-letterpress/scene.mjs) · [来源与验证](dist/cases/signal-letterpress/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/signal-letterpress/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/signal-letterpress/scene.mjs) · [来源与验证](dist/cases/signal-letterpress/provenance.json)
 - 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
 
 ## 潮汐织场
@@ -159,7 +163,7 @@
 - 制作方式：coding-motion
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](dist/cases/tidal-weave/index.html) · [源码或提示词](dist/cases/tidal-weave/scene.mjs) · [来源与验证](dist/cases/tidal-weave/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/tidal-weave/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/tidal-weave/scene.mjs) · [来源与验证](dist/cases/tidal-weave/provenance.json)
 - 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
 
 ## 琥珀与石灰岩
@@ -172,7 +176,7 @@
 - 制作方式：image-generation
 - 工具：ChatGPT 内置图像生成
 - 模型：ChatGPT 图像生成，具体模型版本未披露
-- [真实产物](dist/cases/image-amber-limestone/original.png) · [源码或提示词](dist/cases/image-amber-limestone/prompt.txt) · [来源与验证](dist/cases/image-amber-limestone/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/image-amber-limestone/original.png) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/image-amber-limestone/prompt.txt) · [来源与验证](dist/cases/image-amber-limestone/provenance.json)
 - 验证：目视通过。主体接触阴影自然，琥珀玻璃高光、石材微孔及薄纸透光清晰；无品牌、人物或乱码。 1536 × 1024 PNG，SHA-256 已复核。虚构产品的生成式视觉，不代表可制造性验证。
 
 ## 潮汐阅览室
@@ -185,7 +189,7 @@
 - 制作方式：image-generation
 - 工具：ChatGPT 内置图像生成
 - 模型：ChatGPT 图像生成，具体模型版本未披露
-- [真实产物](dist/cases/image-tidal-reading-room/original.png) · [源码或提示词](dist/cases/image-tidal-reading-room/prompt.txt) · [来源与验证](dist/cases/image-tidal-reading-room/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/image-tidal-reading-room/original.png) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/image-tidal-reading-room/prompt.txt) · [来源与验证](dist/cases/image-tidal-reading-room/provenance.json)
 - 验证：目视通过。天窗与曲面长凳形成连贯空间，海岸层次清晰，无人物、标志或可读书名。 1536 × 1024 PNG，SHA-256 已复核。虚构建筑概念图，未进行结构、海岸防护或建筑规范审核。
 
 ## 种子渡夜
@@ -198,7 +202,7 @@
 - 制作方式：image-generation
 - 工具：ChatGPT 内置图像生成
 - 模型：ChatGPT 图像生成，具体模型版本未披露
-- [真实产物](dist/cases/image-seed-courier/original.png) · [源码或提示词](dist/cases/image-seed-courier/prompt.txt) · [来源与验证](dist/cases/image-seed-courier/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/image-seed-courier/original.png) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/image-seed-courier/prompt.txt) · [来源与验证](dist/cases/image-seed-courier/provenance.json)
 - 验证：目视通过。角色轮廓与手持关系清晰，单只鼠、单条尾巴、单叶舟成立；纸张肌理与深靛色层次稳定。 1536 × 1024 PNG，SHA-256 已复核。童话性比例与发光种子属于艺术设定，不作植物学或动物学图解。
 
 ## 种子温室
@@ -211,7 +215,7 @@
 - 制作方式：image-generation
 - 工具：ChatGPT 内置图像生成
 - 模型：ChatGPT 图像生成，具体模型版本未披露
-- [真实产物](dist/cases/image-seed-library/original.png) · [源码或提示词](dist/cases/image-seed-library/prompt.txt) · [来源与验证](dist/cases/image-seed-library/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/image-seed-library/original.png) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/image-seed-library/prompt.txt) · [来源与验证](dist/cases/image-seed-library/provenance.json)
 - 验证：成品目视通过。透明版本彩边未通过审核，最终改为不透明浅灰背景；成品轮廓干净、全物体未裁切，六盆植物与层状土壤可读。 1254 × 1254 PNG，SHA-256 已复核。这是 3D 风格的二维生成图，不含真实网格、材质节点或 3D 工程文件。最终图不是透明素材。垂直留白较提示词目标紧，但无裁切。
 
 ## 雨水花园剖面
@@ -224,8 +228,105 @@
 - 制作方式：image-generation
 - 工具：ChatGPT 内置图像生成
 - 模型：ChatGPT 图像生成，具体模型版本未披露
-- [真实产物](dist/cases/image-rain-garden/original.png) · [源码或提示词](dist/cases/image-rain-garden/prompt.txt) · [来源与验证](dist/cases/image-rain-garden/provenance.json)
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/image-rain-garden/original.png) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/image-rain-garden/prompt.txt) · [来源与验证](dist/cases/image-rain-garden/provenance.json)
 - 验证：目视通过。RAIN GARDEN、RUNOFF、SOIL、GRAVEL、DRAIN 五处文字均正确；土层在碎石上方，排水管位于碎石层，水流箭头方向一致。 1536 × 1024 PNG，SHA-256 已复核。只示意一种带排水管的雨水花园配置，不是施工图、设计规范或经过专家校审的科学教材。
+
+## 把冬天拆小
+
+![把冬天拆小](dist/cases/making-winter-smaller/artwork.png)
+
+一根毛线从成人尺寸旧手套连到小手套，保留初稿与局部修订。
+
+- 用途：概念视觉
+- 制作方式：image-editing
+- 工具：ChatGPT 图像生成与编辑
+- 模型：Exact image model not disclosed
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/making-winter-smaller/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/making-winter-smaller/source.zip) · [来源与验证](dist/cases/making-winter-smaller/provenance.json)
+- 验证：已核对媒体文件 SHA-256；虚构静物，不是针织教学或真实事件照片。
+
+## 月相的负形
+
+![月相的负形](dist/cases/negative-of-a-moon/artwork.png)
+
+层叠的半透明薄片和潮线围绕留白，暗示一轮没有画出的月亮。
+
+- 用途：概念视觉
+- 制作方式：image-generation
+- 工具：ChatGPT 图像生成与编辑
+- 模型：Exact image model not disclosed
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/negative-of-a-moon/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/negative-of-a-moon/source.zip) · [来源与验证](dist/cases/negative-of-a-moon/provenance.json)
+- 验证：已核对媒体文件 SHA-256；单帧 PNG，不证明原生 GIF、SVG 或特定模型能力。 提示词可复用，生成图像不承诺逐像素复现。
+
+## 借一弯月光
+
+![借一弯月光](dist/cases/borrowed-moonlight/poster.png)
+
+月轮借出一片，触及水面，再由水波归还。
+
+- 用途：图像与代码动画
+- 制作方式：image-code-animation
+- 工具：图像生成 + Python 动画
+- 模型：Image backend not disclosed; Python animation
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/borrowed-moonlight/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/borrowed-moonlight/source.zip) · [来源与验证](dist/cases/borrowed-moonlight/provenance.json)
+- 验证：已核对媒体文件 SHA-256；生成工具原生 GIF 请求实际返回单帧 PNG。 本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。
+
+## 余响织成光
+
+![余响织成光](dist/cases/aftertone/poster.png)
+
+弦的振动与回响织成光，最后留下两道痕迹。
+
+- 用途：叙事短片
+- 制作方式：coding-film
+- 工具：Canvas + Python + FFmpeg / 合成声音
+- 模型：Procedural Canvas and synthesized audio
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/aftertone/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/aftertone/source.zip) · [来源与验证](dist/cases/aftertone/provenance.json)
+- 验证：已核对媒体文件 SHA-256；抽象寓言，不是声学或物理仿真。 连续原速观看和真实听审未完成。
+
+## 月汐
+
+![月汐](dist/cases/tidal-memory/artwork.png)
+
+先生成海玻璃玉兰与月海，再把同一场景编辑成出框海报。
+
+- 用途：概念视觉
+- 制作方式：image-editing
+- 工具：ChatGPT 图像生成与编辑
+- 模型：Exact image model not disclosed
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/tidal-memory/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/tidal-memory/source.zip) · [来源与验证](dist/cases/tidal-memory/provenance.json)
+- 验证：已核对媒体文件 SHA-256；主要保留主体关系，但不是像素级保真编辑。 现有 1086 × 1448 像素不应称为大幅印刷母版。
+
+## 风的信
+
+![风的信](dist/cases/letter-to-the-wind/poster.jpg)
+
+原创虚构种荚张开，翼种离开，以铜版画语言记录。
+
+- 用途：叙事短片
+- 制作方式：coding-film
+- 工具：Canvas + Python + FFmpeg / 合成声音
+- 模型：Procedural Canvas and synthesized audio
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/source.zip) · [来源与验证](dist/cases/letter-to-the-wind/provenance.json)
+- 验证：已核对媒体文件 SHA-256；借鉴铜版画视觉语法，不使用上游原视频、图像或音轨。 虚构植物，不是植物学图解。 原速连续观看和真实听审未完成。
+
+## 把黄昏装进盒子
+
+![把黄昏装进盒子](dist/cases/sunset-in-a-box/poster.png)
+
+纸盒针孔成像，以同一装置贯穿外观、光路和倒像。
+
+- 用途：叙事短片
+- 制作方式：coding-film
+- 工具：Canvas + Python + FFmpeg / 合成声音
+- 模型：Procedural Canvas and synthesized audio
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/sunset-in-a-box/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/sunset-in-a-box/source.zip) · [来源与验证](dist/cases/sunset-in-a-box/provenance.json)
+- 验证：已核对媒体文件 SHA-256；理想化中心投影示意，不是曝光、衍射或测量模拟。 光路渐显只是解释顺序；末段太阳变化为加速示意。 原速连续播放和主观听审未完成。
+
+## 大文件恢复
+
+仓库以 9,000,000 字节分块保存五个大文件。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。
+
+[风的信完整母版](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/master.mp4)
 
 ## 原创与参考
 

@@ -3,3 +3,10 @@ evidence/
 node_modules/
 __pycache__/
 *.tar.gz
+
+# Restored from verified repository-local chunks
+/dist/cases/letter-to-the-wind/film.mp4
+/dist/cases/sunset-in-a-box/source.zip
+/dist/cases/letter-to-the-wind/source.zip
+/dist/cases/aftertone/source.zip
+/dist/cases/letter-to-the-wind/master.mp4

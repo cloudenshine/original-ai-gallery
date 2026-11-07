@@ -1,0 +1,38 @@
+{
+  "title": "借一弯月光",
+  "category": "image-code-animation",
+  "method": "image-and-code",
+  "engine": "图像生成 + Python 动画",
+  "model": "Image backend not disclosed; Python animation",
+  "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+  "verification": "已核对媒体文件 SHA-256；生成工具原生 GIF 请求实际返回单帧 PNG。 本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。",
+  "createdAt": "2026-11-07",
+  "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。",
+  "references": [],
+  "limitations": [
+    "生成工具原生 GIF 请求实际返回单帧 PNG。",
+    "本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。"
+  ],
+  "files": [
+    {
+      "path": "animation.gif",
+      "bytes": 9939759,
+      "sha256": "6858d959e9599db1ec1fa89926a06d311cc0f0f99032d15f6a502d4631193864"
+    },
+    {
+      "path": "film.mp4",
+      "bytes": 231144,
+      "sha256": "a161f1fb56faa06c75258e1aaf0b5ccd2b89c0e06368238a9432dc8591711e9b"
+    },
+    {
+      "path": "poster.png",
+      "bytes": 532405,
+      "sha256": "d4cac341c684b57769542c373da906268ba48e4ac9e4d1dfa97002f43409e7cd"
+    },
+    {
+      "path": "source.zip",
+      "bytes": 1331357,
+      "sha256": "61b3b2a56cfa403881a2e2db7e8f9aef3ce9c4a5797825b5fccfdb8148bf79e2"
+    }
+  ]
+}

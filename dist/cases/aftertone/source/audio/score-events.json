@@ -1,0 +1,622 @@
+{
+  "title": "余响织成光",
+  "sample_rate": 48000,
+  "duration_s": 32,
+  "timeline_path": "resonance-weave/src/timeline.json",
+  "timeline_sha256": "f6e0843dbb626c7fd849b93c0edcb2f3db76a5dc53cded16a9b6fd666bd84e7d",
+  "provenance": {
+    "timeline_sha256": "f6e0843dbb626c7fd849b93c0edcb2f3db76a5dc53cded16a9b6fd666bd84e7d",
+    "synthesizer_version": "resonance-modal-strings-1.0"
+  },
+  "synthesis": "Original modal plucked strings and slow bowed harmonic voices, deterministic seeds, no recorded assets.",
+  "master_gain": 1,
+  "notes": [
+    {
+      "time": 1.75,
+      "sample": 84000,
+      "pitch": "D4",
+      "voice": "main",
+      "gain": 0.29,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": "release"
+    },
+    {
+      "time": 2.5,
+      "sample": 120000,
+      "pitch": "A4",
+      "voice": "main",
+      "gain": 0.21,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 3.25,
+      "sample": 156000,
+      "pitch": "E5",
+      "voice": "main",
+      "gain": 0.16,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 5.5,
+      "sample": 264000,
+      "pitch": "A3",
+      "voice": "wood",
+      "gain": 0.22,
+      "duration": 5,
+      "pan": 0.22,
+      "shared_cue": "response1"
+    },
+    {
+      "time": 6.5,
+      "sample": 312000,
+      "pitch": "E4",
+      "voice": "wood",
+      "gain": 0.17,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 7.25,
+      "sample": 348000,
+      "pitch": "D4",
+      "voice": "wood",
+      "gain": 0.15,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 7.75,
+      "sample": 372000,
+      "pitch": "A4",
+      "voice": "main",
+      "gain": 0.15,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 8.5,
+      "sample": 408000,
+      "pitch": "E5",
+      "voice": "main",
+      "gain": 0.13,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 9.25,
+      "sample": 444000,
+      "pitch": "F3",
+      "voice": "wood",
+      "gain": 0.19,
+      "duration": 5,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 9.5,
+      "sample": 456000,
+      "pitch": "D4",
+      "voice": "main",
+      "gain": 0.15,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 10.1,
+      "sample": 484800,
+      "pitch": "A4",
+      "voice": "main",
+      "gain": 0.125,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 10.7,
+      "sample": 513600,
+      "pitch": "E5",
+      "voice": "main",
+      "gain": 0.12,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 11.0,
+      "sample": 528000,
+      "pitch": "C4",
+      "voice": "wood",
+      "gain": 0.145,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 11.4,
+      "sample": 547200,
+      "pitch": "D4",
+      "voice": "main",
+      "gain": 0.12,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 11.75,
+      "sample": 564000,
+      "pitch": "G3",
+      "voice": "wood",
+      "gain": 0.18,
+      "duration": 5,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 12.5,
+      "sample": 600000,
+      "pitch": "D4",
+      "voice": "wood",
+      "gain": 0.14,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 12.7,
+      "sample": 609600,
+      "pitch": "E5",
+      "voice": "main",
+      "gain": 0.13,
+      "duration": 4,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 13.5,
+      "sample": 648000,
+      "pitch": "A3",
+      "voice": "wood",
+      "gain": 0.16,
+      "duration": 5,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 14.0,
+      "sample": 672000,
+      "pitch": "E4",
+      "voice": "wood",
+      "gain": 0.13,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 14.25,
+      "sample": 684000,
+      "pitch": "D5",
+      "voice": "main",
+      "gain": 0.15,
+      "duration": 4,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 15.0,
+      "sample": 720000,
+      "pitch": "D3",
+      "voice": "air",
+      "gain": 0.23,
+      "duration": 7,
+      "pan": 0,
+      "shared_cue": null
+    },
+    {
+      "time": 16.0,
+      "sample": 768000,
+      "pitch": "A3",
+      "voice": "air",
+      "gain": 0.12,
+      "duration": 5,
+      "pan": 0,
+      "shared_cue": null
+    },
+    {
+      "time": 16.5,
+      "sample": 792000,
+      "pitch": "D4",
+      "voice": "main",
+      "gain": 0.16,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 17.15,
+      "sample": 823200,
+      "pitch": "A4",
+      "voice": "main",
+      "gain": 0.13,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 17.8,
+      "sample": 854400,
+      "pitch": "E5",
+      "voice": "main",
+      "gain": 0.12,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 16.65,
+      "sample": 799200,
+      "pitch": "F4",
+      "voice": "wood",
+      "gain": 0.14,
+      "duration": 3,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 17.6,
+      "sample": 844800,
+      "pitch": "E4",
+      "voice": "wood",
+      "gain": 0.12,
+      "duration": 3,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 18.0,
+      "sample": 864000,
+      "pitch": "G3",
+      "voice": "air",
+      "gain": 0.21,
+      "duration": 5,
+      "pan": 0,
+      "shared_cue": null
+    },
+    {
+      "time": 18.35,
+      "sample": 880800,
+      "pitch": "B3",
+      "voice": "wood",
+      "gain": 0.14,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 19.0,
+      "sample": 912000,
+      "pitch": "D4",
+      "voice": "wood",
+      "gain": 0.125,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 18.75,
+      "sample": 900000,
+      "pitch": "E5",
+      "voice": "main",
+      "gain": 0.14,
+      "duration": 5,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 19.5,
+      "sample": 936000,
+      "pitch": "A3",
+      "voice": "air",
+      "gain": 0.15,
+      "duration": 5,
+      "pan": 0,
+      "shared_cue": null
+    },
+    {
+      "time": 19.8,
+      "sample": 950400,
+      "pitch": "D4",
+      "voice": "wood",
+      "gain": 0.13,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 20.65,
+      "sample": 991200,
+      "pitch": "E4",
+      "voice": "wood",
+      "gain": 0.12,
+      "duration": 4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 21.1,
+      "sample": 1012800,
+      "pitch": "A4",
+      "voice": "main",
+      "gain": 0.1,
+      "duration": 4,
+      "pan": -0.15,
+      "shared_cue": null
+    },
+    {
+      "time": 21.75,
+      "sample": 1044000,
+      "pitch": "D3",
+      "voice": "air",
+      "gain": 0.27,
+      "duration": 10,
+      "pan": 0,
+      "shared_cue": "crest1"
+    },
+    {
+      "time": 22.0,
+      "sample": 1056000,
+      "pitch": "A3",
+      "voice": "wood",
+      "gain": 0.14,
+      "duration": 9,
+      "pan": 0.22,
+      "shared_cue": "crest2"
+    },
+    {
+      "time": 22.0,
+      "sample": 1056000,
+      "pitch": "F#4",
+      "voice": "wood",
+      "gain": 0.13,
+      "duration": 5,
+      "pan": 0.22,
+      "shared_cue": "crest2"
+    },
+    {
+      "time": 22.25,
+      "sample": 1068000,
+      "pitch": "E5",
+      "voice": "main",
+      "gain": 0.13,
+      "duration": 2.25,
+      "pan": -0.15,
+      "shared_cue": "crest3"
+    },
+    {
+      "time": 24.5,
+      "sample": 1176000,
+      "pitch": "F#4",
+      "voice": "wood",
+      "gain": 0.095,
+      "duration": 2.75,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 25.15,
+      "sample": 1207200,
+      "pitch": "E4",
+      "voice": "wood",
+      "gain": 0.085,
+      "duration": 2.1,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 25.85,
+      "sample": 1240800,
+      "pitch": "D4",
+      "voice": "wood",
+      "gain": 0.075,
+      "duration": 1.4,
+      "pan": 0.22,
+      "shared_cue": null
+    },
+    {
+      "time": 23.0,
+      "sample": 1104000,
+      "pitch": "A3",
+      "voice": "air",
+      "gain": 0.09,
+      "duration": 8.75,
+      "pan": 0,
+      "shared_cue": null
+    }
+  ],
+  "sfx_events": [
+    {
+      "time": 1,
+      "sample": 48000,
+      "duration": 0.5,
+      "gain": 0.018,
+      "label": "tension friction",
+      "shared_cue": null,
+      "seed": 800
+    },
+    {
+      "time": 1.75,
+      "sample": 84000,
+      "duration": 0.065,
+      "gain": 0.018,
+      "label": "fingertip release",
+      "shared_cue": "release",
+      "seed": 801
+    },
+    {
+      "time": 5.25,
+      "sample": 252000,
+      "duration": 0.11,
+      "gain": 0.033,
+      "label": "material contact",
+      "shared_cue": "contact01",
+      "seed": 802
+    },
+    {
+      "time": 7.5,
+      "sample": 360000,
+      "duration": 0.11,
+      "gain": 0.018,
+      "label": "material contact",
+      "shared_cue": "reply1",
+      "seed": 803
+    },
+    {
+      "time": 10,
+      "sample": 480000,
+      "duration": 0.11,
+      "gain": 0.023,
+      "label": "material contact",
+      "shared_cue": "contact12",
+      "seed": 804
+    },
+    {
+      "time": 12,
+      "sample": 576000,
+      "duration": 0.11,
+      "gain": 0.032,
+      "label": "material contact",
+      "shared_cue": "contact03",
+      "seed": 805
+    },
+    {
+      "time": 21.75,
+      "sample": 1044000,
+      "duration": 0.11,
+      "gain": 0.014,
+      "label": "material contact",
+      "shared_cue": "crest1",
+      "seed": 806
+    },
+    {
+      "time": 22,
+      "sample": 1056000,
+      "duration": 0.11,
+      "gain": 0.013,
+      "label": "material contact",
+      "shared_cue": "crest2",
+      "seed": 807
+    },
+    {
+      "time": 22.25,
+      "sample": 1068000,
+      "duration": 0.11,
+      "gain": 0.012,
+      "label": "material contact",
+      "shared_cue": "crest3",
+      "seed": 808
+    },
+    {
+      "time": 25.5,
+      "sample": 1224000,
+      "duration": 0.11,
+      "gain": 0.018,
+      "label": "material contact",
+      "shared_cue": "returnA",
+      "seed": 809
+    },
+    {
+      "time": 26.25,
+      "sample": 1260000,
+      "duration": 0.11,
+      "gain": 0.014,
+      "label": "material contact",
+      "shared_cue": "returnB",
+      "seed": 810
+    },
+    {
+      "time": 23.15,
+      "sample": 1111200,
+      "duration": 0.17,
+      "gain": 0.013,
+      "label": "fiber settling",
+      "shared_cue": null,
+      "seed": 811
+    },
+    {
+      "time": 24.05,
+      "sample": 1154400,
+      "duration": 0.17,
+      "gain": 0.011,
+      "label": "fiber settling",
+      "shared_cue": null,
+      "seed": 812
+    },
+    {
+      "time": 24.85,
+      "sample": 1192800,
+      "duration": 0.17,
+      "gain": 0.009,
+      "label": "fiber settling",
+      "shared_cue": null,
+      "seed": 813
+    }
+  ],
+  "technical": {
+    "bgm": {
+      "path": "resonance-weave/audio/bgm.wav",
+      "sha256": "83d3791829315c967b4925478103f98103d5a3365531c53dbf7f0693e0816a97",
+      "sample_rate": 48000,
+      "samples_per_channel": 1536000,
+      "channels": 2,
+      "duration_s": 32,
+      "sample_peak": 0.4801301221979103,
+      "true_peak_4x": 0.48065994000597,
+      "true_peak_dbTP": -6.363241441734631,
+      "rms": 0.07709818238174644,
+      "last_750ms_rms": 4.805041985574752e-05,
+      "nonfinite": 0,
+      "clipped_samples": 0
+    },
+    "sfx": {
+      "path": "resonance-weave/audio/sfx.wav",
+      "sha256": "7688eb083aef62b749cb8e3e3b5e281b8223c45c740091ffffeb274a7e33c77a",
+      "sample_rate": 48000,
+      "samples_per_channel": 1536000,
+      "channels": 2,
+      "duration_s": 32,
+      "sample_peak": 0.022915769638432008,
+      "true_peak_4x": 0.022930357017373965,
+      "true_peak_dbTP": -32.79178366818499,
+      "rms": 0.0005687957552111629,
+      "last_750ms_rms": 8.157998902244092e-22,
+      "nonfinite": 0,
+      "clipped_samples": 0
+    },
+    "mix": {
+      "path": "resonance-weave/audio/mix.wav",
+      "sha256": "1e7fe28f2754a5ce38e50f62e51d338fb60774cb78af7bae6bbdff58f40f5cc0",
+      "sample_rate": 48000,
+      "samples_per_channel": 1536000,
+      "channels": 2,
+      "duration_s": 32,
+      "sample_peak": 0.4801301221979103,
+      "true_peak_4x": 0.48065994000597,
+      "true_peak_dbTP": -6.363241441734631,
+      "rms": 0.07710049520344481,
+      "last_750ms_rms": 4.805041985574752e-05,
+      "nonfinite": 0,
+      "clipped_samples": 0
+    }
+  },
+  "actual_listening_performed": false,
+  "artistic_quality": "Not established by numeric checks; actual listening required."
+}

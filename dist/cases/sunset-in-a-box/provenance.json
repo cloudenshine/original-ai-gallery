@@ -1,0 +1,39 @@
+{
+  "title": "把黄昏装进盒子",
+  "category": "coding-film",
+  "method": "code",
+  "engine": "Canvas + Python + FFmpeg / 合成声音",
+  "model": "Procedural Canvas and synthesized audio",
+  "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
+  "verification": "已核对媒体文件 SHA-256；理想化中心投影示意，不是曝光、衍射或测量模拟。 光路渐显只是解释顺序；末段太阳变化为加速示意。 原速连续播放和主观听审未完成。",
+  "createdAt": "2026-11-07",
+  "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。",
+  "references": [
+    "https://guanmo-ai.github.io/awesome-ai-motion/#case-2102591147927654847",
+    "https://x.com/RyanSael/status/2102591147927654847",
+    "https://www.schoolsobservatory.org/things-to-do/make-your-own-pinhole-camera",
+    "https://visionbook.mit.edu/imaging.html"
+  ],
+  "limitations": [
+    "理想化中心投影示意，不是曝光、衍射或测量模拟。",
+    "光路渐显只是解释顺序；末段太阳变化为加速示意。",
+    "原速连续播放和主观听审未完成。"
+  ],
+  "files": [
+    {
+      "path": "film.mp4",
+      "bytes": 2450171,
+      "sha256": "14ffd1a5f98558793234bc8e2717bf31f247b87ac1b967da73a5c88b5cd46053"
+    },
+    {
+      "path": "poster.png",
+      "bytes": 658431,
+      "sha256": "12535c9447948982cfaaa9d46cde225c63d503e7f10ede49826aa91c4507a485"
+    },
+    {
+      "path": "source.zip",
+      "bytes": 13085086,
+      "sha256": "e0652daee139266a1c7c5b3935359906791f127e4fbdd17c1133c7a883b37b8d"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "余响织成光",
+  "version": 1,
+  "duration": 32,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "sample_rate": 48000,
+  "seed": 11703,
+  "events": {
+    "release": 1.75,
+    "contact01": 5.25,
+    "response1": 5.5,
+    "reply1": 7.5,
+    "contact12": 10,
+    "response2": 10.25,
+    "contact03": 12,
+    "response3": 12.25,
+    "crest1": 21.75,
+    "crest2": 22,
+    "crest3": 22.25,
+    "returnA": 25.5,
+    "returnB": 26.25,
+    "markA": 27,
+    "markB": 27.5
+  },
+  "lines": [
+    {
+      "id": "M",
+      "p0": [
+        0.1,
+        0.53
+      ],
+      "p1": [
+        0.9,
+        0.53
+      ],
+      "color": "#EADBC3",
+      "width": 3.4
+    },
+    {
+      "id": "A1",
+      "p0": [
+        0.48,
+        0.25
+      ],
+      "p1": [
+        0.74,
+        0.81
+      ],
+      "color": "#B9AD98",
+      "width": 2.2
+    },
+    {
+      "id": "A2",
+      "p0": [
+        0.22,
+        0.7
+      ],
+      "p1": [
+        0.84,
+        0.64
+      ],
+      "color": "#A99F8A",
+      "width": 2.0
+    },
+    {
+      "id": "A3",
+      "p0": [
+        0.88,
+        0.22
+      ],
+      "p1": [
+        0.54,
+        0.72
+      ],
+      "color": "#C1AF91",
+      "width": 2.0
+    }
+  ]
+}

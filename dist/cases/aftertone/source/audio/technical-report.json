@@ -1,0 +1,47 @@
+{
+  "bgm": {
+    "path": "resonance-weave/audio/bgm.wav",
+    "sha256": "83d3791829315c967b4925478103f98103d5a3365531c53dbf7f0693e0816a97",
+    "sample_rate": 48000,
+    "samples_per_channel": 1536000,
+    "channels": 2,
+    "duration_s": 32,
+    "sample_peak": 0.4801301221979103,
+    "true_peak_4x": 0.48065994000597,
+    "true_peak_dbTP": -6.363241441734631,
+    "rms": 0.07709818238174644,
+    "last_750ms_rms": 4.805041985574752e-05,
+    "nonfinite": 0,
+    "clipped_samples": 0
+  },
+  "sfx": {
+    "path": "resonance-weave/audio/sfx.wav",
+    "sha256": "7688eb083aef62b749cb8e3e3b5e281b8223c45c740091ffffeb274a7e33c77a",
+    "sample_rate": 48000,
+    "samples_per_channel": 1536000,
+    "channels": 2,
+    "duration_s": 32,
+    "sample_peak": 0.022915769638432008,
+    "true_peak_4x": 0.022930357017373965,
+    "true_peak_dbTP": -32.79178366818499,
+    "rms": 0.0005687957552111629,
+    "last_750ms_rms": 8.157998902244092e-22,
+    "nonfinite": 0,
+    "clipped_samples": 0
+  },
+  "mix": {
+    "path": "resonance-weave/audio/mix.wav",
+    "sha256": "1e7fe28f2754a5ce38e50f62e51d338fb60774cb78af7bae6bbdff58f40f5cc0",
+    "sample_rate": 48000,
+    "samples_per_channel": 1536000,
+    "channels": 2,
+    "duration_s": 32,
+    "sample_peak": 0.4801301221979103,
+    "true_peak_4x": 0.48065994000597,
+    "true_peak_dbTP": -6.363241441734631,
+    "rms": 0.07710049520344481,
+    "last_750ms_rms": 4.805041985574752e-05,
+    "nonfinite": 0,
+    "clipped_samples": 0
+  }
+}
