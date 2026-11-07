@@ -1,0 +1,6 @@
+Use case: precise-object-edit
+Edit target: the supplied miniature seed-library greenhouse diorama.
+Create a polished final opaque-background presentation of this original object. Keep the greenhouse design, six-sided roof, door, visible pot shelves, terracotta pots, seedlings, little wooden noticeboard, stepping stones, soil island, moss, dangling roots, camera angle and material style recognizable.
+Replace all transparency with a completely opaque pale warm-grey studio background. Render the whole greenhouse and soil island cleanly into this studio, removing every bright yellow, green or red edge halo and every stray pixel. The background is smooth and plain. Add only a subtle soft oval shadow below the floating island so it feels like a crafted 3D object in a studio.
+Square composition with all of the complete object within the central 74 percent of the image and comfortable blank margins on every side, especially above the roof finial and below both roots. No clipping. Clean crisp silhouette; believable smooth antialiasing.
+Soft upper-left studio lighting, gentle warm ivory metal, terracotta pots, rich natural moss, tactile clay soil strata. Do not add any text, brands, watermark, new props or extra objects. Final image is opaque, not a transparent cutout.

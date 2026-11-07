@@ -109,6 +109,742 @@
       "poster": "cases/spring-lab/poster.svg",
       "artifact": "cases/spring-lab/index.html",
       "provenance": "cases/spring-lab/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "ChatGPT 协作，具体底层模型未披露",
+      "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+      "createdAt": "2026-11-07",
+      "id": "night-transit",
+      "title": "夜航路线",
+      "category": "coding-motion",
+      "useCase": "信息可视化",
+      "summary": "把城市想象成一张会呼吸的路线图。调节班次密度，观察光点如何沿三条路线穿越、停靠，再各自远去。原创虚构网络，不含实际地图或客流数据。",
+      "engine": "Canvas 2D + JavaScript",
+      "tags": [
+        "原创源码",
+        "可调参数",
+        "静音技术预览"
+      ],
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "steps": [
+        "运行实例，可播放、暂停、拖动时间及调整参数。",
+        "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
+        "系统减少动态时默认展示暂停的完整静帧。"
+      ],
+      "source": "cases/night-transit/scene.mjs",
+      "poster": "cases/night-transit/poster.png",
+      "artifact": "cases/night-transit/index.html",
+      "preview": "cases/night-transit/preview.mp4",
+      "offline": "cases/night-transit/standalone.html",
+      "extraProvenance": {
+        "browserVerification": "blocked",
+        "nativeRenderEvidence": {
+          "id": "night-transit",
+          "renderer": "@napi-rs/canvas (Skia); not browser",
+          "posterTime": 5,
+          "posterDimensions": [
+            1200,
+            800
+          ],
+          "posterSha256": "796949361eef22b1d64707e5e28064678dafc2961ae6629a8514013a3ce1e985",
+          "deterministic": true,
+          "parameterEndpointsDifferent": true,
+          "parameterCheckTime": 5,
+          "temporalSamples": 8,
+          "uniqueTemporalSamples": 8,
+          "fullCycleRenderChecks": 80,
+          "video": {
+            "path": "cases/night-transit/preview.mp4",
+            "width": 960,
+            "height": 640,
+            "fps": 24,
+            "duration": 20,
+            "audio": false
+          },
+          "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+        },
+        "sourceSha256": "71a18e28d642507ec3d5d969733843de266a452d75371f217590af76c946ebf2",
+        "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+      },
+      "provenance": "cases/night-transit/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "ChatGPT 协作，具体底层模型未披露",
+      "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+      "createdAt": "2026-11-07",
+      "id": "orbit-observatory",
+      "title": "轨道观测台",
+      "category": "coding-motion",
+      "useCase": "科学主题视觉、音乐舞台背景、交互展陈",
+      "summary": "五条倾斜轨道围绕一枚光核缓慢交错，轨道展开度直接改变空间构型。",
+      "engine": "Canvas 2D + JavaScript",
+      "tags": [
+        "原创源码",
+        "可调参数",
+        "静音技术预览"
+      ],
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "steps": [
+        "运行实例，可播放、暂停、拖动时间及调整参数。",
+        "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
+        "系统减少动态时默认展示暂停的完整静帧。"
+      ],
+      "source": "cases/orbit-observatory/scene.mjs",
+      "poster": "cases/orbit-observatory/poster.png",
+      "artifact": "cases/orbit-observatory/index.html",
+      "preview": "cases/orbit-observatory/preview.mp4",
+      "offline": "cases/orbit-observatory/standalone.html",
+      "extraProvenance": {
+        "browserVerification": "blocked",
+        "nativeRenderEvidence": {
+          "id": "orbit-observatory",
+          "renderer": "@napi-rs/canvas (Skia); not browser",
+          "posterTime": 5,
+          "posterDimensions": [
+            1200,
+            800
+          ],
+          "posterSha256": "e471b75b04b46fba88fe35f145e87af908ed1f6d1bdf638f4c0efb7bb4f9c573",
+          "deterministic": true,
+          "parameterEndpointsDifferent": true,
+          "parameterCheckTime": 5,
+          "temporalSamples": 8,
+          "uniqueTemporalSamples": 8,
+          "fullCycleRenderChecks": 96,
+          "video": {
+            "path": "cases/orbit-observatory/preview.mp4",
+            "width": 960,
+            "height": 640,
+            "fps": 24,
+            "duration": 24,
+            "audio": false
+          },
+          "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+        },
+        "sourceSha256": "13b5bbc02b32b131f96655a8e5739ce8347a35fc880ab5354bd165a68931349a",
+        "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+      },
+      "provenance": "cases/orbit-observatory/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "ChatGPT 协作，具体底层模型未披露",
+      "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+      "createdAt": "2026-11-07",
+      "id": "overprint-studio",
+      "title": "两色之间",
+      "category": "interactive",
+      "useCase": "视觉设计实验",
+      "summary": "一张想象中的植物印样，由暖橙和靛蓝两块色版逐次叠印。调节套准偏移，观察边缘错位与色块重叠；这是程序图形示意，不是印刷设备模拟。",
+      "engine": "Canvas 2D + JavaScript",
+      "tags": [
+        "原创源码",
+        "可调参数",
+        "静音技术预览"
+      ],
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "steps": [
+        "运行实例，可播放、暂停、拖动时间及调整参数。",
+        "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
+        "系统减少动态时默认展示暂停的完整静帧。"
+      ],
+      "source": "cases/overprint-studio/scene.mjs",
+      "poster": "cases/overprint-studio/poster.png",
+      "artifact": "cases/overprint-studio/index.html",
+      "preview": "cases/overprint-studio/preview.mp4",
+      "offline": "cases/overprint-studio/standalone.html",
+      "extraProvenance": {
+        "browserVerification": "blocked",
+        "nativeRenderEvidence": {
+          "id": "overprint-studio",
+          "renderer": "@napi-rs/canvas (Skia); not browser",
+          "posterTime": 5,
+          "posterDimensions": [
+            1200,
+            800
+          ],
+          "posterSha256": "97e32eb997c470bb255603b62ee2bd1337a06f27309f8d0075ac8c96c626a15b",
+          "deterministic": true,
+          "parameterEndpointsDifferent": true,
+          "parameterCheckTime": 5,
+          "temporalSamples": 8,
+          "uniqueTemporalSamples": 5,
+          "fullCycleRenderChecks": 48,
+          "video": {
+            "path": "cases/overprint-studio/preview.mp4",
+            "width": 960,
+            "height": 640,
+            "fps": 24,
+            "duration": 12,
+            "audio": false
+          },
+          "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+        },
+        "sourceSha256": "e2b7f17d31a5b694ff1c074608e4b837997844b10763f43230a1cfb1c6c09803",
+        "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+      },
+      "provenance": "cases/overprint-studio/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "ChatGPT 协作，具体底层模型未披露",
+      "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+      "createdAt": "2026-11-07",
+      "id": "paper-city",
+      "title": "纸城入夜",
+      "category": "coding-motion",
+      "useCase": "城市主题片头、品牌叙事、建筑互动插画",
+      "summary": "二十五栋折纸建筑组成暮光街区，调节夜色可改变窗光，太阳与电车缓慢移动。",
+      "engine": "Canvas 2D + JavaScript",
+      "tags": [
+        "原创源码",
+        "可调参数",
+        "静音技术预览"
+      ],
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "steps": [
+        "运行实例，可播放、暂停、拖动时间及调整参数。",
+        "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
+        "系统减少动态时默认展示暂停的完整静帧。"
+      ],
+      "source": "cases/paper-city/scene.mjs",
+      "poster": "cases/paper-city/poster.png",
+      "artifact": "cases/paper-city/index.html",
+      "preview": "cases/paper-city/preview.mp4",
+      "offline": "cases/paper-city/standalone.html",
+      "extraProvenance": {
+        "browserVerification": "blocked",
+        "nativeRenderEvidence": {
+          "id": "paper-city",
+          "renderer": "@napi-rs/canvas (Skia); not browser",
+          "posterTime": 5,
+          "posterDimensions": [
+            1200,
+            800
+          ],
+          "posterSha256": "97a4bb1ed8b4e464f1f479011204fe56e00758c04875fdd51a612a46e932619e",
+          "deterministic": true,
+          "parameterEndpointsDifferent": true,
+          "parameterCheckTime": 5,
+          "temporalSamples": 8,
+          "uniqueTemporalSamples": 8,
+          "fullCycleRenderChecks": 80,
+          "video": {
+            "path": "cases/paper-city/preview.mp4",
+            "width": 960,
+            "height": 640,
+            "fps": 24,
+            "duration": 20,
+            "audio": false
+          },
+          "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+        },
+        "sourceSha256": "6071d105b7ae916b50e1d2becd2e9caa5b6fe4bd3854c799c6edb56cb4a4c1b8",
+        "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+      },
+      "provenance": "cases/paper-city/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "ChatGPT 协作，具体底层模型未披露",
+      "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+      "createdAt": "2026-11-07",
+      "id": "prism-desk",
+      "title": "一束光的岔路",
+      "category": "interactive",
+      "useCase": "概念教学 · 交互展陈 · 科学视觉",
+      "summary": "在深色光学工作台上改变入射方向，观察白光展开为有序色带。简化示意，非物理校准。",
+      "engine": "Canvas 2D + JavaScript",
+      "tags": [
+        "原创源码",
+        "可调参数",
+        "静音技术预览"
+      ],
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "steps": [
+        "运行实例，可播放、暂停、拖动时间及调整参数。",
+        "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
+        "系统减少动态时默认展示暂停的完整静帧。"
+      ],
+      "source": "cases/prism-desk/scene.mjs",
+      "poster": "cases/prism-desk/poster.png",
+      "artifact": "cases/prism-desk/index.html",
+      "preview": "cases/prism-desk/preview.mp4",
+      "offline": "cases/prism-desk/standalone.html",
+      "extraProvenance": {
+        "browserVerification": "blocked",
+        "nativeRenderEvidence": {
+          "id": "prism-desk",
+          "renderer": "@napi-rs/canvas (Skia); not browser",
+          "posterTime": 5,
+          "posterDimensions": [
+            1200,
+            800
+          ],
+          "posterSha256": "cd1df7dee2b717bf0f2a18d1ee09d35fdb422001f3104529cb6a58e1e20a873e",
+          "deterministic": true,
+          "parameterEndpointsDifferent": true,
+          "parameterCheckTime": 5,
+          "temporalSamples": 8,
+          "uniqueTemporalSamples": 5,
+          "fullCycleRenderChecks": 40,
+          "video": {
+            "path": "cases/prism-desk/preview.mp4",
+            "width": 960,
+            "height": 640,
+            "fps": 24,
+            "duration": 10,
+            "audio": false
+          },
+          "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+        },
+        "sourceSha256": "6d988a7aae5774692958c59d483b9fa9358da3952d3d16f080701405e64ac2f7",
+        "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+      },
+      "provenance": "cases/prism-desk/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "ChatGPT 协作，具体底层模型未披露",
+      "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+      "createdAt": "2026-11-07",
+      "id": "rain-study",
+      "title": "檐下听雨",
+      "category": "coding-motion",
+      "useCase": "氛围场景 · 品牌开场 · 循环背景",
+      "summary": "雨线在檐外落下，涟漪沿石阶展开。一幅以代码绘制的雨夜小景。",
+      "engine": "Canvas 2D + JavaScript",
+      "tags": [
+        "原创源码",
+        "可调参数",
+        "静音技术预览"
+      ],
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "steps": [
+        "运行实例，可播放、暂停、拖动时间及调整参数。",
+        "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
+        "系统减少动态时默认展示暂停的完整静帧。"
+      ],
+      "source": "cases/rain-study/scene.mjs",
+      "poster": "cases/rain-study/poster.png",
+      "artifact": "cases/rain-study/index.html",
+      "preview": "cases/rain-study/preview.mp4",
+      "offline": "cases/rain-study/standalone.html",
+      "extraProvenance": {
+        "browserVerification": "blocked",
+        "nativeRenderEvidence": {
+          "id": "rain-study",
+          "renderer": "@napi-rs/canvas (Skia); not browser",
+          "posterTime": 5,
+          "posterDimensions": [
+            1200,
+            800
+          ],
+          "posterSha256": "40d94f0e6f5b230c802b54c05e84a5d4c58a6e2bd1ac0c9167a9ae9a8f354019",
+          "deterministic": true,
+          "parameterEndpointsDifferent": true,
+          "parameterCheckTime": 5,
+          "temporalSamples": 8,
+          "uniqueTemporalSamples": 8,
+          "fullCycleRenderChecks": 48,
+          "video": {
+            "path": "cases/rain-study/preview.mp4",
+            "width": 960,
+            "height": 640,
+            "fps": 24,
+            "duration": 12,
+            "audio": false
+          },
+          "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+        },
+        "sourceSha256": "64cb054a3b31f5741161bcff23f88e11c7d3345a8672bdd3d0a9a3c4fe03091d",
+        "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+      },
+      "provenance": "cases/rain-study/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "ChatGPT 协作，具体底层模型未披露",
+      "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+      "createdAt": "2026-11-07",
+      "id": "signal-letterpress",
+      "title": "信号成字",
+      "category": "coding-motion",
+      "useCase": "动态字体 · 片头设计 · 品牌宣言",
+      "summary": "散落的字母沿各自轨迹归位，停留成一张有呼吸的活版海报。",
+      "engine": "Canvas 2D + JavaScript",
+      "tags": [
+        "原创源码",
+        "可调参数",
+        "静音技术预览"
+      ],
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "steps": [
+        "运行实例，可播放、暂停、拖动时间及调整参数。",
+        "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
+        "系统减少动态时默认展示暂停的完整静帧。"
+      ],
+      "source": "cases/signal-letterpress/scene.mjs",
+      "poster": "cases/signal-letterpress/poster.png",
+      "artifact": "cases/signal-letterpress/index.html",
+      "preview": "cases/signal-letterpress/preview.mp4",
+      "offline": "cases/signal-letterpress/standalone.html",
+      "extraProvenance": {
+        "browserVerification": "blocked",
+        "nativeRenderEvidence": {
+          "id": "signal-letterpress",
+          "renderer": "@napi-rs/canvas (Skia); not browser",
+          "posterTime": 5,
+          "posterDimensions": [
+            1200,
+            800
+          ],
+          "posterSha256": "df23a6825f9dd5fff725d46adcd95b849f2a06565b9804851da792aded6a5c96",
+          "deterministic": true,
+          "parameterEndpointsDifferent": true,
+          "parameterCheckTime": 1,
+          "temporalSamples": 8,
+          "uniqueTemporalSamples": 5,
+          "fullCycleRenderChecks": 40,
+          "video": {
+            "path": "cases/signal-letterpress/preview.mp4",
+            "width": 960,
+            "height": 640,
+            "fps": 24,
+            "duration": 10,
+            "audio": false
+          },
+          "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+        },
+        "sourceSha256": "1ae10ed071d77f70a8467fb9aea06a2ff1c7c9343dcf1226b469693501c7e383",
+        "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+      },
+      "provenance": "cases/signal-letterpress/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "ChatGPT 协作，具体底层模型未披露",
+      "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+      "createdAt": "2026-11-07",
+      "id": "tidal-weave",
+      "title": "潮汐织场",
+      "category": "coding-motion",
+      "useCase": "纺织品牌视觉、抽象艺术海报、参数化设计展示",
+      "summary": "经纬丝带沿共同的波面起伏，交叉处严格交替穿插，织幅参数控制波动强度。",
+      "engine": "Canvas 2D + JavaScript",
+      "tags": [
+        "原创源码",
+        "可调参数",
+        "静音技术预览"
+      ],
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "steps": [
+        "运行实例，可播放、暂停、拖动时间及调整参数。",
+        "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
+        "系统减少动态时默认展示暂停的完整静帧。"
+      ],
+      "source": "cases/tidal-weave/scene.mjs",
+      "poster": "cases/tidal-weave/poster.png",
+      "artifact": "cases/tidal-weave/index.html",
+      "preview": "cases/tidal-weave/preview.mp4",
+      "offline": "cases/tidal-weave/standalone.html",
+      "extraProvenance": {
+        "browserVerification": "blocked",
+        "nativeRenderEvidence": {
+          "id": "tidal-weave",
+          "renderer": "@napi-rs/canvas (Skia); not browser",
+          "posterTime": 5,
+          "posterDimensions": [
+            1200,
+            800
+          ],
+          "posterSha256": "41e8af5c77048fc924a086f1909828a87765df80303e89a9f1d0c4b279771a50",
+          "deterministic": true,
+          "parameterEndpointsDifferent": true,
+          "parameterCheckTime": 5,
+          "temporalSamples": 8,
+          "uniqueTemporalSamples": 8,
+          "fullCycleRenderChecks": 80,
+          "video": {
+            "path": "cases/tidal-weave/preview.mp4",
+            "width": 960,
+            "height": 640,
+            "fps": 24,
+            "duration": 20,
+            "audio": false
+          },
+          "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+        },
+        "sourceSha256": "7d938c1d6df8371bcc84c1fea9bf43f16e777835c33350b6e9082230501704ad",
+        "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+      },
+      "provenance": "cases/tidal-weave/provenance.json"
+    },
+    {
+      "method": "image-model",
+      "model": "ChatGPT 图像生成，具体模型版本未披露",
+      "rights": "本批次从原创文字提示生成，未提供外部参考图，未使用特定人物或商标。独创性和版权不作法律保证；公开复用许可待定。",
+      "createdAt": "2026-11-07",
+      "id": "image-amber-limestone",
+      "title": "琥珀与石灰岩",
+      "category": "image-generation",
+      "useCase": "产品静物",
+      "summary": "用克制的三物体构图呈现石灰岩、玻璃与薄纸的材质差异。",
+      "engine": "ChatGPT 内置图像生成",
+      "tags": [
+        "产品静物",
+        "原创提示词",
+        "真实生成"
+      ],
+      "verification": "目视通过。主体接触阴影自然，琥珀玻璃高光、石材微孔及薄纸透光清晰；无品牌、人物或乱码。 1536 × 1024 PNG，SHA-256 已复核。虚构产品的生成式视觉，不代表可制造性验证。",
+      "steps": [
+        "阅读完整原始提示词。",
+        "查看原始生成 PNG 与来源、尺寸、哈希及检查记录。",
+        "模型版本未披露，不标为 image-2.6；本图不代表实拍、真实建筑或3D工程文件。"
+      ],
+      "source": "cases/image-amber-limestone/prompt.txt",
+      "poster": "cases/image-amber-limestone/original.png",
+      "artifact": "cases/image-amber-limestone/original.png",
+      "extraProvenance": {
+        "imageMetadata": {
+          "file": "original.png",
+          "bytes": 1877031,
+          "width": 1536,
+          "height": 1024,
+          "mode": "RGB",
+          "sha256": "89ae63dad418ba86d38836c3cd138640810d36754af98eda14745f6bb43b620a"
+        },
+        "productionBatch": {
+          "generationCalls": 7,
+          "acceptedCases": 5,
+          "excludedAttempts": 2
+        },
+        "tool": "image_gen.imagegen",
+        "specificModelVersion": null,
+        "externalReferenceImagesUsed": false,
+        "qa": "目视通过。主体接触阴影自然，琥珀玻璃高光、石材微孔及薄纸透光清晰；无品牌、人物或乱码。",
+        "limits": "虚构产品的生成式视觉，不代表可制造性验证。",
+        "originalPromptFile": "prompt.txt"
+      },
+      "provenance": "cases/image-amber-limestone/provenance.json"
+    },
+    {
+      "method": "image-model",
+      "model": "ChatGPT 图像生成，具体模型版本未披露",
+      "rights": "本批次从原创文字提示生成，未提供外部参考图，未使用特定人物或商标。独创性和版权不作法律保证；公开复用许可待定。",
+      "createdAt": "2026-11-07",
+      "id": "image-tidal-reading-room",
+      "title": "潮汐阅览室",
+      "category": "image-generation",
+      "useCase": "建筑概念",
+      "summary": "以椭圆天窗、混凝土曲面与海岸开口组织安静的阅读空间。",
+      "engine": "ChatGPT 内置图像生成",
+      "tags": [
+        "建筑概念",
+        "原创提示词",
+        "真实生成"
+      ],
+      "verification": "目视通过。天窗与曲面长凳形成连贯空间，海岸层次清晰，无人物、标志或可读书名。 1536 × 1024 PNG，SHA-256 已复核。虚构建筑概念图，未进行结构、海岸防护或建筑规范审核。",
+      "steps": [
+        "阅读完整原始提示词。",
+        "查看原始生成 PNG 与来源、尺寸、哈希及检查记录。",
+        "模型版本未披露，不标为 image-2.6；本图不代表实拍、真实建筑或3D工程文件。"
+      ],
+      "source": "cases/image-tidal-reading-room/prompt.txt",
+      "poster": "cases/image-tidal-reading-room/original.png",
+      "artifact": "cases/image-tidal-reading-room/original.png",
+      "extraProvenance": {
+        "imageMetadata": {
+          "file": "original.png",
+          "bytes": 2675121,
+          "width": 1536,
+          "height": 1024,
+          "mode": "RGB",
+          "sha256": "92931f32ac9ee500c7dc2c435e924356452a65bf3bef2c37b1644499b02c9684"
+        },
+        "productionBatch": {
+          "generationCalls": 7,
+          "acceptedCases": 5,
+          "excludedAttempts": 2
+        },
+        "tool": "image_gen.imagegen",
+        "specificModelVersion": null,
+        "externalReferenceImagesUsed": false,
+        "qa": "目视通过。天窗与曲面长凳形成连贯空间，海岸层次清晰，无人物、标志或可读书名。",
+        "limits": "虚构建筑概念图，未进行结构、海岸防护或建筑规范审核。",
+        "originalPromptFile": "prompt.txt"
+      },
+      "provenance": "cases/image-tidal-reading-room/provenance.json"
+    },
+    {
+      "method": "image-model",
+      "model": "ChatGPT 图像生成，具体模型版本未披露",
+      "rights": "本批次从原创文字提示生成，未提供外部参考图，未使用特定人物或商标。独创性和版权不作法律保证；公开复用许可待定。",
+      "createdAt": "2026-11-07",
+      "id": "image-seed-courier",
+      "title": "种子渡夜",
+      "category": "image-generation",
+      "useCase": "叙事插画",
+      "summary": "小田鼠用叶舟运送一枚发光的蒲公英种子，纸本水粉质感与月光共同构成叙事。",
+      "engine": "ChatGPT 内置图像生成",
+      "tags": [
+        "叙事插画",
+        "原创提示词",
+        "真实生成"
+      ],
+      "verification": "目视通过。角色轮廓与手持关系清晰，单只鼠、单条尾巴、单叶舟成立；纸张肌理与深靛色层次稳定。 1536 × 1024 PNG，SHA-256 已复核。童话性比例与发光种子属于艺术设定，不作植物学或动物学图解。",
+      "steps": [
+        "阅读完整原始提示词。",
+        "查看原始生成 PNG 与来源、尺寸、哈希及检查记录。",
+        "模型版本未披露，不标为 image-2.6；本图不代表实拍、真实建筑或3D工程文件。"
+      ],
+      "source": "cases/image-seed-courier/prompt.txt",
+      "poster": "cases/image-seed-courier/original.png",
+      "artifact": "cases/image-seed-courier/original.png",
+      "extraProvenance": {
+        "imageMetadata": {
+          "file": "original.png",
+          "bytes": 2837137,
+          "width": 1536,
+          "height": 1024,
+          "mode": "RGB",
+          "sha256": "dc584eec803ce55d63d64c10c16103e210065e60755482dd362c6ca9120afc2e"
+        },
+        "productionBatch": {
+          "generationCalls": 7,
+          "acceptedCases": 5,
+          "excludedAttempts": 2
+        },
+        "tool": "image_gen.imagegen",
+        "specificModelVersion": null,
+        "externalReferenceImagesUsed": false,
+        "qa": "目视通过。角色轮廓与手持关系清晰，单只鼠、单条尾巴、单叶舟成立；纸张肌理与深靛色层次稳定。",
+        "limits": "童话性比例与发光种子属于艺术设定，不作植物学或动物学图解。",
+        "originalPromptFile": "prompt.txt"
+      },
+      "provenance": "cases/image-seed-courier/provenance.json"
+    },
+    {
+      "method": "image-model",
+      "model": "ChatGPT 图像生成，具体模型版本未披露",
+      "rights": "本批次从原创文字提示生成，未提供外部参考图，未使用特定人物或商标。独创性和版权不作法律保证；公开复用许可待定。",
+      "createdAt": "2026-11-07",
+      "id": "image-seed-library",
+      "title": "种子温室",
+      "category": "image-generation",
+      "useCase": "3D 风格微缩场景",
+      "summary": "以象牙色温室、盆栽与悬浮土壤剖面构成可爱但克制的微缩场景。",
+      "engine": "ChatGPT 内置图像生成",
+      "tags": [
+        "3D 风格微缩场景",
+        "原创提示词",
+        "真实生成"
+      ],
+      "verification": "成品目视通过。透明版本彩边未通过审核，最终改为不透明浅灰背景；成品轮廓干净、全物体未裁切，六盆植物与层状土壤可读。 1254 × 1254 PNG，SHA-256 已复核。这是 3D 风格的二维生成图，不含真实网格、材质节点或 3D 工程文件。最终图不是透明素材。垂直留白较提示词目标紧，但无裁切。",
+      "steps": [
+        "阅读完整原始提示词。",
+        "查看原始生成 PNG 与来源、尺寸、哈希及检查记录。",
+        "模型版本未披露，不标为 image-2.6；本图不代表实拍、真实建筑或3D工程文件。"
+      ],
+      "source": "cases/image-seed-library/prompt.txt",
+      "poster": "cases/image-seed-library/original.png",
+      "artifact": "cases/image-seed-library/original.png",
+      "extraProvenance": {
+        "imageMetadata": {
+          "file": "original.png",
+          "bytes": 1781198,
+          "width": 1254,
+          "height": 1254,
+          "mode": "RGB",
+          "sha256": "37d691df02bd66b04ec6096e211c677fd08b40b409d751b44f6c3944598b3301"
+        },
+        "productionBatch": {
+          "generationCalls": 7,
+          "acceptedCases": 5,
+          "excludedAttempts": 2
+        },
+        "tool": "image_gen.imagegen",
+        "specificModelVersion": null,
+        "externalReferenceImagesUsed": false,
+        "qa": "成品目视通过。透明版本彩边未通过审核，最终改为不透明浅灰背景；成品轮廓干净、全物体未裁切，六盆植物与层状土壤可读。",
+        "limits": "这是 3D 风格的二维生成图，不含真实网格、材质节点或 3D 工程文件。最终图不是透明素材。垂直留白较提示词目标紧，但无裁切。",
+        "originalPromptFile": "prompt.txt",
+        "excludedAttempts": [
+          {
+            "reason": "真实 RGBA 透明背景，但顶端留白偏紧且轮廓有彩边；不列入成功案例。",
+            "includedInSuccessfulCaseCount": false,
+            "assetPublished": false
+          },
+          {
+            "reason": "留白改善但边缘彩边更明显；未通过可直接复用透明素材标准。",
+            "includedInSuccessfulCaseCount": false,
+            "assetPublished": false
+          }
+        ],
+        "finalIsTransparent": false,
+        "actual3DModel": false,
+        "promptHistory": "prompt-history.md",
+        "productionApproach": "Final output edited a prior self-generated image. No external reference imagery. Rejected intermediate images are not published; prompt history is included."
+      },
+      "provenance": "cases/image-seed-library/provenance.json"
+    },
+    {
+      "method": "image-model",
+      "model": "ChatGPT 图像生成，具体模型版本未披露",
+      "rights": "本批次从原创文字提示生成，未提供外部参考图，未使用特定人物或商标。独创性和版权不作法律保证；公开复用许可待定。",
+      "createdAt": "2026-11-07",
+      "id": "image-rain-garden",
+      "title": "雨水花园剖面",
+      "category": "image-generation",
+      "useCase": "概念性教育图解",
+      "summary": "用水彩式剖面展示地表径流、种植土、碎石层和排水管的关系。",
+      "engine": "ChatGPT 内置图像生成",
+      "tags": [
+        "概念性教育图解",
+        "原创提示词",
+        "真实生成"
+      ],
+      "verification": "目视通过。RAIN GARDEN、RUNOFF、SOIL、GRAVEL、DRAIN 五处文字均正确；土层在碎石上方，排水管位于碎石层，水流箭头方向一致。 1536 × 1024 PNG，SHA-256 已复核。只示意一种带排水管的雨水花园配置，不是施工图、设计规范或经过专家校审的科学教材。",
+      "steps": [
+        "阅读完整原始提示词。",
+        "查看原始生成 PNG 与来源、尺寸、哈希及检查记录。",
+        "模型版本未披露，不标为 image-2.6；本图不代表实拍、真实建筑或3D工程文件。"
+      ],
+      "source": "cases/image-rain-garden/prompt.txt",
+      "poster": "cases/image-rain-garden/original.png",
+      "artifact": "cases/image-rain-garden/original.png",
+      "extraProvenance": {
+        "imageMetadata": {
+          "file": "original.png",
+          "bytes": 2487591,
+          "width": 1536,
+          "height": 1024,
+          "mode": "RGB",
+          "sha256": "b857d0f067728d44073df1e4cac86222d4cee3b57d3a89b2b101b6263a40f8ff"
+        },
+        "productionBatch": {
+          "generationCalls": 7,
+          "acceptedCases": 5,
+          "excludedAttempts": 2
+        },
+        "tool": "image_gen.imagegen",
+        "specificModelVersion": null,
+        "externalReferenceImagesUsed": false,
+        "qa": "目视通过。RAIN GARDEN、RUNOFF、SOIL、GRAVEL、DRAIN 五处文字均正确；土层在碎石上方，排水管位于碎石层，水流箭头方向一致。",
+        "limits": "只示意一种带排水管的雨水花园配置，不是施工图、设计规范或经过专家校审的科学教材。",
+        "originalPromptFile": "prompt.txt"
+      },
+      "provenance": "cases/image-rain-garden/provenance.json"
     }
   ]
 }

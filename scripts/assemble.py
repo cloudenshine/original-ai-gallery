@@ -15,11 +15,14 @@ if (image_dir/'original.png').exists() and (image_dir/'asset-meta.json').exists(
  assert image_meta.get('visualInspection'), 'Missing visual inspection record'
 if image_meta:
  rows.insert(0,dict(id='folded-dusk',title='把黄昏折成一座山',category='image-generation',method='image-model',useCase='概念视觉',summary='纸的纤维、玻璃的折光、石的沉静。用三种材料，搭出一座只存在于想象里的微缩山河。',engine='ChatGPT 内置图像生成',model='ChatGPT 图像生成，具体模型版本未披露',tags=['概念静物','材质表现','原创提示词'],verification=f"已实际生成并目视检查；{image_meta['width']} × {image_meta['height']} PNG，SHA-256 已核。累计生成 {image_meta['generationAttemptsTotal']} 次，本页为当前新输出。具体模型版本未披露，不是真实摄影。",rights='本次从原创提示词新生成，未提供参考图，未使用人物、商标或私人素材。AI 输出不构成独创性或版权的法律保证；公开复用许可待定。',steps=['阅读原创提示词。','文本生图，无参考图，透明背景关闭。',f"累计生成 {image_meta['generationAttemptsTotal']} 次；本页当前产物生成 {image_meta['currentArtifactGenerationCount']} 次，检查记录随文件保留。"],source='prompt.txt',poster='cases/folded-dusk/original.png',artifact='cases/folded-dusk/original.png'))
+extra_file=r/'data/batch-02.json'
+if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 items=[]
 for c in rows:
  c=base|c;c.setdefault('poster',f"cases/{c['id']}/poster.svg");c.setdefault('artifact',f"cases/{c['id']}/index.html");c['provenance']=f"cases/{c['id']}/provenance.json";c['source']=f"cases/{c['id']}/{c['source']}";items.append(c)
  prov={k:c[k] for k in ['title','category','method','engine','model','rights','verification','createdAt']};prov['originality']='本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。'
  if c['id']=='folded-dusk':prov|=image_meta
+ if c.get('extraProvenance'):prov.update(c['extraProvenance'])
  (d/c['provenance']).write_text(json.dumps(prov,ensure_ascii=False,indent=2)+'\n')
 config=json.loads((r/'publication.json').read_text()) if (r/'publication.json').exists() else {'state':'unpublished','repository':None}
 (d/'cases.json').write_text(json.dumps({**config,'cases':items},ensure_ascii=False,indent=2)+'\n')

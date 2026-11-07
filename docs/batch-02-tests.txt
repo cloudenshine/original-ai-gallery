@@ -1,0 +1,1 @@
+Verified: 53 Node tests passed, 0 failed. Original phase-garden motion-core checks passed. See npm test for reproducible test definitions.

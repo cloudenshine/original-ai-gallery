@@ -1,0 +1,11 @@
+Use case: scientific-educational
+Asset type: original educational cutaway illustration, one landscape 3:2 image, conceptual not an engineering construction drawing.
+Primary request: explain the basic structure of an urban rain garden in a clean museum-quality cutaway illustration with only five simple English labels.
+Scene/backdrop: white paper background with generous negative space.
+Subject: a shallow planted depression beside a tiny anonymous grey sidewalk, shown as a precise three-quarter cutaway island. A short curb opening on the left lets surface water enter the planted depression. Show restrained grass-like plants and small perennial flowers, a brown permeable planting-soil layer, a pale coarse gravel layer beneath, and a single perforated drain pipe embedded in the gravel. The pipe exits cleanly on the right. A thin blue ribbon follows rainwater from the sidewalk into the basin, then separate subtle downward blue arrows show infiltration through soil toward gravel. This is one possible rain-garden configuration, not a universal standard.
+Style/medium: refined hand-painted watercolor and crisp technical pencil linework, scientific museum editorial art, physically legible layer boundaries and uncluttered labeling.
+Composition/framing: the cutaway occupies the center and lower two thirds, surrounded by ample white margin; short horizontal leader lines point to the relevant features without crossing. Balanced editorial page with a small title at top left.
+Text (verbatim): title "RAIN GARDEN"; four labels "RUNOFF", "SOIL", "GRAVEL", "DRAIN". Render these exact five texts only, all uppercase, dark charcoal, clean compact sans-serif, consistently sized labels, no invented letters or extra captions.
+Lighting/mood: softly shaded illustration, no dramatic cast shadows.
+Color palette: sage and forest green plants, warm brown soil, pale limestone gravel, restrained muted blue water, white background.
+Constraints: no real-world building, brand, logo, watermark, people, numeric data, scale measurements, claims about performance, underground utility complexity, duplicated pipe, underground tree trunks, impossible water arrows, or extra text. The soil must be visibly above gravel, and the perforated pipe must remain within the gravel layer.

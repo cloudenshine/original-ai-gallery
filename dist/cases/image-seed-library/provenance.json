@@ -1,0 +1,46 @@
+{
+  "title": "种子温室",
+  "category": "image-generation",
+  "method": "image-model",
+  "engine": "ChatGPT 内置图像生成",
+  "model": "ChatGPT 图像生成，具体模型版本未披露",
+  "rights": "本批次从原创文字提示生成，未提供外部参考图，未使用特定人物或商标。独创性和版权不作法律保证；公开复用许可待定。",
+  "verification": "成品目视通过。透明版本彩边未通过审核，最终改为不透明浅灰背景；成品轮廓干净、全物体未裁切，六盆植物与层状土壤可读。 1254 × 1254 PNG，SHA-256 已复核。这是 3D 风格的二维生成图，不含真实网格、材质节点或 3D 工程文件。最终图不是透明素材。垂直留白较提示词目标紧，但无裁切。",
+  "createdAt": "2026-11-07",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "imageMetadata": {
+    "file": "original.png",
+    "bytes": 1781198,
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB",
+    "sha256": "37d691df02bd66b04ec6096e211c677fd08b40b409d751b44f6c3944598b3301"
+  },
+  "productionBatch": {
+    "generationCalls": 7,
+    "acceptedCases": 5,
+    "excludedAttempts": 2
+  },
+  "tool": "image_gen.imagegen",
+  "specificModelVersion": null,
+  "externalReferenceImagesUsed": false,
+  "qa": "成品目视通过。透明版本彩边未通过审核，最终改为不透明浅灰背景；成品轮廓干净、全物体未裁切，六盆植物与层状土壤可读。",
+  "limits": "这是 3D 风格的二维生成图，不含真实网格、材质节点或 3D 工程文件。最终图不是透明素材。垂直留白较提示词目标紧，但无裁切。",
+  "originalPromptFile": "prompt.txt",
+  "excludedAttempts": [
+    {
+      "reason": "真实 RGBA 透明背景，但顶端留白偏紧且轮廓有彩边；不列入成功案例。",
+      "includedInSuccessfulCaseCount": false,
+      "assetPublished": false
+    },
+    {
+      "reason": "留白改善但边缘彩边更明显；未通过可直接复用透明素材标准。",
+      "includedInSuccessfulCaseCount": false,
+      "assetPublished": false
+    }
+  ],
+  "finalIsTransparent": false,
+  "actual3DModel": false,
+  "promptHistory": "prompt-history.md",
+  "productionApproach": "Final output edited a prior self-generated image. No external reference imagery. Rejected intermediate images are not published; prompt history is included."
+}

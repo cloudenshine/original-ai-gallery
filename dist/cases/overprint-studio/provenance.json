@@ -1,0 +1,40 @@
+{
+  "title": "两色之间",
+  "category": "interactive",
+  "method": "code",
+  "engine": "Canvas 2D + JavaScript",
+  "model": "ChatGPT 协作，具体底层模型未披露",
+  "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+  "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+  "createdAt": "2026-11-07",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "browserVerification": "blocked",
+  "nativeRenderEvidence": {
+    "id": "overprint-studio",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "97e32eb997c470bb255603b62ee2bd1337a06f27309f8d0075ac8c96c626a15b",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 5,
+    "fullCycleRenderChecks": 48,
+    "video": {
+      "path": "cases/overprint-studio/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 12,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  "sourceSha256": "e2b7f17d31a5b694ff1c074608e4b837997844b10763f43230a1cfb1c6c09803",
+  "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+  "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+}

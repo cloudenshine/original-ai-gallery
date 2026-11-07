@@ -1,0 +1,40 @@
+{
+  "title": "信号成字",
+  "category": "coding-motion",
+  "method": "code",
+  "engine": "Canvas 2D + JavaScript",
+  "model": "ChatGPT 协作，具体底层模型未披露",
+  "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+  "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+  "createdAt": "2026-11-07",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "browserVerification": "blocked",
+  "nativeRenderEvidence": {
+    "id": "signal-letterpress",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "df23a6825f9dd5fff725d46adcd95b849f2a06565b9804851da792aded6a5c96",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 1,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 5,
+    "fullCycleRenderChecks": 40,
+    "video": {
+      "path": "cases/signal-letterpress/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 10,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  "sourceSha256": "1ae10ed071d77f70a8467fb9aea06a2ff1c7c9343dcf1226b469693501c7e383",
+  "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+  "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+}

@@ -1,0 +1,40 @@
+{
+  "title": "纸城入夜",
+  "category": "coding-motion",
+  "method": "code",
+  "engine": "Canvas 2D + JavaScript",
+  "model": "ChatGPT 协作，具体底层模型未披露",
+  "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+  "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+  "createdAt": "2026-11-07",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "browserVerification": "blocked",
+  "nativeRenderEvidence": {
+    "id": "paper-city",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "97a4bb1ed8b4e464f1f479011204fe56e00758c04875fdd51a612a46e932619e",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 8,
+    "fullCycleRenderChecks": 80,
+    "video": {
+      "path": "cases/paper-city/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 20,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  "sourceSha256": "6071d105b7ae916b50e1d2becd2e9caa5b6fe4bd3854c799c6edb56cb4a4c1b8",
+  "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+  "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+}

@@ -1,0 +1,30 @@
+{
+  "title": "潮汐阅览室",
+  "category": "image-generation",
+  "method": "image-model",
+  "engine": "ChatGPT 内置图像生成",
+  "model": "ChatGPT 图像生成，具体模型版本未披露",
+  "rights": "本批次从原创文字提示生成，未提供外部参考图，未使用特定人物或商标。独创性和版权不作法律保证；公开复用许可待定。",
+  "verification": "目视通过。天窗与曲面长凳形成连贯空间，海岸层次清晰，无人物、标志或可读书名。 1536 × 1024 PNG，SHA-256 已复核。虚构建筑概念图，未进行结构、海岸防护或建筑规范审核。",
+  "createdAt": "2026-11-07",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "imageMetadata": {
+    "file": "original.png",
+    "bytes": 2675121,
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "sha256": "92931f32ac9ee500c7dc2c435e924356452a65bf3bef2c37b1644499b02c9684"
+  },
+  "productionBatch": {
+    "generationCalls": 7,
+    "acceptedCases": 5,
+    "excludedAttempts": 2
+  },
+  "tool": "image_gen.imagegen",
+  "specificModelVersion": null,
+  "externalReferenceImagesUsed": false,
+  "qa": "目视通过。天窗与曲面长凳形成连贯空间，海岸层次清晰，无人物、标志或可读书名。",
+  "limits": "虚构建筑概念图，未进行结构、海岸防护或建筑规范审核。",
+  "originalPromptFile": "prompt.txt"
+}

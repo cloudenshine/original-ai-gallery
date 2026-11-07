@@ -1,0 +1,202 @@
+[
+  {
+    "id": "night-transit",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "796949361eef22b1d64707e5e28064678dafc2961ae6629a8514013a3ce1e985",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 8,
+    "fullCycleRenderChecks": 80,
+    "video": {
+      "path": "cases/night-transit/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 20,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  {
+    "id": "orbit-observatory",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "e471b75b04b46fba88fe35f145e87af908ed1f6d1bdf638f4c0efb7bb4f9c573",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 8,
+    "fullCycleRenderChecks": 96,
+    "video": {
+      "path": "cases/orbit-observatory/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 24,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  {
+    "id": "overprint-studio",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "97e32eb997c470bb255603b62ee2bd1337a06f27309f8d0075ac8c96c626a15b",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 5,
+    "fullCycleRenderChecks": 48,
+    "video": {
+      "path": "cases/overprint-studio/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 12,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  {
+    "id": "paper-city",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "97a4bb1ed8b4e464f1f479011204fe56e00758c04875fdd51a612a46e932619e",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 8,
+    "fullCycleRenderChecks": 80,
+    "video": {
+      "path": "cases/paper-city/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 20,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  {
+    "id": "prism-desk",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "cd1df7dee2b717bf0f2a18d1ee09d35fdb422001f3104529cb6a58e1e20a873e",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 5,
+    "fullCycleRenderChecks": 40,
+    "video": {
+      "path": "cases/prism-desk/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 10,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  {
+    "id": "rain-study",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "40d94f0e6f5b230c802b54c05e84a5d4c58a6e2bd1ac0c9167a9ae9a8f354019",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 8,
+    "fullCycleRenderChecks": 48,
+    "video": {
+      "path": "cases/rain-study/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 12,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  {
+    "id": "signal-letterpress",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "df23a6825f9dd5fff725d46adcd95b849f2a06565b9804851da792aded6a5c96",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 1,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 5,
+    "fullCycleRenderChecks": 40,
+    "video": {
+      "path": "cases/signal-letterpress/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 10,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  {
+    "id": "tidal-weave",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "41e8af5c77048fc924a086f1909828a87765df80303e89a9f1d0c4b279771a50",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 8,
+    "fullCycleRenderChecks": 80,
+    "video": {
+      "path": "cases/tidal-weave/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 20,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  }
+]

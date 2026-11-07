@@ -1,0 +1,11 @@
+Use case: product-mockup
+Asset type: an original portfolio case demonstrating controlled studio product photography, one image.
+Primary request: a quiet, refined still life of an unbranded experimental aroma diffuser carved from pale chalky limestone, with one thin amber-glass cylinder seated vertically inside it. The object is invented, physically plausible, and has no connection to a real product.
+Scene/backdrop: a warm light-grey seamless studio, one folded sheet of translucent vellum behind the object and a single smooth river stone to establish material contrast.
+Subject: the limestone diffuser has a simple squat cylindrical body, a subtly chamfered rim, microscopic pores, and a clean vertical glass reservoir; the amber cylinder is visibly hollow, catches a precise highlight, and contains a tiny level of clear oil.
+Style/medium: exceptionally convincing medium-format product photograph with tactile material fidelity, no illustration styling.
+Composition/framing: landscape 3:2, camera at object mid-height, large object on the right third, balanced open space on the left, precise silhouette and contact shadow, restrained composition with only these three objects.
+Lighting/mood: one large softbox from upper left, a narrow warm edge light through amber glass, gentle graduated shadow and calm morning mood.
+Color palette: warm chalk, pale grey, restrained amber; no saturated accent colors.
+Text: none.
+Constraints: no brand, logo, watermark, person, hands, bottle label, extra accessories, impossible glass connections, floating pieces, or decorative text. Entire image must feel like a plausible carefully art-directed commercial photograph.

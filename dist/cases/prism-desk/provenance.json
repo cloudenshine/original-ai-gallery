@@ -1,0 +1,40 @@
+{
+  "title": "一束光的岔路",
+  "category": "interactive",
+  "method": "code",
+  "engine": "Canvas 2D + JavaScript",
+  "model": "ChatGPT 协作，具体底层模型未披露",
+  "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
+  "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+  "createdAt": "2026-11-07",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "browserVerification": "blocked",
+  "nativeRenderEvidence": {
+    "id": "prism-desk",
+    "renderer": "@napi-rs/canvas (Skia); not browser",
+    "posterTime": 5,
+    "posterDimensions": [
+      1200,
+      800
+    ],
+    "posterSha256": "cd1df7dee2b717bf0f2a18d1ee09d35fdb422001f3104529cb6a58e1e20a873e",
+    "deterministic": true,
+    "parameterEndpointsDifferent": true,
+    "parameterCheckTime": 5,
+    "temporalSamples": 8,
+    "uniqueTemporalSamples": 5,
+    "fullCycleRenderChecks": 40,
+    "video": {
+      "path": "cases/prism-desk/preview.mp4",
+      "width": 960,
+      "height": 640,
+      "fps": 24,
+      "duration": 10,
+      "audio": false
+    },
+    "limitations": "Native Canvas rendering and offline video do not validate browser controls, mobile layouts, hardware performance or full human playback."
+  },
+  "sourceSha256": "6d988a7aae5774692958c59d483b9fa9358da3952d3d16f080701405e64ac2f7",
+  "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
+  "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+}

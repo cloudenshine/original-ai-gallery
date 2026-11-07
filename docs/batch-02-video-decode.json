@@ -1,0 +1,82 @@
+[
+  {
+    "id": "night-transit",
+    "fullDecode": true,
+    "width": 960,
+    "height": 640,
+    "frameRate": "24/1",
+    "duration": "20.000000",
+    "audioStreams": 0,
+    "scope": "静音技术预览，不是完整影片或声音验收"
+  },
+  {
+    "id": "orbit-observatory",
+    "fullDecode": true,
+    "width": 960,
+    "height": 640,
+    "frameRate": "24/1",
+    "duration": "24.000000",
+    "audioStreams": 0,
+    "scope": "静音技术预览，不是完整影片或声音验收"
+  },
+  {
+    "id": "overprint-studio",
+    "fullDecode": true,
+    "width": 960,
+    "height": 640,
+    "frameRate": "24/1",
+    "duration": "12.000000",
+    "audioStreams": 0,
+    "scope": "静音技术预览，不是完整影片或声音验收"
+  },
+  {
+    "id": "paper-city",
+    "fullDecode": true,
+    "width": 960,
+    "height": 640,
+    "frameRate": "24/1",
+    "duration": "20.000000",
+    "audioStreams": 0,
+    "scope": "静音技术预览，不是完整影片或声音验收"
+  },
+  {
+    "id": "prism-desk",
+    "fullDecode": true,
+    "width": 960,
+    "height": 640,
+    "frameRate": "24/1",
+    "duration": "10.000000",
+    "audioStreams": 0,
+    "scope": "静音技术预览，不是完整影片或声音验收"
+  },
+  {
+    "id": "rain-study",
+    "fullDecode": true,
+    "width": 960,
+    "height": 640,
+    "frameRate": "24/1",
+    "duration": "12.000000",
+    "audioStreams": 0,
+    "scope": "静音技术预览，不是完整影片或声音验收"
+  },
+  {
+    "id": "signal-letterpress",
+    "fullDecode": true,
+    "width": 960,
+    "height": 640,
+    "frameRate": "24/1",
+    "duration": "10.000000",
+    "audioStreams": 0,
+    "scope": "静音技术预览，不是完整影片或声音验收"
+  },
+  {
+    "id": "tidal-weave",
+    "fullDecode": true,
+    "width": 960,
+    "height": 640,
+    "frameRate": "24/1",
+    "duration": "20.000000",
+    "audioStreams": 0,
+    "scope": "静音技术预览，不是完整影片或声音验收"
+  }
+]

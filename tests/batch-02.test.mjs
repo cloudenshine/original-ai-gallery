@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+const data=JSON.parse(fs.readFileSync(new URL('../dist/cases.json',import.meta.url),'utf8'));
+const batch=['night-transit','orbit-observatory','overprint-studio','paper-city','prism-desk','rain-study','signal-letterpress','tidal-weave'];
+test('eight substantive code cases are integrated separately from image models',()=>{for(let id of batch){let c=data.cases.find(c=>c.id===id);assert.ok(c,id);assert.equal(c.method,'code');assert.ok(['coding-motion','interactive'].includes(c.category));assert.ok(c.preview.endsWith('preview.mp4'));assert.ok(c.offline.endsWith('standalone.html'));}});
+test('every batch artifact and claimed native evidence exists',()=>{for(let id of batch){let c=data.cases.find(c=>c.id===id);assert.ok(c,id);for(let name of [c.source,c.poster,c.artifact,c.preview,c.offline,c.provenance])assert.ok(fs.statSync(new URL('../dist/'+name,import.meta.url)).size>0,name);let p=JSON.parse(fs.readFileSync(new URL('../dist/'+c.provenance,import.meta.url),'utf8'));assert.equal(p.browserVerification,'blocked');assert.ok(p.nativeRenderEvidence)}});
