@@ -34,7 +34,7 @@
 
 `node --test tests/*.test.mjs`：13 项测试，涵盖等距同相/反相、半波/整波相位关系、镜像对称、参数极值、波长变化、页面结构及真实 SVG 3D 备用路径。
 
-浏览器验证状态及版本以 provenance.json 为准。手机实机、Safari、Firefox、无 WebGL/上下文丢失的故障注入与主观听审需独立验证，不能由模型测试推断通过。
+真实 Chrome 已完成 SVG 3D 的参数、键盘、射线拾取、旋转、视角、播放/暂停、声音UI与PNG导出验证。WebGL 主路径因云浏览器 GPU 禁用而未实测。浏览器验证版本与详细观察记录以 provenance.json 为准。手机实机、Safari、Firefox、无 WebGL/上下文丢失的故障注入与主观听审需独立验证，不能由模型测试推断通过。
 
 ## 第三方许可
 

@@ -26,6 +26,8 @@ extra_file=r/'data/batch-anatomy.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 extra_file=r/'data/batch-blender.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
+extra_file=r/'data/batch-threejs.json'
+if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 items=[]
 for c in rows:
  if c.get('media'):
@@ -46,7 +48,7 @@ for c in rows:
  (d/c['provenance']).write_text(json.dumps(prov,ensure_ascii=False,indent=2)+'\n')
 config=json.loads((r/'publication.json').read_text()) if (r/'publication.json').exists() else {'state':'unpublished','repository':None}
 (d/'cases.json').write_text(json.dumps({**config,'cases':items},ensure_ascii=False,indent=2)+'\n')
-readme='# 造物案例馆\n\n真实制作、分类清楚、可追溯的 AI 图像与代码创作案例。网站负责展示，仓库保存产物与过程。\n\n## 运行\n\n零第三方运行依赖。需要 Node 20+ 和 Python 3；`npm test` 与 `npm run build` 会先用 Python 3 恢复并校验大文件。以静态服务器服务 `dist/`；请勿直接用 file:// 打开首页。\n\n'
+readme='# 造物案例馆\n\n真实制作、分类清楚、可追溯的 AI 图像与代码创作案例。网站负责展示，仓库保存产物与过程。\n\n## 运行\n\n无需安装第三方运行依赖。Three.js 实例随包提供 MIT 许可运行库，其余作品按各自说明运行。构建需要 Node 20+ 和 Python 3；`npm test` 与 `npm run build` 会先用 Python 3 恢复并校验大文件。以静态服务器服务 `dist/`；请勿直接用 file:// 打开首页。\n\n'
 readme+=f'## 在线作品集\n\n[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · {len(items)} 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。\n\n'
 for c in items:
  source_link='https://cloudenshine.github.io/original-ai-gallery/'+c['source']

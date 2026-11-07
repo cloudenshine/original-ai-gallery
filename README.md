@@ -4,11 +4,11 @@
 
 ## 运行
 
-零第三方运行依赖。需要 Node 20+ 和 Python 3；`npm test` 与 `npm run build` 会先用 Python 3 恢复并校验大文件。以静态服务器服务 `dist/`；请勿直接用 file:// 打开首页。
+无需安装第三方运行依赖。Three.js 实例随包提供 MIT 许可运行库，其余作品按各自说明运行。构建需要 Node 20+ 和 Python 3；`npm test` 与 `npm run build` 会先用 Python 3 恢复并校验大文件。以静态服务器服务 `dist/`；请勿直接用 file:// 打开首页。
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 27 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 28 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -360,6 +360,19 @@
 - 模型：Procedural 3D geometry and keyframe animation; no generative video or structural solver
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/weight-we-share/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/weight-we-share/source.zip) · [来源与验证](dist/cases/weight-we-share/provenance.json)
 - 验证：26秒、1280×720、24fps编码（12fps真实运动采样），完整解码通过；624个场景时点及无损分轨往返检查通过。最终AAC约-15.8 LUFS / -5.4 dBTP。完整原速连续观看与主观听审未完成；低采样颗粒与12fps节奏仍需实际观感确认。
+
+## 让安静有形
+
+![让安静有形](dist/cases/field-of-quiet/poster.png)
+
+两个声音，不总是更响。改变频率、间距与相位，在真实三维干涉地形上放置探针，让静音区域的形状和关系变得可见。
+
+- 用途：实时三维声学解释
+- 制作方式：interactive-3d
+- 工具：Three.js r160 + WebGL / SVGRenderer + Web Audio
+- 模型：Procedural geometry and synthesized sine tone; no generative image, video, audio or 3D model
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/field-of-quiet/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/field-of-quiet/source.zip) · [来源与验证](dist/cases/field-of-quiet/provenance.json)
+- 验证：13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。
 
 ## 大文件恢复
 

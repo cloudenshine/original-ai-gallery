@@ -1410,6 +1410,120 @@
         "originality": "本次原创石拱空间、材质、镜头、配乐与拟音。风格配方只作材料与灯光关系参考，未复制其故事、图像、模型或源码。未做穷尽相似检索。"
       },
       "provenance": "cases/weight-we-share/provenance.json"
+    },
+    {
+      "method": "code",
+      "model": "Procedural geometry and synthesized sine tone; no generative image, video, audio or 3D model",
+      "rights": "原创声场、交互、文案与源码。Three.js r160 遵循随包 MIT 许可；原创源码和媒体公开展示不新增复用许可。",
+      "createdAt": "2026-11-07",
+      "id": "field-of-quiet",
+      "title": "让安静有形",
+      "category": "interactive-3d",
+      "useCase": "实时三维声学解释",
+      "summary": "两个声音，不总是更响。改变频率、间距与相位，在真实三维干涉地形上放置探针，让静音区域的形状和关系变得可见。",
+      "engine": "Three.js r160 + WebGL / SVGRenderer + Web Audio",
+      "poster": "cases/field-of-quiet/poster.png",
+      "artifact": "cases/field-of-quiet/index.html",
+      "source": "cases/field-of-quiet/source.zip",
+      "verification": "13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。",
+      "tags": [
+        "Three.js",
+        "真实3D",
+        "干涉",
+        "探针",
+        "可选纯音"
+      ],
+      "steps": [
+        "点击反相，中央探针呈现相消。",
+        "调频率、间距和相位，点击地形采样或键盘修改探针坐标。",
+        "拖动旋转、切换视角或主动开启低音量纯音。"
+      ],
+      "extraProvenance": {
+        "title": "让安静有形",
+        "category": "interactive-3d",
+        "method": "code",
+        "engine": "Three.js r160 + WebGL / SVGRenderer + Web Audio",
+        "model": "Procedural geometry and synthesized sine tone; no generative image, video, audio or 3D model",
+        "createdAt": "2026-11-07",
+        "originality": "本次新写双声源干涉场、交互、界面和文案；未复制示例场景或使用外部模型。",
+        "rights": "Three.js r160 遵循随包 MIT 许可；原创源码与媒体公开展示不新增复用许可。",
+        "verification": "13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。",
+        "browserVerification": "passed_svg_3d_only",
+        "dependencies": [
+          {
+            "name": "Three.js three.module.min.js",
+            "path": "vendor/three.module.min.js",
+            "version": "0.160.0",
+            "source": "https://github.com/mrdoob/three.js/blob/r160/build/three.module.min.js",
+            "license": "MIT",
+            "bytes": 670682,
+            "sha256": "48ad607d911c8f54e9ec4afcf7984063ff6156bd8bb82f5b92d81f6d44bb9b53",
+            "modifications": "Trailing newline only"
+          },
+          {
+            "name": "Three.js SVGRenderer.js",
+            "path": "vendor/SVGRenderer.js",
+            "version": "0.160.0",
+            "source": "https://github.com/mrdoob/three.js/blob/r160/examples/jsm/renderers/SVGRenderer.js",
+            "license": "MIT",
+            "bytes": 12642,
+            "sha256": "cc35a579485a11059828a05ba99eeb1a7a9f12c6bfe3762395ad2a229bf713b8",
+            "modifications": "Only local module import paths"
+          },
+          {
+            "name": "Three.js Projector.js",
+            "path": "vendor/Projector.js",
+            "version": "0.160.0",
+            "source": "https://github.com/mrdoob/three.js/blob/r160/examples/jsm/renderers/Projector.js",
+            "license": "MIT",
+            "bytes": 19397,
+            "sha256": "99694d59bfb28dffc69900d32bb6774c76b342ca1c5f88b82f0f4326eaa88306",
+            "modifications": "Only local module import paths"
+          }
+        ],
+        "limitations": [
+          "局部归一化理想双声源模型，非工程声学计算。",
+          "高度表示时间平均声强，不是空气位移；纯音仅映射探针振幅，不模拟空间听觉。",
+          "当前云浏览器禁用GPU，WebGL主路径未获实际渲染验证。",
+          "SVG备用采用画家排序和1813顶点，不等同于WebGL深度缓冲与高分辨率结果。",
+          "手机实机、Safari/Firefox、上下文丢失故障注入及主观听审尚未完成。"
+        ],
+        "verifiedRuntimeCommit": "2ee201474a5e4705b5fca12408ef32eb082aa7e5",
+        "browserEvidence": {
+          "browser": "Chrome cloud browser",
+          "renderer": "Three.js r160 SVGRenderer",
+          "vertices": 1813,
+          "samePhaseCenterPercent": 100,
+          "opposedCenterPercent": 0,
+          "opposedProbeAtX0_1Z1_8Percent": 5,
+          "frequency440WavelengthMeters": 0.78,
+          "raycastProbe": {
+            "x": -2.4,
+            "z": 1.1,
+            "intensityPercent": 95,
+            "frequency": 440,
+            "separation": 0.8,
+            "phase": 360
+          },
+          "pausedFramesStable": 379,
+          "resumedFrameCountObserved": 460,
+          "audio": "UI on/off and reset-to-mute tested; subjective listening not completed",
+          "download": "PNG 1600x1050 exported through live SVG 3D renderer"
+        },
+        "files": [
+          {
+            "path": "poster.png",
+            "bytes": 370187,
+            "sha256": "48b2b89409e25e0d10f820267c8b201a8714000c5daa36caded598ee129f62cf"
+          },
+          {
+            "path": "source.zip",
+            "bytes": 546202,
+            "sha256": "b567cc34cb9bb0e5bda39ce35b9706eb2240f49c1331145688ca757487d17cbd"
+          }
+        ]
+      },
+      "provenance": "cases/field-of-quiet/provenance.json"
     }
   ]
 }

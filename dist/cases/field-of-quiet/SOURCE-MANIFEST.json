@@ -1,0 +1,50 @@
+{
+  "README.md": {
+    "bytes": 3927,
+    "sha256": "0493048ddc66ed96d87db6c6e044d20a1dcf56d7b3912b49206080e99b1f06f3"
+  },
+  "app.mjs": {
+    "bytes": 14462,
+    "sha256": "47bae66d9bb1958e8fbcaa95964f5c1c6f38d7495e9e2ab0209e33d95c6b99b8"
+  },
+  "index.html": {
+    "bytes": 5800,
+    "sha256": "ab306b3538a0d8a687a049e641bb4a743dff8dcf62c1182b3384ab741a6bd6c4"
+  },
+  "model.mjs": {
+    "bytes": 1861,
+    "sha256": "d5adb9457de8c28f5cda4ee9093dbcaa569a468d843610eb04982d3580fe3d2a"
+  },
+  "poster.png": {
+    "bytes": 370187,
+    "sha256": "48b2b89409e25e0d10f820267c8b201a8714000c5daa36caded598ee129f62cf"
+  },
+  "provenance.json": {
+    "bytes": 3432,
+    "sha256": "bef99d25d91bd409987ec635ef567bb6ef1df1f2eb0939def8adf9a3572533ac"
+  },
+  "style.css": {
+    "bytes": 7341,
+    "sha256": "caf8eb0c477a4f04599d0c09c9ca5711e35161f7c1dff33d70c3f61e9a4fd27c"
+  },
+  "tests/model.test.mjs": {
+    "bytes": 4376,
+    "sha256": "66ba19091242c1a1926a3c7ff44e66b4213f2ee62fdef14b6ecefa2b3b227bcc"
+  },
+  "vendor/LICENSE-THREE.txt": {
+    "bytes": 1082,
+    "sha256": "9abf328478da50386ee32972727a04918c3a2973d15d3758fd8c181d374a4dd4"
+  },
+  "vendor/Projector.js": {
+    "bytes": 19397,
+    "sha256": "99694d59bfb28dffc69900d32bb6774c76b342ca1c5f88b82f0f4326eaa88306"
+  },
+  "vendor/SVGRenderer.js": {
+    "bytes": 12642,
+    "sha256": "cc35a579485a11059828a05ba99eeb1a7a9f12c6bfe3762395ad2a229bf713b8"
+  },
+  "vendor/three.module.min.js": {
+    "bytes": 670682,
+    "sha256": "48ad607d911c8f54e9ec4afcf7984063ff6156bd8bb82f5b92d81f6d44bb9b53"
+  }
+}

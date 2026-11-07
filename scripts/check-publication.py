@@ -13,7 +13,7 @@ class Links(HTMLParser):
         super().__init__(); self.paths = []
     def handle_starttag(self, tag, attrs):
         for key, value in attrs:
-            if key in ('src', 'href') and value and not value.startswith(('#', 'http:', 'https:')):
+            if key in ('src', 'href') and value and not value.startswith('#') and not urlparse(value).scheme:
                 self.paths.append(value)
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
@@ -42,7 +42,8 @@ try:
     for base in ['/', '/original-ai-gallery/']:
         origin=f'http://127.0.0.1:{server.server_port}{base}'
         with urlopen(origin+'cases.json') as response: cases=json.load(response)['cases']
-        assert len(cases)==25
+        assert len(cases)>=25
+        assert len({c["id"] for c in cases}) == len(cases)
         paths={'index.html','cases.json','js/catalog-core.mjs'}
         for case in cases:
             paths.update(case[k] for k in ('artifact','source','poster','provenance'))
@@ -57,5 +58,5 @@ try:
                     with urlopen(Request(absolute,method='HEAD')) as response: assert response.status==200
         for path in paths:
             with urlopen(Request(origin+path,method='HEAD')) as response: assert response.status==200
-        print(f'PASS: {base} serves 25 cases, {len(paths)} registered resources and all linked HTML assets')
+        print(f'PASS: {base} serves {len(cases)} cases, {len(paths)} registered resources and all linked HTML assets')
 finally: server.shutdown();server.server_close()
