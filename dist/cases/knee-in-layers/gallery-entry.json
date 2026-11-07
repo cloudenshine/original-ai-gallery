@@ -21,7 +21,7 @@
     "在原生查看器依次观察结构并暂停下蹲动画；示意动作不用于诊断或受力计算。"
   ],
   "source": "scene.json",
-  "poster": "cases/knee-in-layers/poster.svg",
+  "poster": "cases/knee-in-layers/poster-v2.svg",
   "artifact": "cases/knee-in-layers/index.html",
   "createdAt": "2026-11-07",
   "extraProvenance": {

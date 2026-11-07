@@ -337,7 +337,7 @@
 
 ## 膝关节的一次屈伸
 
-![膝关节的一次屈伸](dist/cases/knee-in-layers/poster.svg)
+![膝关节的一次屈伸](dist/cases/knee-in-layers/poster-v2.svg)
 
 从三块骨、两片半月板到股四头肌，用 Anatomy 编排真实 3D 分步场景，并提供原创二维互动学习卡。
 
