@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 25 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 26 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -334,6 +334,19 @@
 - 模型：Procedural animation and synthesized audio; no generative video or TTS model
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/room-for-change/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/room-for-change/source.zip) · [来源与验证](dist/cases/room-for-change/provenance.json)
 - 验证：40 秒、1920 × 1080、24 fps、960 帧、48 kHz 立体声；完整解码及逐帧状态/几何检查通过，最终 AAC 为 −14.93 LUFS / −1.51 dBTP。源码与三份合成分轨恢复检查通过。完整原速连续观看与主观听审未完成，抽帧不等于完整艺术验收。
+
+## 膝关节的一次屈伸
+
+![膝关节的一次屈伸](dist/cases/knee-in-layers/poster.svg)
+
+从三块骨、两片半月板到股四头肌，用 Anatomy 编排真实 3D 分步场景，并提供原创二维互动学习卡。
+
+- 用途：解剖教育
+- 制作方式：interactive
+- 工具：Anatomy + SVG + JavaScript
+- 模型：Anatomy 成人参考模型（Z-Anatomy / BodyParts3D）；网页为原创二维示意
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/knee-in-layers/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/knee-in-layers/scene.json) · [来源与验证](dist/cases/knee-in-layers/provenance.json)
+- 验证：Anatomy 已接受 4 步场景与 3 项测验；结构名已逐项检索核对。原生查看器显示尚未确认，不声称已目视验证 3D 播放。网页核心 3 项测试通过，云浏览器已验证三主题切换、答题反馈和复制指令；未做移动视口目视验收。
 
 ## 大文件恢复
 

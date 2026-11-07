@@ -5,8 +5,7 @@ import {createHash} from 'node:crypto';
 import {filterCases} from '../dist/js/catalog-core.mjs';
 const root = new URL('../', import.meta.url);
 const data = JSON.parse(fs.readFileSync(new URL('dist/cases.json', root)));
-test('Swiss film is the 25th work, with an honest code-film category', () => {
-  assert.equal(data.cases.length, 25);
+test('Swiss film remains registered with an honest code-film category', () => {
   const c = data.cases.find(c => c.id === 'room-for-change');
   assert.ok(c);
   assert.equal(c.category, 'coding-film');

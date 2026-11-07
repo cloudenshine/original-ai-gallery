@@ -1,0 +1,39 @@
+[
+  {
+    "id": "knee-in-layers",
+    "title": "膝关节的一次屈伸",
+    "category": "interactive",
+    "method": "anatomy-guided",
+    "useCase": "解剖教育",
+    "summary": "从三块骨、两片半月板到股四头肌，用 Anatomy 编排真实 3D 分步场景，并提供原创二维互动学习卡。",
+    "engine": "Anatomy + SVG + JavaScript",
+    "model": "Anatomy 成人参考模型（Z-Anatomy / BodyParts3D）；网页为原创二维示意",
+    "tags": [
+      "Anatomy",
+      "解剖教育",
+      "分层学习",
+      "辨认测验"
+    ],
+    "verification": "Anatomy 已接受 4 步场景与 3 项测验；结构名已逐项检索核对。原生查看器显示尚未确认，不声称已目视验证 3D 播放。网页核心 3 项测试通过，云浏览器已验证三主题切换、答题反馈和复制指令；未做移动视口目视验收。",
+    "rights": "原创脚本、场景参数及网页；无第三方模型、纹理或截图。上游许可已列明，但不据此假定 Anatomy 应用的导出权。公开复用许可未选定。",
+    "steps": [
+      "切换骨骼、半月板、肌肉主题并完成辨认练习。",
+      "下载 scene.json，在已连接 Anatomy 的对话内请求打开。",
+      "在原生查看器依次观察结构并暂停下蹲动画；示意动作不用于诊断或受力计算。"
+    ],
+    "source": "scene.json",
+    "poster": "cases/knee-in-layers/poster.svg",
+    "artifact": "cases/knee-in-layers/index.html",
+    "createdAt": "2026-11-07",
+    "extraProvenance": {
+      "nativeSceneAccepted": true,
+      "nativeViewerDisplayed": false,
+      "thirdPartyModelsExported": false,
+      "references": [
+        "https://www.orthoinfo.org/bodypart/kneelower-leg/common-knee-injuries/",
+        "https://www.arthritis.org/health-wellness/about-arthritis/where-it-hurts/anatomy-of-the-knee",
+        "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/Readme.md"
+      ]
+    }
+  }
+]
