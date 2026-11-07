@@ -1,9 +1,29 @@
 {
   "date": "2026-11-07",
+  "url": "https://cloudenshine.github.io/original-ai-gallery/cases/knee-in-layers/",
+  "verifiedSourceCommit": "e53a4e4c76f247c83a13179081072bbc38f3c585",
+  "browser": "Connected cloud Chrome",
+  "observedViewport": [
+    1165,
+    747
+  ],
   "unitTests": {
     "passed": 3,
     "failed": 0
   },
-  "browserInteraction": "pending live-site check",
-  "nativeAnatomy3dPlayback": "not visually verified; viewerShowing:false"
+  "topicSwitching": "pass: bone, meniscus and muscle titles and selected states observed",
+  "quiz": "pass: wrong tibia answer, correct patella/menisci/muscle answers observed",
+  "copyPrompt": "pass: success message observed",
+  "desktopVisualReview": "pass: original diagram and teaching UI inspected",
+  "mobileVisualReview": "not performed",
+  "nativeAnatomy3dPlayback": "not visually verified; viewerShowing:false",
+  "issuesResolved": [
+    "Anatomy quiz target schema requires objects with a structure field.",
+    "CDN served stale classic app.js during module transition; renamed entry to app.mjs and reverified all interactions."
+  ],
+  "limitations": [
+    "No Anatomy model/image/video/embed export tool exposed.",
+    "Native viewer was not mounted in authoring context.",
+    "Mobile viewport was not visually tested."
+  ]
 }

@@ -54,4 +54,4 @@ Anatomy 工具声明：模型是成人参考解剖，来自 Z-Anatomy / BodyPart
 
 ## 验证
 
-运行 `node --test tests/*.test.mjs`。测试覆盖主题对应的显示结构、正确/错误答案及未知主题回退。浏览器交互另行验证主题切换、答题反馈、窄屏无横向溢出以及 JavaScript 无未捕获错误。详细结果见 `browser-verification.json` 和 `anatomy-verification.json`。
+运行 `node --test tests/*.test.mjs`。测试覆盖主题对应的显示结构、正确/错误答案及未知主题回退。已用连接的云端 Chrome 实际验证三组主题切换、正确/错误答题反馈、复制指令和桌面视觉。未进行移动视口目视验收。模块过渡时发现 CDN 混合旧脚本，已改为独立 app.mjs 入口并逐项重验。详细结果见 `browser-verification.json` 和 `anatomy-verification.json`。
