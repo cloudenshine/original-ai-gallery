@@ -1,6 +1,6 @@
 import * as THREE from './vendor/three.module.min.js';
 import {SVGRenderer} from './vendor/SVGRenderer.js';
-import {DEFAULTS,sanitize,sampleField,wavelength} from './model.mjs';
+import {DEFAULTS,sanitize,sampleField,wavelength,snapProbe,ringRadius} from './model.mjs';
 const $=id=>document.getElementById(id),stage=$('stage');
 let params={...DEFAULTS},probe={x:0,z:1.8},playing=!matchMedia('(prefers-reduced-motion: reduce)').matches,dirty=true,frames=0,fieldRevision=0;
 let svgMode=false,lastPaint=0;
@@ -14,7 +14,7 @@ function refreshReadings(){
  $('probe-x').value=probe.x.toFixed(1);$('probe-z').value=probe.z.toFixed(1);
  const value=sampleField(probe.x,probe.z,params),percent=Math.round(value.intensity*100);
  $('intensity').innerHTML=percent+'<span>%</span>';$('db').textContent=(value.decibels<=-79.9?'≤ −80':value.decibels.toFixed(1))+' dB';$('meter').style.width=(value.intensity*100)+'%';
- $('probe-caption').textContent=value.intensity<.015?'接近相消：两道波在此几乎抵消。':value.intensity>.985?'接近相长：两道波在此几乎同向叠加。':`路程差 ${value.pathDifference.toFixed(2)} m · 部分相消，仍有声音。`;
+ $('accessible-reading').textContent=`探针声强 ${percent}%，相对当地最大声强 ${value.decibels.toFixed(1)} 分贝。`;$('probe-caption').textContent=value.intensity<.015?'接近相消：两道波在此几乎抵消。':value.intensity>.985?'接近相长：两道波在此几乎同向叠加。':`路程差 ${value.pathDifference.toFixed(2)} m · 部分相消，仍有声音。`;
  if(probeMarker){probeMarker.position.set(probe.x,1.72,probe.z);probeStem.position.set(probe.x,.87,probe.z);}
  if(audioOn&&audioContext){oscillator.frequency.setTargetAtTime(params.frequency,audioContext.currentTime,.035);gain.gain.setTargetAtTime(.07*value.amplitude,audioContext.currentTime,.045);}
  dirty=true;
@@ -22,7 +22,7 @@ function refreshReadings(){
 function updateField(){
  if(mesh){const pos=mesh.geometry.attributes.position,col=mesh.geometry.attributes.color;const cool=new THREE.Color('#22424f'),mid=new THREE.Color('#67978e'),warm=new THREE.Color('#ecd4a0');
  for(let i=0;i<pos.count;i++){const q=sampleField(pos.getX(i),pos.getZ(i),params),h=q.intensity;pos.setY(i,.06+1.08*h);const color=h<.5?cool.clone().lerp(mid,h*2):mid.clone().lerp(warm,(h-.5)*2);col.setXYZ(i,color.r,color.g,color.b);}
- pos.needsUpdate=true;col.needsUpdate=true;mesh.geometry.computeVertexNormals();sources.forEach((s,i)=>{s.position.x=(i?1:-1)*params.separation/2;});rings.forEach((r,i)=>r.position.x=(i<6?-1:1)*params.separation/2);fieldRevision++;
+ pos.needsUpdate=true;col.needsUpdate=true;mesh.geometry.computeVertexNormals();sources.forEach((s,i)=>{s.position.x=(i?1:-1)*params.separation/2;});rings.forEach(r=>r.position.x=(r.userData.source?1:-1)*params.separation/2);fieldRevision++;
  }
  refreshReadings();
  document.querySelectorAll('[data-preset]').forEach(b=>{const n=b.dataset.preset;b.setAttribute('aria-pressed',String(params.separation===2.4&&params.frequency===(n==='short'?440:220)&&params.phase===(n==='opposed'?180:0)));});
@@ -46,7 +46,7 @@ function setup(){
  const group=new THREE.Group();const sphere=new THREE.Mesh(new THREE.SphereGeometry(.095,svgMode?12:24,svgMode?8:16),new THREE.MeshLambertMaterial({color:'#f3b77c',emissive:'#ba5c28',emissiveIntensity:.55}));sphere.position.y=1.48;group.add(sphere);
  const stem=new THREE.Mesh(new THREE.CylinderGeometry(.01,.01,1.46,8),new THREE.MeshBasicMaterial({color:'#d29c6c',transparent:true,opacity:.7}));stem.position.y=.75;group.add(stem);
  const collar=new THREE.Mesh(new THREE.TorusGeometry(.17,.006,6,56),new THREE.MeshBasicMaterial({color:'#edc49d'}));collar.rotation.x=Math.PI/2;collar.position.y=1.48;group.add(collar);scene.add(group);sources.push(group);
- for(let j=0;j<6;j++){const ring=svgMode?new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(Array.from({length:72},(_,n)=>new THREE.Vector3(Math.cos(n/72*Math.PI*2),Math.sin(n/72*Math.PI*2),0))),new THREE.LineBasicMaterial({color:i?'#e7b982':'#9cbdba',transparent:true,opacity:.13})):new THREE.Mesh(new THREE.TorusGeometry(1,.003,3,150),new THREE.MeshBasicMaterial({color:i?'#e7b982':'#9cbdba',transparent:true,opacity:.13,depthWrite:false}));ring.rotation.x=Math.PI/2;ring.position.y=1.24;ring.userData={source:i,index:j};scene.add(ring);rings.push(ring);}
+ for(let j=0;j<9;j++){const ring=svgMode?new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(Array.from({length:72},(_,n)=>new THREE.Vector3(Math.cos(n/72*Math.PI*2),Math.sin(n/72*Math.PI*2),0))),new THREE.LineBasicMaterial({color:i?'#e7b982':'#9cbdba',transparent:true,opacity:.13})):new THREE.Mesh(new THREE.TorusGeometry(1,.003,3,150),new THREE.MeshBasicMaterial({color:i?'#e7b982':'#9cbdba',transparent:true,opacity:.13,depthWrite:false}));ring.rotation.x=Math.PI/2;ring.position.y=1.24;ring.userData={source:i,index:j};scene.add(ring);rings.push(ring);}
  }
  probeMarker=new THREE.Mesh(new THREE.OctahedronGeometry(.095),new THREE.MeshBasicMaterial({color:'#f7f3d1'}));scene.add(probeMarker);probeStem=new THREE.Mesh(new THREE.CylinderGeometry(.006,.006,1.7,6),new THREE.MeshBasicMaterial({color:'#f7f3d1',transparent:true,opacity:.65}));scene.add(probeStem);
  const resize=()=>{const w=stage.clientWidth,h=stage.clientHeight;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();dirty=true;};new ResizeObserver(resize).observe(stage);resize();updateCamera();updateField();
@@ -55,7 +55,7 @@ function setup(){
  const raycaster=new THREE.Raycaster(),pointer=new THREE.Vector2();let down=null;
  stage.addEventListener('pointerdown',e=>{if(e.button!==0)return;down={x:e.clientX,y:e.clientY,az:azimuth,el:elevation};stage.setPointerCapture(e.pointerId);});
  stage.addEventListener('pointermove',e=>{if(!down)return;azimuth=down.az-(e.clientX-down.x)*.006;elevation=Math.min(1.54,Math.max(.28,down.el+(e.clientY-down.y)*.005));updateCamera();});
- stage.addEventListener('pointerup',e=>{if(!down)return;const movement=Math.hypot(e.clientX-down.x,e.clientY-down.y);down=null;if(stage.hasPointerCapture(e.pointerId))stage.releasePointerCapture(e.pointerId);if(movement>5)return;const r=stage.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2);raycaster.setFromCamera(pointer,camera);const hit=raycaster.intersectObject(mesh)[0];if(hit){probe={x:hit.point.x,z:hit.point.z};refreshReadings();}});
+ stage.addEventListener('pointerup',e=>{if(!down)return;const movement=Math.hypot(e.clientX-down.x,e.clientY-down.y);down=null;if(stage.hasPointerCapture(e.pointerId))stage.releasePointerCapture(e.pointerId);if(movement>5)return;const r=stage.getBoundingClientRect();pointer.set((e.clientX-r.left)/r.width*2-1,1-(e.clientY-r.top)/r.height*2);raycaster.setFromCamera(pointer,camera);const hit=raycaster.intersectObject(mesh)[0];if(hit){probe=snapProbe(hit.point.x,hit.point.z);refreshReadings();}});
  stage.addEventListener('pointercancel',()=>{down=null;});
  requestAnimationFrame(loop);
 }
@@ -63,12 +63,12 @@ function loop(now){
  const dt=Math.min(.1,(now-previous)/1000);previous=now;if(playing&&!document.hidden)phaseTime+=dt;
  if(!document.hidden&&(dirty||(playing&&(!svgMode||now-lastPaint>100)))){
  lastPaint=now;
- rings.forEach(r=>{const offset=(r.userData.source?params.phase/360:0),radius=.15+((phaseTime*.32+r.userData.index*.77-offset*wavelength(params.frequency))%4.7+4.7)%4.7;r.scale.setScalar(radius);r.material.opacity=.12*(1-radius/5);});
+ rings.forEach(r=>{const radius=ringRadius(phaseTime,r.userData.index,r.userData.source,params);r.visible=radius<4.7;r.scale.setScalar(radius);r.material.opacity=.12*(1-radius/5);});
  renderer.render(scene,camera);frames++;sources.forEach((source,i)=>{const point=new THREE.Vector3(source.position.x,1.8,0).project(camera);sourceLabels[i].style.left=(point.x*.5+.5)*stage.clientWidth+'px';sourceLabels[i].style.top=(-point.y*.5+.5)*stage.clientHeight+'px';});dirty=false;
  }if(now-rendered>500){renderState();rendered=now;}requestAnimationFrame(loop);
 }
-for(const key of ['frequency','separation','phase'])$(key).addEventListener('input',()=>{params=sanitize({...params,[key]:Number($(key).value)});updateField();});
-for(const axis of ['x','z'])$('probe-'+axis).addEventListener('change',()=>{const v=Number($('probe-'+axis).value);probe[axis]=Math.min(axis==='x'?4:3,Math.max(axis==='x'?-4:-3,Number.isFinite(v)?v:0));refreshReadings();});
+for(const key of ['frequency','separation','phase'])$(key).addEventListener('input',()=>{const requestedPhase=Number($('phase').value);params=sanitize({...params,[key]:Number($(key).value)});if(requestedPhase===360)params.phase=360;updateField();});
+for(const axis of ['x','z'])$('probe-'+axis).addEventListener('change',()=>{const v=Number($('probe-'+axis).value);probe=snapProbe(axis==='x'?v:probe.x,axis==='z'?v:probe.z);refreshReadings();});
 document.querySelectorAll('[data-preset]').forEach(b=>b.addEventListener('click',()=>{params={...DEFAULTS,frequency:b.dataset.preset==='short'?440:220,phase:b.dataset.preset==='opposed'?180:0};updateField();}));
 $('center').addEventListener('click',()=>{probe={x:0,z:1.8};refreshReadings();});
 $('reset').addEventListener('click',()=>{params={...DEFAULTS};probe={x:0,z:1.8};azimuth=.65;elevation=.84;phaseTime=0;if(camera)updateCamera();updateField();mute();});

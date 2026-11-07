@@ -20,3 +20,5 @@ export function sampleField(x,z,params={}){
  const pathDifference=rA-rB,delta=2*Math.PI*pathDifference/wavelength(p.frequency)+p.phase*Math.PI/180;
  return {...interference(1/rA,1/rB,delta),rA,rB,pathDifference,delta,wavelength:wavelength(p.frequency)};
 }
+export function snapProbe(x,z){const snap=(v,limit)=>Math.round(clamp(Number.isFinite(v)?v:0,-limit,limit)*10)/10;return {x:snap(x,4),z:snap(z,3)};}
+export function ringRadius(time,index,source,params={}){const p=sanitize(params),lambda=wavelength(p.frequency),offset=source?p.phase/360*lambda:0;return .03+((time*.32+offset)%lambda+lambda)%lambda+index*lambda;}
