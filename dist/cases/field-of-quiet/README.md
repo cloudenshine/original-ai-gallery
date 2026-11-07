@@ -32,7 +32,7 @@
 
 ## 验证
 
-`node --test tests/*.test.mjs`：12 项测试，涵盖等距同相/反相、半波/整波相位关系、镜像对称、参数极值、波长变化、页面结构及真实 SVG 3D 备用路径。
+`node --test tests/*.test.mjs`：13 项测试，涵盖等距同相/反相、半波/整波相位关系、镜像对称、参数极值、波长变化、页面结构及真实 SVG 3D 备用路径。
 
 浏览器验证状态及版本以 provenance.json 为准。手机实机、Safari、Firefox、无 WebGL/上下文丢失的故障注入与主观听审需独立验证，不能由模型测试推断通过。
 
@@ -45,3 +45,5 @@ https://github.com/mrdoob/three.js/blob/r160/build/three.module.min.js
 许可随 vendor/LICENSE-THREE.txt 保存。官方 examples/jsm/renderers/SVGRenderer.js 与 Projector.js 也随包保存，唯一改动是把模块导入路径指向本地文件。除此之外无第三方运行库。Three.js 许可仅覆盖其库；本作原创源码和媒体公开展示不新增复用许可。
 
 探针拾取和数字输入均吸附到 0.1 m，显示坐标可以准确复现读数。读数变化通过礼貌实时区域向屏幕阅读器播报。
+
+SVG 备用渲染器使用画家排序而非深度缓冲，省略了容易产生排序遮挡的大底座和辅助地面网格；主体仍使用同一物理模型，低分辨率表面呈现三角面质感。

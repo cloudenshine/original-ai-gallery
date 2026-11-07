@@ -22,3 +22,4 @@ export function sampleField(x,z,params={}){
 }
 export function snapProbe(x,z){const snap=(v,limit)=>Math.round(clamp(Number.isFinite(v)?v:0,-limit,limit)*10)/10;return {x:snap(x,4),z:snap(z,3)};}
 export function ringRadius(time,index,source,params={}){const p=sanitize(params),lambda=wavelength(p.frequency),offset=source?p.phase/360*lambda:0;return .03+((time*.32+offset)%lambda+lambda)%lambda+index*lambda;}
+export function viewDistance(aspect=1){return 14.8*Math.max(1,1.12/Math.max(.35,Number.isFinite(aspect)?aspect:1));}
