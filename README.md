@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 24 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 25 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -322,9 +322,22 @@
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/sunset-in-a-box/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/sunset-in-a-box/source.zip) · [来源与验证](dist/cases/sunset-in-a-box/provenance.json)
 - 验证：已核对媒体文件 SHA-256；理想化中心投影示意，不是曝光、衍射或测量模拟。 光路渐显只是解释顺序；末段太阳变化为加速示意。 原速连续播放和主观听审未完成。
 
+## 给变化，留一格
+
+![给变化，留一格](dist/cases/room-for-change/poster.jpg)
+
+固定 15:00 的新增会遇上排满的日程。两项任务明确改期，空格逐格传递，最终仍留一格余量。
+
+- 用途：瑞士动态排版
+- 制作方式：coding-film
+- 工具：Canvas + JavaScript + Python 程序合成音频 + FFmpeg
+- 模型：Procedural animation and synthesized audio; no generative video or TTS model
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/room-for-change/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/room-for-change/source.zip) · [来源与验证](dist/cases/room-for-change/provenance.json)
+- 验证：40 秒、1920 × 1080、24 fps、960 帧、48 kHz 立体声；完整解码及逐帧状态/几何检查通过，最终 AAC 为 −14.93 LUFS / −1.51 dBTP。源码与三份合成分轨恢复检查通过。完整原速连续观看与主观听审未完成，抽帧不等于完整艺术验收。
+
 ## 大文件恢复
 
-仓库以 9,000,000 字节分块保存五个大文件。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。
+仓库以 9,000,000 字节分块保存六个大文件。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。
 
 [风的信完整母版](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/master.mp4)
 

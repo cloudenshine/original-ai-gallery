@@ -1,0 +1,24 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {filterCases} from '../dist/js/catalog-core.mjs';
+const root = new URL('../', import.meta.url);
+const data = JSON.parse(fs.readFileSync(new URL('dist/cases.json', root)));
+test('Swiss film is the 25th work, with an honest code-film category', () => {
+  assert.equal(data.cases.length, 25);
+  const c = data.cases.find(c => c.id === 'room-for-change');
+  assert.ok(c);
+  assert.equal(c.category, 'coding-film');
+  assert.equal(c.method, 'code');
+  assert.equal(c.audio, true);
+  assert.ok(filterCases(data.cases, {category:'coding-film', query:'给变化'}).some(x => x.id === c.id));
+  assert.match(c.verification, /原速连续观看.*主观听审.*未完成/);
+  assert.match(fs.readFileSync(new URL('dist/' + c.artifact, root), 'utf8'), /<video[^>]*controls/);
+  const film = fs.readFileSync(new URL('dist/cases/room-for-change/film.mp4', root));
+  assert.equal(createHash('sha256').update(film).digest('hex'), '91c370f4e80078d4f5a09334a392cac6369f3ca03ab0fc288a94e7b2453fb430');
+  const prov = JSON.parse(fs.readFileSync(new URL('dist/' + c.provenance, root)));
+  assert.ok(prov.references.some(x => x.includes('lemo-opuscar')));
+  assert.equal(prov.realTimeAudiovisualViewing, 'not_completed');
+  assert.equal(prov.subjectiveListening, 'not_completed');
+});

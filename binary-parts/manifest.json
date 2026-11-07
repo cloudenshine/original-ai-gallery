@@ -123,5 +123,22 @@
         "sha256": "8f377ab727967df8f3f874e709db4916ae71d722484691878814d33a04b885f0"
       }
     ]
+  },
+  {
+    "target": "dist/cases/room-for-change/source.zip",
+    "bytes": 17983356,
+    "sha256": "1ef105b1d4b13cee524fc83a5fb8782fd2b2d8fc30abd15b7c270c2fecbd70d5",
+    "parts": [
+      {
+        "path": "binary-parts/room-for-change-source/part-001.bin",
+        "bytes": 9000000,
+        "sha256": "78827b8ccac81274abea78cf0b5fdf3d3725a8fa60fb5fb99df30e9cf47dd617"
+      },
+      {
+        "path": "binary-parts/room-for-change-source/part-002.bin",
+        "bytes": 8983356,
+        "sha256": "5eb4f1333b25ed8a1c08a23ddd927a3e28b29f8f44d07e0508cffda4dd31a55c"
+      }
+    ]
   }
 ]

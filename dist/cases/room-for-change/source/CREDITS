@@ -1,0 +1,15 @@
+给变化，留一格 / Room for Change
+Original fictional narrative, graphic geometry, code animation, procedural music and Foley created for the user. No upstream footage, narration, score or source animation code is reused.
+
+Style reference: Lemo-Opuscar / Swiss Motion Graphics
+https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/swiss-motion/STYLE.md
+Reference is used for design grammar only. Reference video is not redistributed.
+
+Fonts: Noto Sans CJK SC / Noto Sans SC, Regular and Bold
+Source: installed fonts-noto-cjk system package; original project https://github.com/notofonts/noto-cjk
+License: SIL Open Font License 1.1; complete license and attribution in assets/font-license.txt.
+Supplied OTF files are glyph subsets made from font index 2 (Simplified Chinese) of the installed collections. No external font request occurs during rendering.
+
+Audio: All musical notes, percussion, paper slides, mechanical clacks and ambience generated from original deterministic synthesis. No recorded sample library, external music, TTS, voice clone, or paid generation service used.
+
+Tools used: existing @napi-rs/canvas (0.1.100), Node.js, NumPy, SciPy, Pillow, FontTools and FFmpeg. Their runtime code is not bundled in this source package.

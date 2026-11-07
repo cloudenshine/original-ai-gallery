@@ -20,6 +20,8 @@ extra_file=r/'data/batch-02.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 extra_file=r/'data/batch-03.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
+extra_file=r/'data/batch-04.json'
+if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 items=[]
 for c in rows:
  if c.get('media'):
@@ -41,11 +43,11 @@ for c in rows:
 config=json.loads((r/'publication.json').read_text()) if (r/'publication.json').exists() else {'state':'unpublished','repository':None}
 (d/'cases.json').write_text(json.dumps({**config,'cases':items},ensure_ascii=False,indent=2)+'\n')
 readme='# 造物案例馆\n\n真实制作、分类清楚、可追溯的 AI 图像与代码创作案例。网站负责展示，仓库保存产物与过程。\n\n## 运行\n\n零第三方运行依赖。需要 Node 20+ 和 Python 3；`npm test` 与 `npm run build` 会先用 Python 3 恢复并校验大文件。以静态服务器服务 `dist/`；请勿直接用 file:// 打开首页。\n\n'
-readme+='## 在线作品集\n\n[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 24 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。\n\n'
+readme+=f'## 在线作品集\n\n[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · {len(items)} 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。\n\n'
 for c in items:
  source_link='https://cloudenshine.github.io/original-ai-gallery/'+c['source']
  artifact_link='https://cloudenshine.github.io/original-ai-gallery/'+c['artifact']
  readme+=f"## {c['title']}\n\n![{c['title']}](dist/{c['poster']})\n\n{c['summary']}\n\n- 用途：{c['useCase']}\n- 制作方式：{c['category']}\n- 工具：{c['engine']}\n- 模型：{c['model']}\n- [真实产物]({artifact_link}) · [源码或提示词]({source_link}) · [来源与验证](dist/{c['provenance']})\n- 验证：{c['verification']}\n\n"
-readme+='## 大文件恢复\n\n仓库以 9,000,000 字节分块保存五个大文件。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。\n\n[风的信完整母版](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/master.mp4)\n\n'
+readme+='## 大文件恢复\n\n仓库以 9,000,000 字节分块保存六个大文件。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。\n\n[风的信完整母版](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/master.mp4)\n\n'
 readme+='## 原创与参考\n\n以下仓库仅提供案例组织与展示思路，未复制其图片、提示词、代码或故事：\n\n- https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api\n- https://github.com/guanmo-ai/awesome-ai-motion\n- https://github.com/lemomo-ai/lemo-opuscar\n\n## 权利\n\n原创源码与媒体均为本次任务新制。AI 生成并非版权或独创性法律保证。公开复用许可尚未选定，不默认授予开源或媒体复用许可。\n'
 (r/'README.md').write_text(readme)

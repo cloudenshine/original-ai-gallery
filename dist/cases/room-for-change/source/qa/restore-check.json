@@ -1,0 +1,10 @@
+{
+  "zip_integrity": "pass",
+  "frame_20_625_identical": true,
+  "audio_stems_identical": {
+    "music": true,
+    "foley": true,
+    "ambience": true
+  },
+  "score_identical": true
+}

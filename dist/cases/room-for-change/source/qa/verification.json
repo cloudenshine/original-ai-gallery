@@ -1,0 +1,34 @@
+{
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "frames": 960,
+  "video_seconds": 40.0,
+  "audio_seconds": 40.0,
+  "audio_channels": 2,
+  "sample_rate": "48000",
+  "lufs": -14.93,
+  "true_peak_dbtp": -1.51,
+  "all_frame_decode": "pass",
+  "min_frame_mean": 214.89037037037036,
+  "maximum_adjacent_MAD": 4.311388888888889,
+  "max_MAD_frame": 330,
+  "near_silences": [
+    {
+      "from": 10.1,
+      "to": 11.15,
+      "rms_dbfs": -240.0
+    },
+    {
+      "from": 22.6,
+      "to": 23.65,
+      "rms_dbfs": -240.0
+    }
+  ],
+  "sha256": "91c370f4e80078d4f5a09334a392cac6369f3ca03ab0fc288a94e7b2453fb430",
+  "real_time_audiovisual_viewing": "not_completed",
+  "subjective_listening": "not_completed",
+  "boundary": "Contact sheets, numerical audio measurements, and complete decoding are not continuous playback or subjective listening."
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "room-for-change",
+    "title": "给变化，留一格",
+    "category": "coding-film",
+    "method": "code",
+    "useCase": "瑞士动态排版",
+    "summary": "固定 15:00 的新增会遇上排满的日程。两项任务明确改期，空格逐格传递，最终仍留一格余量。",
+    "engine": "Canvas + JavaScript + Python 程序合成音频 + FFmpeg",
+    "model": "Procedural animation and synthesized audio; no generative video or TTS model",
+    "tags": [
+      "瑞士排版",
+      "40 秒",
+      "原创配乐",
+      "源码与分轨"
+    ],
+    "verification": "40 秒、1920 × 1080、24 fps、960 帧、48 kHz 立体声；完整解码及逐帧状态/几何检查通过，最终 AAC 为 −14.93 LUFS / −1.51 dBTP。源码与三份合成分轨恢复检查通过。完整原速连续观看与主观听审未完成，抽帧不等于完整艺术验收。",
+    "rights": "原创故事、图形、动画代码、程序配乐与拟音。参考影片与原音轨未再分发；Noto 字体遵循随包 SIL OFL 1.1。公开展示不新增源码或媒体复用许可。",
+    "steps": [
+      "播放 40 秒有声短片，所有日程均为虚构。",
+      "下载源码与音频分轨，按 README 重建。",
+      "查阅参考差异、字体许可和如实保留的未验项目。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/room-for-change/index.html",
+    "poster": "cases/room-for-change/poster.jpg",
+    "media": "film.mp4",
+    "audio": true,
+    "subtitles": "subtitles.srt",
+    "extraProvenance": {
+      "references": [
+        "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/swiss-motion/STYLE.md",
+        "https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/swiss-motion.mp4",
+        "https://github.com/notofonts/noto-cjk"
+      ],
+      "limitations": [
+        "全部日程为虚构，不是用户日历或生产率证据。",
+        "完整原速连续观看与主观听审未完成；抽帧和解码不等于艺术验收。",
+        "C/G 两项任务在 0.625 秒内跨区的追踪舒适度仍需真实播放确认。"
+      ],
+      "files": [
+        {
+          "path": "film.mp4",
+          "bytes": 1565379,
+          "sha256": "91c370f4e80078d4f5a09334a392cac6369f3ca03ab0fc288a94e7b2453fb430"
+        },
+        {
+          "path": "poster.jpg",
+          "bytes": 89995,
+          "sha256": "8458e96c31f86cf333404ee4a68f474f9628db0177eff19f987d810fb5e746c1"
+        },
+        {
+          "path": "subtitles.srt",
+          "bytes": 342,
+          "sha256": "84497ea4f3f97c12f5df4f47f66e627ed52ba025848244aaa980b975df8308a6"
+        },
+        {
+          "path": "source.zip",
+          "bytes": 17983356,
+          "sha256": "1ef105b1d4b13cee524fc83a5fb8782fd2b2d8fc30abd15b7c270c2fecbd70d5"
+        }
+      ],
+      "realTimeAudiovisualViewing": "not_completed",
+      "subjectiveListening": "not_completed",
+      "originality": "瑞士动态排版仅作为设计语法参考；故事、任务、几何、源码、配乐与拟音为本次新作。未对互联网相似作品作穷尽检索。"
+    }
+  }
+]

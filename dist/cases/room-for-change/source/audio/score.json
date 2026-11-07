@@ -1,0 +1,436 @@
+{
+  "bpm": 96,
+  "notes": [
+    {
+      "time": 0.0,
+      "midi": 60,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 0.0,
+      "midi": 48,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 0.625,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 1.25,
+      "midi": 64,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 1.875,
+      "midi": 72,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 2.5,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 2.5,
+      "midi": 48,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 3.125,
+      "midi": 62,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 3.75,
+      "midi": 69,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 4.375,
+      "midi": 65,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 5.0,
+      "midi": 60,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 5.0,
+      "midi": 48,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 5.625,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 6.25,
+      "midi": 64,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 6.875,
+      "midi": 72,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 11.25,
+      "midi": 45,
+      "instrument": "original FM wood mallet",
+      "gain": 0.12
+    },
+    {
+      "time": 12.5,
+      "midi": 45,
+      "instrument": "original FM wood mallet",
+      "gain": 0.12
+    },
+    {
+      "time": 12.5,
+      "midi": 45,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 13.75,
+      "midi": 45,
+      "instrument": "original FM wood mallet",
+      "gain": 0.12
+    },
+    {
+      "time": 15.0,
+      "midi": 45,
+      "instrument": "original FM wood mallet",
+      "gain": 0.12
+    },
+    {
+      "time": 15.0,
+      "midi": 45,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 16.25,
+      "midi": 45,
+      "instrument": "original FM wood mallet",
+      "gain": 0.12
+    },
+    {
+      "time": 17.5,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.11
+    },
+    {
+      "time": 17.5,
+      "midi": 45,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 20.0,
+      "midi": 60,
+      "instrument": "original FM wood mallet",
+      "gain": 0.11
+    },
+    {
+      "time": 20.0,
+      "midi": 45,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 25.0,
+      "midi": 60,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 25.0,
+      "midi": 48,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 25.625,
+      "midi": 64,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 26.25,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 26.875,
+      "midi": 72,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 27.5,
+      "midi": 69,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 27.5,
+      "midi": 48,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 28.125,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 28.75,
+      "midi": 64,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 30.0,
+      "midi": 60,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 30.0,
+      "midi": 48,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 30.625,
+      "midi": 64,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 31.25,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 31.875,
+      "midi": 72,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 32.5,
+      "midi": 69,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 32.5,
+      "midi": 48,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 33.125,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 33.75,
+      "midi": 64,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 35.0,
+      "midi": 60,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 35.0,
+      "midi": 48,
+      "instrument": "harmonic bass",
+      "gain": 0.16
+    },
+    {
+      "time": 35.625,
+      "midi": 64,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 36.25,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 36.875,
+      "midi": 72,
+      "instrument": "original FM wood mallet",
+      "gain": 0.2
+    },
+    {
+      "time": 37.5,
+      "midi": 60,
+      "instrument": "original FM wood mallet",
+      "gain": 0.14
+    },
+    {
+      "time": 38.75,
+      "midi": 67,
+      "instrument": "original FM wood mallet",
+      "gain": 0.14
+    }
+  ],
+  "events": [
+    {
+      "t": 0.625,
+      "type": "align",
+      "id": "H"
+    },
+    {
+      "t": 5.625,
+      "type": "arrive",
+      "id": "N"
+    },
+    {
+      "t": 6.875,
+      "type": "slide-start",
+      "id": "N",
+      "duration": 0.625
+    },
+    {
+      "t": 7.5,
+      "type": "blocked",
+      "id": "N"
+    },
+    {
+      "t": 8.125,
+      "type": "slide-start",
+      "id": "N",
+      "duration": 0.625
+    },
+    {
+      "t": 12.5,
+      "type": "label",
+      "id": "defer"
+    },
+    {
+      "t": 13.125,
+      "type": "slide-start",
+      "id": "C",
+      "duration": 0.625
+    },
+    {
+      "t": 13.75,
+      "type": "archive",
+      "id": "C"
+    },
+    {
+      "t": 15.625,
+      "type": "slide-start",
+      "id": "G",
+      "duration": 0.625
+    },
+    {
+      "t": 16.25,
+      "type": "archive",
+      "id": "G"
+    },
+    {
+      "t": 17.5,
+      "type": "slide-start",
+      "id": "D",
+      "duration": 1.25
+    },
+    {
+      "t": 18.75,
+      "type": "reflow",
+      "id": "D",
+      "pitch": 65
+    },
+    {
+      "t": 20,
+      "type": "slide-start",
+      "id": "E",
+      "duration": 1.25
+    },
+    {
+      "t": 21.25,
+      "type": "reflow",
+      "id": "E",
+      "pitch": 69
+    },
+    {
+      "t": 23.75,
+      "type": "slide-start",
+      "id": "N",
+      "duration": 1.25
+    },
+    {
+      "t": 25,
+      "type": "meeting",
+      "id": "N",
+      "pitch": 72
+    },
+    {
+      "t": 27.5,
+      "type": "slide-start",
+      "id": "H",
+      "duration": 1.25
+    },
+    {
+      "t": 28.75,
+      "type": "reflow",
+      "id": "H",
+      "pitch": 74
+    },
+    {
+      "t": 30,
+      "type": "label",
+      "id": "summary"
+    },
+    {
+      "t": 35,
+      "type": "label",
+      "id": "title"
+    }
+  ],
+  "silences": [
+    [
+      10,
+      11.25
+    ],
+    [
+      22.5,
+      23.75
+    ]
+  ],
+  "source": "Original synthesis; no samples or external recordings"
+}

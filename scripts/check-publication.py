@@ -42,7 +42,7 @@ try:
     for base in ['/', '/original-ai-gallery/']:
         origin=f'http://127.0.0.1:{server.server_port}{base}'
         with urlopen(origin+'cases.json') as response: cases=json.load(response)['cases']
-        assert len(cases)==24
+        assert len(cases)==25
         paths={'index.html','cases.json','js/catalog-core.mjs'}
         for case in cases:
             paths.update(case[k] for k in ('artifact','source','poster','provenance'))
@@ -57,5 +57,5 @@ try:
                     with urlopen(Request(absolute,method='HEAD')) as response: assert response.status==200
         for path in paths:
             with urlopen(Request(origin+path,method='HEAD')) as response: assert response.status==200
-        print(f'PASS: {base} serves 24 cases, {len(paths)} registered resources and all linked HTML assets')
+        print(f'PASS: {base} serves 25 cases, {len(paths)} registered resources and all linked HTML assets')
 finally: server.shutdown();server.server_close()

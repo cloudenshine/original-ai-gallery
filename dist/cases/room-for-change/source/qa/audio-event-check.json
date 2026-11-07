@@ -1,0 +1,8 @@
+{
+  "source": "timeline.cjs -> timeline.json -> sound.py",
+  "events": 20,
+  "all_events_on_integer_frames": true,
+  "sample_rate": 48000,
+  "samples_per_frame": 2000,
+  "subjective_sync": "not_verified"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "room-for-change-original-film",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node src/test.cjs",
+    "build": "sh build.sh"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}
