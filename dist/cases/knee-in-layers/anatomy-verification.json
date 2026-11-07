@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-07",
+  "tool": "Anatomy",
+  "structureLookup": true,
+  "sceneCreation": "accepted",
+  "nativeViewerDisplayed": false,
+  "nativeViewerDisplayNote": "read_anatomy_view returned viewerShowing:false in the authoring session; do not claim visual verification.",
+  "steps": [
+    "01 · 三块骨，一处相遇",
+    "02 · 看见内部的半月板",
+    "03 · 股四头肌与伸膝",
+    "04 · 暂停下蹲，观察屈伸"
+  ],
+  "quizTargets": [
+    "Patella.r",
+    "Tibia.r",
+    "Medial meniscus.r"
+  ],
+  "modelScope": "Adult reference anatomy (Z-Anatomy / BodyParts3D), not this person’s body. Movements use hand-set illustrative angles; soft tissue follows the bones approximately. Pull lines are geometric: the muscle’s own centreline where it passes the joint, so wrapping and fibre-level differences are approximate. Nothing here locates the cause of symptoms.",
+  "downloadedModels": 0,
+  "exportedThirdPartyScreenshots": 0,
+  "nativeExportSupport": "No model, image, video or standalone embed export method was exposed by the connected Anatomy tool schema.",
+  "missingStructure": "No exact Patellar ligament or Patellar tendon match; Meniscopatellar ligament was deliberately not substituted."
+}

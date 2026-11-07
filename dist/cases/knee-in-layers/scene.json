@@ -1,0 +1,255 @@
+{
+  "title": "膝关节的一次屈伸 · Knee in Layers",
+  "caption": "一般解剖教育。先辨认结构，再观察下蹲示意；模型运动不是个体测量、临床模拟或训练处方。",
+  "systems": [
+    "bone",
+    "joint",
+    "muscle"
+  ],
+  "side": "right",
+  "view": "front-right",
+  "zoom": "close",
+  "focus": [
+    "Patella.r",
+    "Medial meniscus.r",
+    "Lateral meniscus.r"
+  ],
+  "isolate": [
+    "Femur.r",
+    "Tibia.r",
+    "Patella.r",
+    "Medial meniscus.r",
+    "Lateral meniscus.r",
+    "Anterior cruciate ligament.r",
+    "Posterior cruciate ligament.r"
+  ],
+  "reveal": true,
+  "labels": [
+    {
+      "structure": "Femur.r",
+      "text": "股骨 Femur"
+    },
+    {
+      "structure": "Tibia.r",
+      "text": "胫骨 Tibia"
+    },
+    {
+      "structure": "Patella.r",
+      "text": "髌骨 Patella"
+    }
+  ],
+  "marks": [
+    {
+      "structures": [
+        "Medial meniscus.r",
+        "Lateral meniscus.r"
+      ],
+      "color": "teal",
+      "label": "半月板"
+    },
+    {
+      "structures": [
+        "Anterior cruciate ligament.r",
+        "Posterior cruciate ligament.r"
+      ],
+      "color": "orange",
+      "label": "交叉韧带"
+    }
+  ],
+  "steps": [
+    {
+      "title": "01 · 三块骨，一处相遇",
+      "caption": "辨认股骨、胫骨与前方的髌骨。旋转视角，检查髌骨相对于股骨的位置。",
+      "systems": [
+        "bone"
+      ],
+      "isolate": [
+        "Femur.r",
+        "Tibia.r",
+        "Patella.r"
+      ],
+      "focus": [
+        "Patella.r"
+      ],
+      "view": "front-right",
+      "zoom": "close",
+      "labels": [
+        {
+          "structure": "Femur.r",
+          "text": "股骨"
+        },
+        {
+          "structure": "Tibia.r",
+          "text": "胫骨"
+        },
+        {
+          "structure": "Patella.r",
+          "text": "髌骨（膝盖骨）"
+        }
+      ]
+    },
+    {
+      "title": "02 · 看见内部的半月板",
+      "caption": "股骨与胫骨之间有内、外侧半月板，帮助分散负荷与稳定关节。半月板并不等同于覆盖骨端的关节软骨。骨骼半透明只是观察方式。",
+      "systems": [
+        "bone",
+        "joint"
+      ],
+      "isolate": [
+        "Femur.r",
+        "Tibia.r",
+        "Patella.r",
+        "Medial meniscus.r",
+        "Lateral meniscus.r",
+        "Anterior cruciate ligament.r",
+        "Posterior cruciate ligament.r"
+      ],
+      "ghost": [
+        "Femur.r",
+        "Tibia.r",
+        "Patella.r"
+      ],
+      "focus": [
+        "Medial meniscus.r",
+        "Lateral meniscus.r"
+      ],
+      "view": "front-right",
+      "zoom": "close",
+      "marks": [
+        {
+          "structures": [
+            "Medial meniscus.r",
+            "Lateral meniscus.r"
+          ],
+          "color": "teal",
+          "label": "半月板"
+        },
+        {
+          "structures": [
+            "Anterior cruciate ligament.r",
+            "Posterior cruciate ligament.r"
+          ],
+          "color": "orange",
+          "label": "交叉韧带"
+        }
+      ],
+      "labels": [
+        {
+          "structure": "Medial meniscus.r",
+          "text": "内侧半月板"
+        },
+        {
+          "structure": "Lateral meniscus.r",
+          "text": "外侧半月板"
+        },
+        {
+          "structure": "Anterior cruciate ligament.r",
+          "text": "前交叉韧带 ACL"
+        },
+        {
+          "structure": "Posterior cruciate ligament.r",
+          "text": "后交叉韧带 PCL"
+        }
+      ]
+    },
+    {
+      "title": "03 · 股四头肌与伸膝",
+      "caption": "大腿前侧的股四头肌参与伸膝。腱将肌肉力量传向骨骼。本场景未可靠检索到独立髌韧带模型，因此不以其他近名结构替代。",
+      "systems": [
+        "bone",
+        "muscle"
+      ],
+      "isolate": [
+        "Femur.r",
+        "Tibia.r",
+        "Patella.r",
+        "Rectus femoris muscle.r",
+        "Vastus medialis muscle.r",
+        "Vastus lateralis muscle.r",
+        "Vastus intermedius muscle.r"
+      ],
+      "focus": [
+        "Patella.r",
+        "Rectus femoris muscle.r",
+        "Vastus medialis muscle.r",
+        "Vastus lateralis muscle.r",
+        "Vastus intermedius muscle.r"
+      ],
+      "view": "front-right",
+      "zoom": "medium",
+      "labels": [
+        {
+          "structure": "Rectus femoris muscle.r",
+          "text": "股直肌"
+        },
+        {
+          "structure": "Vastus medialis muscle.r",
+          "text": "股内侧肌"
+        },
+        {
+          "structure": "Vastus lateralis muscle.r",
+          "text": "股外侧肌"
+        },
+        {
+          "structure": "Vastus intermedius muscle.r",
+          "text": "股中间肌"
+        }
+      ],
+      "marks": [
+        {
+          "structures": [
+            "Rectus femoris muscle.r",
+            "Vastus medialis muscle.r",
+            "Vastus lateralis muscle.r",
+            "Vastus intermedius muscle.r"
+          ],
+          "color": "pink",
+          "label": "股四头肌组"
+        }
+      ]
+    },
+    {
+      "title": "04 · 暂停下蹲，观察屈伸",
+      "caption": "播放后暂停，拖动时间轴观察膝部姿态变化。下蹲还涉及髋和踝；此动画只用于识别结构与运动方向，不能推算真实关节受力、肌肉激活或安全训练角度。",
+      "systems": [
+        "bone",
+        "muscle"
+      ],
+      "isolate": [
+        "Femur.r",
+        "Tibia.r",
+        "Patella.r",
+        "Rectus femoris muscle.r",
+        "Vastus medialis muscle.r",
+        "Vastus lateralis muscle.r",
+        "Vastus intermedius muscle.r"
+      ],
+      "focus": [
+        "Patella.r",
+        "Tibia.r"
+      ],
+      "view": "right",
+      "zoom": "medium",
+      "movement": "squat",
+      "durationMs": 9000,
+      "loop": true,
+      "labels": [
+        {
+          "structure": "Patella.r",
+          "text": "观察髌骨的位置"
+        },
+        {
+          "structure": "Tibia.r",
+          "text": "观察胫骨的方向"
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "targets": [
+      {"structure":"Patella.r"},
+      {"structure":"Tibia.r"},
+      {"structure":"Medial meniscus.r"}
+    ]
+  }
+}
