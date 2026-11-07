@@ -1,0 +1,10 @@
+借力 / The Weight We Share
+Original script, geometry, procedural materials, animation, camera, music and synthesized Foley created for the user.
+Tools actually used: Blender 4.3.2 (Cycles CPU), Python, NumPy, SciPy, Pillow, FontTools, FFmpeg. No paid API or external generated footage.
+Knowledge references are linked in FACTS.md. No figures, photographs, films, models or recordings from those sources are redistributed.
+Design grammar consulted: Lemo-Opuscar white-model and teardown style notes; only general physical-material and contact-shadow relations were considered. This is a distinct original stone-arch staging, not a reproduction of those examples.
+https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/white-model/STYLE.md
+https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md
+Fonts: Noto Sans CJK SC Regular/Bold, glyph subsets from installed fonts-noto-cjk. Source https://github.com/notofonts/noto-cjk . License SIL OFL 1.1, included at assets/font-license.txt.
+All FLAC audio stems are original deterministic synthesis; no external sample library, TTS, voice cloning or third-party music.
+Public display does not add a source-code or media reuse license.

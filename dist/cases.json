@@ -1337,6 +1337,79 @@
         ]
       },
       "provenance": "cases/knee-in-layers/provenance.json"
+    },
+    {
+      "method": "3d-render",
+      "model": "Procedural 3D geometry and keyframe animation; no generative video or structural solver",
+      "rights": "原创剧本、几何、程序材质、动画、配乐与拟音。未复用第三方模型、图像、影片或音乐；Noto字体依随包SIL OFL 1.1使用。公开展示不新增源码或媒体复用许可。",
+      "createdAt": "2026-11-07",
+      "id": "weight-we-share",
+      "title": "借力",
+      "category": "blender-film",
+      "useCase": "三维构造叙事",
+      "summary": "黄铜托架慢慢退下，石拱没有随它下降。沿着真实楔石的厚度与接缝，看见相邻挤压和两端支承怎样共同留下中间的空处。",
+      "engine": "Blender 4.3.2 · Cycles CPU + Python原创程序音频 + FFmpeg",
+      "tags": [
+        "Blender",
+        "实体材质",
+        "26秒",
+        "原创配乐与拟音",
+        ".blend源文件"
+      ],
+      "verification": "26秒、1280×720、24fps编码（12fps真实运动采样），完整解码通过；624个场景时点及无损分轨往返检查通过。最终AAC约-15.8 LUFS / -5.4 dBTP。完整原速连续观看与主观听审未完成；低采样颗粒与12fps节奏仍需实际观感确认。",
+      "steps": [
+        "观看26秒有声三维短片，注意托架与内拱之间的空隙。",
+        "下载源包，直接打开原生 .blend 场景或按README重建。",
+        "查阅知识来源与检查边界；本片不是结构安全仿真。"
+      ],
+      "source": "cases/weight-we-share/source.zip",
+      "artifact": "cases/weight-we-share/index.html",
+      "poster": "cases/weight-we-share/poster.jpg",
+      "media": "film.mp4",
+      "audio": true,
+      "subtitles": "subtitles.srt",
+      "extraProvenance": {
+        "references": [
+          "https://www.pbs.org/wgbh/buildingbig/bridge/arch_forces.html",
+          "https://etc.usf.edu/clipart/60800/60878/60878_stone-arch.htm",
+          "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/white-model/STYLE.md",
+          "https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md",
+          "https://github.com/notofonts/noto-cjk"
+        ],
+        "limitations": [
+          "关键帧构造示意，不是物理实验、工程计算或施工指导。",
+          "12fps原生画面重复编码为24fps，静止状态复用，不声称624幅独立渲染。",
+          "完整原速连续观看与主观听审未完成，连续颗粒与运动节奏未完成艺术验收。"
+        ],
+        "files": [
+          {
+            "path": "film.mp4",
+            "bytes": 9303553,
+            "sha256": "4011f2c057e818e6ec66e867a624df1fdbfa7ed5c2ebb38fe7b5dc4ef3af6703"
+          },
+          {
+            "path": "poster.jpg",
+            "bytes": 147078,
+            "sha256": "2484499b2d3f1a1be927842b7c9f117d3de492070440152daed22e68bc56dad7"
+          },
+          {
+            "path": "subtitles.srt",
+            "bytes": 325,
+            "sha256": "722c3e8ff15d8986b552883bcbc8c4a850456eaff321e686f861227c6a9bdb2b"
+          },
+          {
+            "path": "source.zip",
+            "bytes": 2766722,
+            "sha256": "5b48dba98b7c81b78895ebe9cfbe2d63625751431be172e5ebf8d570782647fa"
+          }
+        ],
+        "nativeProject": "the-weight-we-share.blend inside source.zip",
+        "realTimeAudiovisualViewing": "not_completed",
+        "subjectiveListening": "not_completed",
+        "paidServicesUsed": false,
+        "originality": "本次原创石拱空间、材质、镜头、配乐与拟音。风格配方只作材料与灯光关系参考，未复制其故事、图像、模型或源码。未做穷尽相似检索。"
+      },
+      "provenance": "cases/weight-we-share/provenance.json"
     }
   ]
 }

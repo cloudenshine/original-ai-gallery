@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 26 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 27 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -347,6 +347,19 @@
 - 模型：Anatomy 成人参考模型（Z-Anatomy / BodyParts3D）；网页为原创二维示意
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/knee-in-layers/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/knee-in-layers/scene.json) · [来源与验证](dist/cases/knee-in-layers/provenance.json)
 - 验证：Anatomy 已接受 4 步场景与 3 项测验；结构名已逐项检索核对。原生查看器显示尚未确认，不声称已目视验证 3D 播放。网页核心 3 项测试通过，云浏览器已验证三主题切换、答题反馈和复制指令；未做移动视口目视验收。
+
+## 借力
+
+![借力](dist/cases/weight-we-share/poster.jpg)
+
+黄铜托架慢慢退下，石拱没有随它下降。沿着真实楔石的厚度与接缝，看见相邻挤压和两端支承怎样共同留下中间的空处。
+
+- 用途：三维构造叙事
+- 制作方式：blender-film
+- 工具：Blender 4.3.2 · Cycles CPU + Python原创程序音频 + FFmpeg
+- 模型：Procedural 3D geometry and keyframe animation; no generative video or structural solver
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/weight-we-share/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/weight-we-share/source.zip) · [来源与验证](dist/cases/weight-we-share/provenance.json)
+- 验证：26秒、1280×720、24fps编码（12fps真实运动采样），完整解码通过；624个场景时点及无损分轨往返检查通过。最终AAC约-15.8 LUFS / -5.4 dBTP。完整原速连续观看与主观听审未完成；低采样颗粒与12fps节奏仍需实际观感确认。
 
 ## 大文件恢复
 
