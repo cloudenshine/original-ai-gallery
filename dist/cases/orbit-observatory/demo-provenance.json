@@ -1,0 +1,55 @@
+{
+  "id": "orbit-observatory",
+  "artifact": "demo.mp4",
+  "originalSilentPreview": "preview.mp4",
+  "originalInteractive": "index.html",
+  "sources": "soundtrack-source.zip",
+  "videoSha256": "4b1bcdb98d5f6893a1e6b4ec3e7e22a0aaff5ef093bae5efae2ab7bbae594b13",
+  "sourceVideoSha256": "95e7eb7b7be73a419ee69a6c2d1aa102e4595543c48ae1dd935e51f94f6f394d",
+  "sourceSceneSha256": "13b5bbc02b32b131f96655a8e5739ce8347a35fc880ab5354bd165a68931349a",
+  "soundtrack": "Original deterministic instrumental synthesis and separate scene-bound synthesized effects. No narration or external samples.",
+  "license": "Public reuse license not selected.",
+  "visualChange": "Original video stream copied without re-encoding.",
+  "verification": {
+    "fullDecode": true,
+    "frameSamplesInspected": true,
+    "continuousRealtimeViewing": false,
+    "subjectiveListening": false,
+    "browserMobilePlayback": false,
+    "audioMetrics": {
+      "bgm": {
+        "peak": 0.0966620970047379,
+        "rms": 0.02461174957631215,
+        "samples": 768000,
+        "flac_pcm_exact": true
+      },
+      "sfx": {
+        "peak": 0.009689798261267276,
+        "rms": 0.0004891467207592872,
+        "samples": 768000,
+        "flac_pcm_exact": true
+      },
+      "mix_peak": 0.0966620970047379
+    },
+    "archiveRestoreContainerIdentical": true
+  },
+  "container": {
+    "duration": 24.0,
+    "streams": [
+      {
+        "codec": "h264",
+        "type": "video",
+        "width": 960,
+        "height": 640,
+        "sampleRate": null
+      },
+      {
+        "codec": "aac",
+        "type": "audio",
+        "width": null,
+        "height": null,
+        "sampleRate": "32000"
+      }
+    ]
+  }
+}

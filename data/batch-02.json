@@ -66,7 +66,7 @@
       "可调参数",
       "静音技术预览"
     ],
-    "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+    "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。 新增有声演示已全文件解码，原无声版本及交互保留；完整实时看听和浏览器播放未验。",
     "steps": [
       "运行实例，可播放、暂停、拖动时间及调整参数。",
       "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
@@ -106,8 +106,19 @@
       },
       "sourceSha256": "13b5bbc02b32b131f96655a8e5739ce8347a35fc880ab5354bd165a68931349a",
       "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
-      "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
-    }
+      "modelScope": "AI-assisted original code. Exact underlying model version not disclosed.",
+      "audibleDemo": {
+        "artifact": "demo.mp4",
+        "page": "demo.html",
+        "source": "soundtrack-source.zip",
+        "provenance": "demo-provenance.json",
+        "note": "Separate scored derivative; the original silent preview and interaction remain unchanged."
+      }
+    },
+    "demo": "cases/orbit-observatory/demo.html",
+    "video": "cases/orbit-observatory/demo.mp4",
+    "soundtrackSource": "cases/orbit-observatory/soundtrack-source.zip",
+    "demoProvenance": "cases/orbit-observatory/demo-provenance.json"
   },
   {
     "id": "overprint-studio",
