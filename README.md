@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 28 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 29 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -373,6 +373,19 @@
 - 模型：Procedural geometry and synthesized sine tone; no generative image, video, audio or 3D model
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/field-of-quiet/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/field-of-quiet/source.zip) · [来源与验证](dist/cases/field-of-quiet/provenance.json)
 - 验证：13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。
+
+## 转动之间
+
+![转动之间](dist/cases/between-turns/poster.svg)
+
+改变的不是齿轮，而是谁留在原地。固定齿圈或行星架，让同一组齿轮在同向减速与反向传动之间切换。
+
+- 用途：机械运动解释
+- 制作方式：coding-motion
+- 工具：SVG + JavaScript · 理想运动学
+- 模型：Procedural vector geometry; no generative image, video or physics solver
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/source.zip) · [来源与验证](dist/cases/between-turns/provenance.json)
+- 验证：11项运动学与控件回调测试通过，包括速比关系、反转、暂停、拖动与反复切换；SVG静帧已实际栅格化检查。当前环境 Chromium 启动受限，真实浏览器连续播放、手机实机及跨浏览器验收未完成。
 
 ## 大文件恢复
 

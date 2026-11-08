@@ -28,6 +28,8 @@ extra_file=r/'data/batch-blender.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 extra_file=r/'data/batch-threejs.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
+extra_file=r/'data/batch-mechanics.json'
+if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 items=[]
 for c in rows:
  if c.get('media'):

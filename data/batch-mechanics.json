@@ -1,0 +1,41 @@
+[
+  {
+    "id": "between-turns",
+    "title": "转动之间",
+    "category": "coding-motion",
+    "method": "code",
+    "useCase": "机械运动解释",
+    "summary": "改变的不是齿轮，而是谁留在原地。固定齿圈或行星架，让同一组齿轮在同向减速与反向传动之间切换。",
+    "engine": "SVG + JavaScript · 理想运动学",
+    "model": "Procedural vector geometry; no generative image, video or physics solver",
+    "poster": "cases/between-turns/poster.svg",
+    "artifact": "cases/between-turns/index.html",
+    "source": "source.zip",
+    "verification": "11项运动学与控件回调测试通过，包括速比关系、反转、暂停、拖动与反复切换；SVG静帧已实际栅格化检查。当前环境 Chromium 启动受限，真实浏览器连续播放、手机实机及跨浏览器验收未完成。",
+    "rights": "本次新写源码、程序图形与文案，无外部素材。未作互联网相似作品穷尽检索；公开展示不新增复用许可。",
+    "createdAt": "2026-11-08",
+    "tags": [
+      "机械",
+      "行星齿轮",
+      "速比",
+      "可拖动",
+      "SVG"
+    ],
+    "steps": [
+      "固定齿圈，观察太阳轮与行星架的同向减速。",
+      "切换固定行星架，观察齿圈反转。",
+      "暂停并拖动输入角度，对照三个角度读数。"
+    ],
+    "extraProvenance": {
+      "verification": "11项运动学与控件回调测试通过，包括速比关系、反转、暂停、拖动与反复切换；SVG静帧已实际栅格化检查。当前环境 Chromium 启动受限，真实浏览器连续播放、手机实机及跨浏览器验收未完成。",
+      "limitations": [
+        "简化梯形齿形，不是渐开线制造图，不进行接触碰撞和力学计算。",
+        "运动学方程是理想节圆无滑动约束；没有扭矩、摩擦与磨损模拟。",
+        "真实浏览器启动因环境 socket 权限失败；控件回调测试不等同于浏览器测试。",
+        "没有声音或已导出影片。"
+      ],
+      "derivation": "24*(sun-carrier)+48*(ring-carrier)=0; planet=carrier-2*(sun-carrier). Angles in degrees; radii 120,60,240; planet center distance 180.",
+      "browserVerification": "not_completed_environment_restriction"
+    }
+  }
+]
