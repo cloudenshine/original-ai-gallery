@@ -1,0 +1,41 @@
+{
+  "id": "prism-desk",
+  "artifact": "demo.mp4",
+  "originalSilentPreview": "preview.mp4",
+  "originalInteractive": "index.html",
+  "sources": "soundtrack-source.zip",
+  "videoSha256": "72056a34d0270f43e435b9e4863b898c057a1f8061a955a10df5fc7ca95c66af",
+  "sourceVideoSha256": "deb8f5e59225badf153b5737fd9e6775f9f398f541edc8f239824a11fbb56880",
+  "sourceSceneSha256": "6d988a7aae5774692958c59d483b9fa9358da3952d3d16f080701405e64ac2f7",
+  "soundtrack": "Original deterministic instrumental synthesis and separate scene-bound synthesized effects. No narration or external samples.",
+  "license": "Public reuse license not selected.",
+  "visualChange": "Original video stream preserved.",
+  "verification": {
+    "fullDecode": true,
+    "sourceArchiveMemberHashes": 9,
+    "archiveRestoreContainerIdentical": true,
+    "continuousRealtimeViewing": false,
+    "subjectiveListening": false,
+    "browserMobilePlayback": false
+  },
+  "container": {
+    "duration": 10.0,
+    "streams": [
+      {
+        "codec": "h264",
+        "type": "video",
+        "width": 960,
+        "height": 640,
+        "sampleRate": null
+      },
+      {
+        "codec": "aac",
+        "type": "audio",
+        "width": null,
+        "height": null,
+        "sampleRate": "32000"
+      }
+    ]
+  },
+  "recovery": "Media restored byte-identically from existing Git blobs; player and metadata rebuilt from recovered source and current catalogue."
+}

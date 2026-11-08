@@ -125,7 +125,7 @@
 - 工具：Canvas 2D + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/prism-desk/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/prism-desk/scene.mjs) · [来源与验证](dist/cases/prism-desk/provenance.json)
-- 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。
+- 验证：原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。 新增有声演示与源码包已恢复并重新核验：全文件解码、源包成员哈希和重建一致性通过；原无声版本及交互保留。完整实时看听和浏览器播放未验。
 
 ## 檐下听雨
 

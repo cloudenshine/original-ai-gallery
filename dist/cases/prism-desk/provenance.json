@@ -5,7 +5,7 @@
   "engine": "Canvas 2D + JavaScript",
   "model": "ChatGPT 协作，具体底层模型未披露",
   "rights": "本次新写源码与程序图形，未使用外部素材。公开复用许可尚未选定。",
-  "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+  "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。 新增有声演示与源码包已恢复并重新核验：全文件解码、源包成员哈希和重建一致性通过；原无声版本及交互保留。完整实时看听和浏览器播放未验。",
   "createdAt": "2026-11-07",
   "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
   "browserVerification": "blocked",
@@ -36,5 +36,12 @@
   },
   "sourceSha256": "6d988a7aae5774692958c59d483b9fa9358da3952d3d16f080701405e64ac2f7",
   "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
-  "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+  "modelScope": "AI-assisted original code. Exact underlying model version not disclosed.",
+  "audibleDemo": {
+    "artifact": "demo.mp4",
+    "page": "demo.html",
+    "source": "soundtrack-source.zip",
+    "provenance": "demo-provenance.json",
+    "note": "Separate scored derivative; original silent preview and interaction preserved."
+  }
 }

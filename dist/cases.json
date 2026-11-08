@@ -434,7 +434,7 @@
         "可调参数",
         "静音技术预览"
       ],
-      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。",
+      "verification": "原生 Canvas 实帧、全周期取样及静音 MP4 技术预览已导出；模型与共享控件事件测试通过。浏览器与手机实际验收暂未完成。 新增有声演示与源码包已恢复并重新核验：全文件解码、源包成员哈希和重建一致性通过；原无声版本及交互保留。完整实时看听和浏览器播放未验。",
       "steps": [
         "运行实例，可播放、暂停、拖动时间及调整参数。",
         "也可播放导出的静音技术预览，或下载离线 HTML 直接打开。",
@@ -474,8 +474,19 @@
         },
         "sourceSha256": "6d988a7aae5774692958c59d483b9fa9358da3952d3d16f080701405e64ac2f7",
         "audio": "Silent technical preview only, not a completed film or audio review. No music, narration or event sound was produced.",
-        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed."
+        "modelScope": "AI-assisted original code. Exact underlying model version not disclosed.",
+        "audibleDemo": {
+          "artifact": "demo.mp4",
+          "page": "demo.html",
+          "source": "soundtrack-source.zip",
+          "provenance": "demo-provenance.json",
+          "note": "Separate scored derivative; original silent preview and interaction preserved."
+        }
       },
+      "demo": "cases/prism-desk/demo.html",
+      "video": "cases/prism-desk/demo.mp4",
+      "soundtrackSource": "cases/prism-desk/soundtrack-source.zip",
+      "demoProvenance": "cases/prism-desk/demo-provenance.json",
       "provenance": "cases/prism-desk/provenance.json"
     },
     {
