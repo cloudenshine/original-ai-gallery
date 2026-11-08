@@ -346,7 +346,7 @@
 - 工具：Anatomy + SVG + JavaScript
 - 模型：Anatomy 成人参考模型（Z-Anatomy / BodyParts3D）；网页为原创二维示意
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/knee-in-layers/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/knee-in-layers/scene.json) · [来源与验证](dist/cases/knee-in-layers/provenance.json)
-- 验证：Anatomy 已接受 4 步场景与 3 项测验；结构名已逐项检索核对。原生查看器显示尚未确认，不声称已目视验证 3D 播放。网页核心 3 项测试通过，云浏览器已验证三主题切换、答题反馈和复制指令；未做移动视口目视验收。
+- 验证：Anatomy 已接受 4 步场景与 3 项测验；结构名已逐项检索核对。原生查看器显示尚未确认，不声称已目视验证 3D 播放。网页核心 3 项测试通过，云浏览器已验证三主题切换、答题反馈和复制指令；未做移动视口目视验收。 新增54秒有声二维图层导览；非Anatomy 3D模型或屈伸实录。全解码及抽帧通过，浏览器与完整实时看听未验。
 
 ## 借力
 

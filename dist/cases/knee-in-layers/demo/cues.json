@@ -1,0 +1,18 @@
+{
+  "version":"knee-source-guide-v1",
+  "kind":"existing-source selectable-state guide, not a newly authored film or anatomical motion",
+  "audience":"Readers of the existing interactive learning card who want a playable overview",
+  "source":"gallery-next/dist/cases/knee-in-layers/index.html and learning.mjs",
+  "benefit":"See which original diagram structures are shown by each of three selectable topics",
+  "format":{"width":1280,"height":720,"fps":24,"duration":54},
+  "style":"Retain source forest-green diagram field, cream reading panel, original SVG geometry and labels. No camera pan, zoom, anatomical deformation, or new imagery.",
+  "script":"Show original lesson title, text and note verbatim in each state. Persistent notice: 二维关系示意，非Anatomy 3D模型，非屈伸实录. The original Anatomy entry is preserved outside this separate player.",
+  "storyboard":[
+    {"time":[0,18],"topic":"bone","visible":["femur","tibia","patella"],"action":"Initial original bone state held for reading"},
+    {"time":[18,36],"topic":"meniscus","visible":["femur","tibia","menisci"],"action":"0.6s source group opacity switch: patella disappears and menisci appear, other geometry stationary"},
+    {"time":[36,54],"topic":"muscle","visible":["femur","tibia","patella","muscle"],"action":"0.6s source group opacity switch: menisci disappear and patella/muscle appear, other geometry stationary"}
+  ],
+  "audio":"Original synthesized three-section warm sustained pad with gentle 3-note motif; soft UI selection tones precisely at 18 and 36 seconds. No voice imitation or narration. FLAC BGM, SFX and mix plus generator and shared cues.",
+  "boundaries":"Original lesson claims only, no new medical advice. Demonstrates selectable 2D layers, not knee flexion. No external Anatomy model or screenshots. No uploads, commits, paid API, installation or external data.",
+  "verification":"Original tests; byte-identical original SVG path/groups and lesson copy; rendered state image checks; full MP4 decode; ffprobe; lossless stem recovery; flat ZIP manifest; browser playback and full subjective listening remain unverified due environment limitations."
+}

@@ -33,5 +33,13 @@
       "https://www.arthritis.org/health-wellness/about-arthritis/where-it-hurts/anatomy-of-the-knee",
       "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/Readme.md"
     ]
+  },
+  "playableDemo": {
+    "video": "cases/knee-in-layers/demo/demo.mp4",
+    "poster": "cases/knee-in-layers/demo/poster.png",
+    "source": "cases/knee-in-layers/demo/knee-guide-source.zip",
+    "kind": "2d-layer-guide",
+    "durationSeconds": 54,
+    "notice": "二维关系示意，非Anatomy 3D模型，非屈伸实录"
   }
 }

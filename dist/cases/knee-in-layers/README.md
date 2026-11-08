@@ -55,3 +55,14 @@ Anatomy 工具声明：模型是成人参考解剖，来自 Z-Anatomy / BodyPart
 ## 验证
 
 运行 `node --test tests/*.test.mjs`。测试覆盖主题对应的显示结构、正确/错误答案及未知主题回退。已用连接的云端 Chrome 实际验证三组主题切换、正确/错误答题反馈、复制指令和桌面视觉。未进行移动视口目视验收。模块过渡时发现 CDN 混合旧脚本，已改为独立 app.mjs 入口并逐项重验。详细结果见 `browser-verification.json` 和 `anatomy-verification.json`。
+
+
+## 可播放的二维分层导览
+
+新增 `demo/demo.mp4`（54 秒，1280×720，24 fps，H.264/AAC），依照原 `learning.mjs` 三个主题切换原始 SVG 图层；每层保留 18 秒阅读时间，后两次切换各 0.6 秒。二维关系示意，非 Anatomy 3D 模型，非屈伸实录。原互动学习卡、测验和外部 Anatomy 入口保持不变。
+
+`demo/knee-guide-source.zip` 包含原页面源码快照、渲染器、原创音乐/事件音生成器、共用提示点和 24-bit FLAC 分轨，不包含 Anatomy 模型或第三方截图。FLAC 分轨是合成音源，不是语音克隆。
+
+复现：解包后在已安装 Node.js、sharp、@napi-rs/canvas、Python NumPy、FFmpeg 及 Noto CJK 字体的环境执行 `python sound.py`、`node render.cjs`。无需付费接口；不会自动安装依赖。源码清单为 `SOURCE-MANIFEST.json` 的扁平路径→bytes/sha256 映射。
+
+验证范围：完整文件解码、媒体参数、源码一致性、原学习测试及实际关键帧检查；当前环境未完成浏览器真实播放及整段实时主观听审，不宣称外部 Anatomy 3D 播放已验证。

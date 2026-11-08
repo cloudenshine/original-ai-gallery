@@ -14,7 +14,7 @@
       "分层学习",
       "辨认测验"
     ],
-    "verification": "Anatomy 已接受 4 步场景与 3 项测验；结构名已逐项检索核对。原生查看器显示尚未确认，不声称已目视验证 3D 播放。网页核心 3 项测试通过，云浏览器已验证三主题切换、答题反馈和复制指令；未做移动视口目视验收。",
+    "verification": "Anatomy 已接受 4 步场景与 3 项测验；结构名已逐项检索核对。原生查看器显示尚未确认，不声称已目视验证 3D 播放。网页核心 3 项测试通过，云浏览器已验证三主题切换、答题反馈和复制指令；未做移动视口目视验收。 新增54秒有声二维图层导览；非Anatomy 3D模型或屈伸实录。全解码及抽帧通过，浏览器与完整实时看听未验。",
     "rights": "原创脚本、场景参数及网页；无第三方模型、纹理或截图。上游许可已列明，但不据此假定 Anatomy 应用的导出权。公开复用许可未选定。",
     "steps": [
       "切换骨骼、半月板、肌肉主题并完成辨认练习。",
@@ -34,6 +34,15 @@
         "https://www.arthritis.org/health-wellness/about-arthritis/where-it-hurts/anatomy-of-the-knee",
         "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/master/Readme.md"
       ]
-    }
+    },
+    "playableDemo": {
+      "video": "cases/knee-in-layers/demo/demo.mp4",
+      "poster": "cases/knee-in-layers/demo/poster.png",
+      "source": "cases/knee-in-layers/demo/knee-guide-source.zip",
+      "kind": "2d-layer-guide",
+      "durationSeconds": 54,
+      "notice": "二维关系示意，非Anatomy 3D模型，非屈伸实录"
+    },
+    "demo": "cases/knee-in-layers/demo/demo.mp4"
   }
 ]
