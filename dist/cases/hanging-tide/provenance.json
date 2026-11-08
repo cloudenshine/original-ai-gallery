@@ -1,0 +1,25 @@
+{
+  "title": "晾潮",
+  "category": "image-generation",
+  "method": "image-model",
+  "engine": "ChatGPT 内置图像生成",
+  "model": "确切模型版本未披露",
+  "rights": "本次从原创提示词新生成。用户提供的八张外部作品仅用于理解想象方法，未作为图像生成输入，未复制其具体物件、人物或构图。AI 输出不构成全球独创性或版权的法律保证；未进行互联网相似作品穷尽检索。公开复用许可尚未选定。",
+  "verification": "1122 × 1402 PNG，原文件字节数与 SHA-256 已核；两次生成后选用首稿，完成目视及版本对照。虚构 AI 静态图，非真实摄影。",
+  "createdAt": "2026-11-08",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "references": [],
+  "width": 1122,
+  "height": 1402,
+  "bytes": 2510396,
+  "sha256": "665dc507d459103be0c0569df69bad2bbe6f7a23f6d18746766850eb934dae32",
+  "generationAttemptsTotal": 2,
+  "selectedAttempt": 1,
+  "visualInspection": true,
+  "editorialNote": "选用首稿：湿棉布、浪峰与缝边之间的材质矛盾得到保留。第二稿出现胶膜般拉丝，削弱了布料重量感，因此未入选。",
+  "limitations": [
+    "局部水与布的转化仍可能被读作印花。",
+    "拖鞋略有布景感。",
+    "虚构 AI 生成静态图，非真实摄影；不能证明全球独创无近似。"
+  ]
+}

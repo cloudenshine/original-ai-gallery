@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 29 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 30 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -373,6 +373,19 @@
 - 模型：Procedural geometry and synthesized sine tone; no generative image, video, audio or 3D model
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/field-of-quiet/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/field-of-quiet/source.zip) · [来源与验证](dist/cases/field-of-quiet/provenance.json)
 - 验证：13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。 30秒、1280×720、10fps离线SVG 3D演示，使用原Three.js场景/相机/1813顶点与官方SVGRenderer；非浏览器或WebGL录屏。17项测试、全文件解码、FLAC及最终AAC的9–15秒静音、源码恢复核对通过；保留原交互。含原创BGM、事件音与示意探针纯音。未做完整实时观看或主观听审。
+
+## 晾潮
+
+![晾潮](dist/cases/hanging-tide/original.png)
+
+清晨的旧阳台，一条湿床单被风掀起，褶皱里有一小片潮水。
+
+- 用途：超现实静态图像
+- 制作方式：image-generation
+- 工具：ChatGPT 内置图像生成
+- 模型：确切模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/hanging-tide/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/hanging-tide/prompt.txt) · [来源与验证](dist/cases/hanging-tide/provenance.json)
+- 验证：1122 × 1402 PNG，原文件字节数与 SHA-256 已核；两次生成后选用首稿，完成目视及版本对照。虚构 AI 静态图，非真实摄影。
 
 ## 转动之间
 
