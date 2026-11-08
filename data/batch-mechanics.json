@@ -51,6 +51,7 @@
         "humanContinuousPlayback": false,
         "subjectiveListeningReview": false
       }
-    }
+    },
+    "demo": "cases/between-turns/index.html#demo"
   }
 ]

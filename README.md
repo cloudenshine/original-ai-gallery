@@ -46,8 +46,8 @@
 - 制作方式：coding-motion
 - 工具：Canvas + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/phase-garden/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/phase-garden/index.html) · [来源与验证](dist/cases/phase-garden/provenance.json)
-- 验证：播放、暂停、重播、时间与幅度改变几何的核心测试通过。封面为同一算法第 6 秒。不是已导出影片。
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/phase-garden/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/phase-garden/demo-source.zip) · [来源与验证](dist/cases/phase-garden/provenance.json)
+- 验证：原有播放、暂停、重播、时间与幅度核心测试通过。新增 30 秒有声演示：1280×800、30 fps，原作算法离线导出，幅度 0.80；原创配乐与节点音效。全片解码、抽帧和源包哈希已核；浏览器连续观看与主观听审未完成。
 
 ## 回到平衡
 
@@ -385,7 +385,7 @@
 - 工具：SVG + JavaScript · 理想运动学
 - 模型：Procedural vector geometry; no generative image, video or physics solver
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/source.zip) · [来源与验证](dist/cases/between-turns/provenance.json)
-- 验证：34秒有声演示已导出（1280×720、24fps、816帧），含原创程序配乐与独立切换提示音；16项运动学、控件和导出时序测试通过，全文件解码与关键帧检查通过。浏览器连续播放、手机实机和完整主观听审未完成。 [播放34秒演示](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/index.html#demo)
+- 验证：34秒有声演示已导出（1280×720、24fps、816帧），含原创程序配乐与独立切换提示音；16项运动学、控件和导出时序测试通过，全文件解码与关键帧检查通过。浏览器连续播放、手机实机和完整主观听审未完成。
 
 ## 大文件恢复
 

@@ -72,13 +72,14 @@
         "可拖动时间",
         "减弱动态"
       ],
-      "verification": "播放、暂停、重播、时间与幅度改变几何的核心测试通过。封面为同一算法第 6 秒。不是已导出影片。",
+      "verification": "原有播放、暂停、重播、时间与幅度核心测试通过。新增 30 秒有声演示：1280×800、30 fps，原作算法离线导出，幅度 0.80；原创配乐与节点音效。全片解码、抽帧和源包哈希已核；浏览器连续观看与主观听审未完成。",
       "steps": [
         "打开实例，运行浏览器动效。",
         "暂停并拖动时间轴。",
         "调节运动幅度；启动状态跟随系统“减少动态效果”设置。"
       ],
-      "source": "cases/phase-garden/index.html",
+      "source": "cases/phase-garden/demo-source.zip",
+      "demo": "cases/phase-garden/demo.mp4",
       "poster": "cases/phase-garden/poster.svg",
       "artifact": "cases/phase-garden/index.html",
       "provenance": "cases/phase-garden/provenance.json"
@@ -1578,6 +1579,7 @@
           "subjectiveListeningReview": false
         }
       },
+      "demo": "cases/between-turns/index.html#demo",
       "provenance": "cases/between-turns/provenance.json"
     }
   ]

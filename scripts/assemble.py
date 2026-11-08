@@ -30,6 +30,12 @@ extra_file=r/'data/batch-threejs.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 extra_file=r/'data/batch-mechanics.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
+
+# Preserve interactive pages while registering separately exported demos.
+for entry in rows:
+ if entry["id"] == "phase-garden": entry["verification"] = '原有播放、暂停、重播、时间与幅度核心测试通过。新增 30 秒有声演示：1280×800、30 fps，原作算法离线导出，幅度 0.80；原创配乐与节点音效。全片解码、抽帧和源包哈希已核；浏览器连续观看与主观听审未完成。'
+for entry in rows:
+ if entry["id"] == "phase-garden": entry["demo"] = "cases/phase-garden/demo.mp4"; entry["source"] = "demo-source.zip"
 items=[]
 for c in rows:
  if c.get('media'):
@@ -38,6 +44,7 @@ for c in rows:
   if c.get('gif'):media+=f'<h2>代码制作 GIF（无声）</h2><img src="{escape(c["gif"])}" alt="{title} GIF"><p>此 GIF 为代码合成，并非图像工具原生 GIF 输出。</p>'
   if c.get('sourceImage'):media+=f'<h2>编辑前图像</h2><img src="{escape(c["sourceImage"])}" alt="编辑前图像">'
   links=f'<a href="{escape(c["media"])}">打开媒体文件</a> · <a href="{escape(c["source"])}">下载源码与提示词</a> · <a href="provenance.json">来源与验证</a>'
+  if isinstance(c.get("demo"),str):links+=f' · <a href="../../{escape(c["demo"],quote=True)}">播放有声演示</a>'
   if c.get('master'):links+=f' · <a href="{escape(c["master"])}">下载完整分辨率母版</a>'
   if c['id']=='letter-to-the-wind':links+='<p>源包 README 中的 letter-to-the-wind.mp4 是运行 build.sh 后生成的输出，不随源包附带。直接观看请使用上方影片或完整母版链接。</p>'
   if c.get('subtitles'):links+=f' · <a href="{escape(c["subtitles"])}">下载字幕 SRT</a>'

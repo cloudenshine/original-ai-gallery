@@ -28,8 +28,6 @@
     "source": "source.zip",
     "interactionPreserved": true,
     "humanContinuousPlayback": false,
-    "subjectiveListeningReview": false,
-    "sha256": "e2cdac7bc800cc4d79b45c33c5525cb2ac5e3b9109033899323c7f090bfa3284",
-    "bytes": 2800238
+    "subjectiveListeningReview": false
   }
 }
