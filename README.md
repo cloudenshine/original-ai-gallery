@@ -372,7 +372,7 @@
 - 工具：Three.js r160 + WebGL / SVGRenderer + Web Audio
 - 模型：Procedural geometry and synthesized sine tone; no generative image, video, audio or 3D model
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/field-of-quiet/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/field-of-quiet/source.zip) · [来源与验证](dist/cases/field-of-quiet/provenance.json)
-- 验证：13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。
+- 验证：13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。 30秒、1280×720、10fps离线SVG 3D演示，使用原Three.js场景/相机/1813顶点与官方SVGRenderer；非浏览器或WebGL录屏。17项测试、全文件解码、FLAC及最终AAC的9–15秒静音、源码恢复核对通过；保留原交互。含原创BGM、事件音与示意探针纯音。未做完整实时观看或主观听审。
 
 ## 转动之间
 

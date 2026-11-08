@@ -11,7 +11,7 @@
     "poster": "cases/field-of-quiet/poster.png",
     "artifact": "cases/field-of-quiet/index.html",
     "source": "source.zip",
-    "verification": "13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。",
+    "verification": "13项模型与结构测试通过。真实Chrome浏览器已验证 Three.js SVG 3D 备用渲染（1813顶点）、相位/频率/间距、键盘探针、射线拾取、旋转、视角、暂停/复播、声音开关与复位，并导出1600×1050真实渲染封面。当前云浏览器禁用GPU，WebGL主路径未实测；手机实机、Safari/Firefox与主观听审未完成。 30秒、1280×720、10fps离线SVG 3D演示，使用原Three.js场景/相机/1813顶点与官方SVGRenderer；非浏览器或WebGL录屏。17项测试、全文件解码、FLAC及最终AAC的9–15秒静音、源码恢复核对通过；保留原交互。含原创BGM、事件音与示意探针纯音。未做完整实时观看或主观听审。",
     "rights": "原创声场、交互、文案与源码。Three.js r160 遵循随包 MIT 许可；原创源码和媒体公开展示不新增复用许可。",
     "createdAt": "2026-11-07",
     "tags": [
@@ -110,6 +110,18 @@
           "sha256": "b567cc34cb9bb0e5bda39ce35b9706eb2240f49c1331145688ca757487d17cbd"
         }
       ]
+    },
+    "demo": {
+      "path": "cases/field-of-quiet/demo.mp4",
+      "poster": "cases/field-of-quiet/demo-poster.png",
+      "source": "cases/field-of-quiet/demo-source.zip",
+      "durationSeconds": 30,
+      "width": 1280,
+      "height": 720,
+      "fps": 10,
+      "renderer": "original Three.js r160 official SVGRenderer, minimal offline SVG DOM serializer",
+      "verification": "30秒、1280×720、10fps离线SVG 3D演示，使用原Three.js场景/相机/1813顶点与官方SVGRenderer；非浏览器或WebGL录屏。17项测试、全文件解码、FLAC及最终AAC的9–15秒静音、源码恢复核对通过；保留原交互。含原创BGM、事件音与示意探针纯音。未做完整实时观看或主观听审。",
+      "sha256": "a5f00514c0f1e65a0a95fd51e27817a80602c8f1700c9e6306b268dc0a119f43"
     }
   }
 ]
