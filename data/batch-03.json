@@ -103,7 +103,7 @@
       "代码制作 GIF",
       "源码与过程"
     ],
-    "verification": "已核对媒体文件 SHA-256；生成工具原生 GIF 请求实际返回单帧 PNG。 本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。",
+    "verification": "已核对媒体文件 SHA-256；生成工具原生 GIF 请求实际返回单帧 PNG。 本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。 新增有声演示与源码包已恢复并重新核验：全文件解码、源包成员哈希和重建一致性通过；原无声版本及交互保留。完整实时看听和浏览器播放未验。",
     "rights": "本次作品公开展示；不新增源码或媒体复用许可。参考资料与随包字体等第三方组件保留各自声明。AI 输出不构成独创性或版权的法律保证。",
     "steps": [
       "打开作品页查看实际产物与验证边界。",
@@ -143,9 +143,20 @@
           "sha256": "61b3b2a56cfa403881a2e2db7e8f9aef3ce9c4a5797825b5fccfdb8148bf79e2"
         }
       ],
-      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。"
+      "originality": "原创制作；影响与知识参考单独列出，未对互联网相似作品作穷尽检索。",
+      "audibleDemo": {
+        "artifact": "demo.mp4",
+        "page": "demo.html",
+        "source": "soundtrack-source.zip",
+        "provenance": "demo-provenance.json",
+        "note": "Separate scored derivative; original silent preview and interaction preserved."
+      }
     },
-    "gif": "animation.gif"
+    "gif": "animation.gif",
+    "demo": "cases/borrowed-moonlight/demo.html",
+    "video": "cases/borrowed-moonlight/demo.mp4",
+    "soundtrackSource": "cases/borrowed-moonlight/soundtrack-source.zip",
+    "demoProvenance": "cases/borrowed-moonlight/demo-provenance.json"
   },
   {
     "id": "aftertone",

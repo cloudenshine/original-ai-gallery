@@ -1,0 +1,41 @@
+{
+  "id": "borrowed-moonlight",
+  "artifact": "demo.mp4",
+  "originalSilentPreview": "film.mp4",
+  "sources": "soundtrack-source.zip",
+  "videoSha256": "1c519854851f66d8105b489af82df6de35d838ac89a49926b77a6bba3381a620",
+  "sourceVideoSha256": "a161f1fb56faa06c75258e1aaf0b5ccd2b89c0e06368238a9432dc8591711e9b",
+  "soundtrack": "Original deterministic instrumental synthesis and separate scene-bound synthesized effects. No narration or external samples.",
+  "license": "Public reuse license not selected.",
+  "visualChange": "Original video stream preserved.",
+  "verification": {
+    "fullDecode": true,
+    "sourceArchiveMemberHashes": 8,
+    "archiveRestoreContainerIdentical": true,
+    "continuousRealtimeViewing": false,
+    "subjectiveListening": false,
+    "browserMobilePlayback": false
+  },
+  "container": {
+    "duration": 6.0,
+    "streams": [
+      {
+        "codec": "h264",
+        "type": "video",
+        "width": 768,
+        "height": 768,
+        "sampleRate": null
+      },
+      {
+        "codec": "aac",
+        "type": "audio",
+        "width": null,
+        "height": null,
+        "sampleRate": "32000"
+      }
+    ]
+  },
+  "recovery": "Media restored byte-identically from existing Git blobs; player and metadata rebuilt from recovered source and current catalogue.",
+  "sourceArchiveSha256": "61b3b2a56cfa403881a2e2db7e8f9aef3ce9c4a5797825b5fccfdb8148bf79e2",
+  "originalWorkPage": "index.html"
+}

@@ -268,7 +268,7 @@
 - 工具：图像生成 + Python 动画
 - 模型：Image backend not disclosed; Python animation
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/borrowed-moonlight/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/borrowed-moonlight/source.zip) · [来源与验证](dist/cases/borrowed-moonlight/provenance.json)
-- 验证：已核对媒体文件 SHA-256；生成工具原生 GIF 请求实际返回单帧 PNG。 本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。
+- 验证：已核对媒体文件 SHA-256；生成工具原生 GIF 请求实际返回单帧 PNG。 本作 GIF 由代码制作，6 秒、150 帧；尚无连续原速观看验收。 新增有声演示与源码包已恢复并重新核验：全文件解码、源包成员哈希和重建一致性通过；原无声版本及交互保留。完整实时看听和浏览器播放未验。
 
 ## 余响织成光
 
