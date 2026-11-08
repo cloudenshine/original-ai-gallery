@@ -34,6 +34,7 @@ if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 # Preserve interactive pages while registering separately exported demos.
 for entry in rows:
  if entry["id"] == "phase-garden": entry["verification"] = '原有播放、暂停、重播、时间与幅度核心测试通过。新增 30 秒有声演示：1280×800、30 fps，原作算法离线导出，幅度 0.80；原创配乐与节点音效。全片解码、抽帧和源包哈希已核；浏览器连续观看与主观听审未完成。'
+ if entry["id"] == "spring-lab": entry.update({'id': 'spring-lab', 'demo': 'cases/spring-lab/demo.mp4', 'source': 'demo-source.zip', 'verification': '已导出 24 秒 1280×720/30fps 带声 MP4，四种阻尼响应；归一化模型与独立数值积分对照通过、全文件解码和编码画面抽检通过。非实测或工程性能数据；未完成真人连续看听与实际浏览器验收。', 'extraProvenance': {'demo': {'file': 'demo.mp4', 'durationSeconds': 24, 'width': 1280, 'height': 720, 'fps': 30, 'audio': 'AAC；原创合成 BGM 与参数重置 SFX，非实物录音', 'sourceArchive': 'demo-source.zip', 'originalInteractionPreserved': True, 'verificationLimits': '未完成人工连续看听及实际浏览器测试。'}}})
 for entry in rows:
  if entry["id"] == "phase-garden": entry["demo"] = "cases/phase-garden/demo.mp4"; entry["source"] = "demo-source.zip"
 items=[]

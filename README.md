@@ -59,8 +59,8 @@
 - 制作方式：interactive
 - 工具：JavaScript + SVG
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/spring-lab/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/spring-lab/model.mjs) · [来源与验证](dist/cases/spring-lab/provenance.json)
-- 验证：归一化模型的起点、收敛、超调与临界阻尼测试通过；不是实测或工程性能数据。
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/spring-lab/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/spring-lab/demo-source.zip) · [来源与验证](dist/cases/spring-lab/provenance.json)
+- 验证：已导出 24 秒 1280×720/30fps 带声 MP4，四种阻尼响应；归一化模型与独立数值积分对照通过、全文件解码和编码画面抽检通过。非实测或工程性能数据；未完成真人连续看听与实际浏览器验收。
 
 ## 夜航路线
 

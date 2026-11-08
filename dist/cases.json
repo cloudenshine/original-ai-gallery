@@ -100,13 +100,27 @@
         "数学示意",
         "可调阻尼"
       ],
-      "verification": "归一化模型的起点、收敛、超调与临界阻尼测试通过；不是实测或工程性能数据。",
+      "verification": "已导出 24 秒 1280×720/30fps 带声 MP4，四种阻尼响应；归一化模型与独立数值积分对照通过、全文件解码和编码画面抽检通过。非实测或工程性能数据；未完成真人连续看听与实际浏览器验收。",
       "steps": [
         "调节阻尼比 ζ，比较响应。",
         "播放响应，观察点沿曲线运动。",
         "恢复默认回到 ζ = 0.55。"
       ],
-      "source": "cases/spring-lab/model.mjs",
+      "source": "cases/spring-lab/demo-source.zip",
+      "demo": "cases/spring-lab/demo.mp4",
+      "extraProvenance": {
+        "demo": {
+          "file": "demo.mp4",
+          "durationSeconds": 24,
+          "width": 1280,
+          "height": 720,
+          "fps": 30,
+          "audio": "AAC；原创合成 BGM 与参数重置 SFX，非实物录音",
+          "sourceArchive": "demo-source.zip",
+          "originalInteractionPreserved": true,
+          "verificationLimits": "未完成人工连续看听及实际浏览器测试。"
+        }
+      },
       "poster": "cases/spring-lab/poster.svg",
       "artifact": "cases/spring-lab/index.html",
       "provenance": "cases/spring-lab/provenance.json"
