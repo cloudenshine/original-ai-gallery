@@ -45,13 +45,33 @@
         "SVG",
         "可下载"
       ],
-      "verification": "确定性、闭合性、有限值与种子差异已通过测试；封面由真实源码生成。不是实际地理数据。",
+      "verification": "已导出 18 秒 1200×900/30fps 带声种子切换导览；00、01、02 为原 SVG 离散状态，闭合性、确定性、有限值及全文件解码通过。非连续地形动画、非实测地图、非浏览器录屏；完整实时看听与浏览器播放未验。",
       "steps": [
         "打开实例，初始种子为 00。",
         "选择“换一座岛”，观察几何变化。",
         "保存 SVG，相同种子可复现相同轮廓。"
       ],
-      "source": "cases/contour-atlas/geometry.mjs",
+      "source": "cases/contour-atlas/demo-source.zip",
+      "demo": "cases/contour-atlas/demo.mp4",
+      "extraProvenance": {
+        "demo": {
+          "file": "demo.mp4",
+          "durationSeconds": 18,
+          "width": 1200,
+          "height": 900,
+          "fps": 30,
+          "kind": "offline discrete seed guide",
+          "seeds": [
+            0,
+            1,
+            2
+          ],
+          "audio": "原创合成 BGM 与两次选择 SFX；AAC，源包含无损 FLAC 分轨",
+          "sourceArchive": "demo-source.zip",
+          "originalInteractionPreserved": true,
+          "verificationLimits": "未完整实时观看、主观听音或浏览器验收。"
+        }
+      },
       "poster": "cases/contour-atlas/poster.svg",
       "artifact": "cases/contour-atlas/index.html",
       "provenance": "cases/contour-atlas/provenance.json"

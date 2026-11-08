@@ -33,8 +33,8 @@
 - 制作方式：procedural-image
 - 工具：SVG + JavaScript
 - 模型：ChatGPT 协作，具体底层模型未披露
-- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/contour-atlas/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/contour-atlas/geometry.mjs) · [来源与验证](dist/cases/contour-atlas/provenance.json)
-- 验证：确定性、闭合性、有限值与种子差异已通过测试；封面由真实源码生成。不是实际地理数据。
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/contour-atlas/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/contour-atlas/demo-source.zip) · [来源与验证](dist/cases/contour-atlas/provenance.json)
+- 验证：已导出 18 秒 1200×900/30fps 带声种子切换导览；00、01、02 为原 SVG 离散状态，闭合性、确定性、有限值及全文件解码通过。非连续地形动画、非实测地图、非浏览器录屏；完整实时看听与浏览器播放未验。
 
 ## 相位花园
 
