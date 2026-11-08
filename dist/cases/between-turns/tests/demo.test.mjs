@@ -1,0 +1,8 @@
+import {createRequire} from 'node:module';import {fileURLToPath} from 'node:url';const require=createRequire(import.meta.url);const __dirname=fileURLToPath(new URL('.',import.meta.url));
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const {state}=require('../demo-source/render.cjs');const spec=require('../demo-source/timeline.json');
+test('demo frame and event clocks are exact',()=>{assert.equal(spec.duration*spec.fps,816);assert.equal(spec.switchAt*spec.fps,384);assert.equal(spec.switchAt*spec.sampleRate,768000)});
+test('two identical input turns and explicit reset',()=>{assert.deepEqual(state(0),{sun:0,mode:'ring'});assert.deepEqual(state(14),{sun:360,mode:'ring'});assert.deepEqual(state(16),{sun:0,mode:'carrier'});assert.deepEqual(state(18),{sun:0,mode:'carrier'});assert.deepEqual(state(30),{sun:360,mode:'carrier'});assert.deepEqual(state(34),state(30));for(let t=2;t<14;t+=.25)assert.equal(state(t).sun,state(t+16).sun)});
+test('original model still gives expected endpoint readings',async()=>{const {pose}=await import('../model.mjs');let p=pose(state(14).sun,'ring');assert.equal(p.carrier,120);assert.equal(p.ring,0);p=pose(state(30).sun,'carrier');assert.equal(p.carrier,0);assert.equal(p.ring,-180)});
+test('all musical cues occur before the final quiet tail',()=>{assert.ok(spec.notes.every(([t])=>t>=0&&t<31));assert.equal(spec.notes.length,20)});
+test('audio stems and switch are independently recorded',()=>{const r=JSON.parse(fs.readFileSync(path.join(__dirname,'../demo-source/audio/report.json')));assert.equal(r.samples,1632000);assert.equal(r.sfxNonzeroBeforeSwitch,false);assert.ok(r.bgmPeak>0&&r.sfxPeak>0&&r.mixPeak<.95)});

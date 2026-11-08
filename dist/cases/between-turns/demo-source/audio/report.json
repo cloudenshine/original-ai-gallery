@@ -1,0 +1,11 @@
+{
+  "sampleRate": 48000,
+  "samples": 1632000,
+  "duration": 34,
+  "switchSample": 768000,
+  "bgmPeak": 0.22383893386329928,
+  "sfxPeak": 0.10500954145732505,
+  "mixPeak": 0.22383893386329928,
+  "sfxNonzeroBeforeSwitch": false,
+  "listeningReview": "not performed; objective PCM checks only"
+}

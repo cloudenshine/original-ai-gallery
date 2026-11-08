@@ -11,7 +11,7 @@
     "poster": "cases/between-turns/poster.svg",
     "artifact": "cases/between-turns/index.html",
     "source": "source.zip",
-    "verification": "11项运动学与控件回调测试通过，包括速比关系、反转、暂停、拖动与反复切换；SVG静帧已实际栅格化检查。当前环境 Chromium 启动受限，真实浏览器连续播放、手机实机及跨浏览器验收未完成。",
+    "verification": "34秒有声演示已导出（1280×720、24fps、816帧），含原创程序配乐与独立切换提示音；16项运动学、控件和导出时序测试通过，全文件解码与关键帧检查通过。浏览器连续播放、手机实机和完整主观听审未完成。",
     "rights": "本次新写源码、程序图形与文案，无外部素材。未作互联网相似作品穷尽检索；公开展示不新增复用许可。",
     "createdAt": "2026-11-08",
     "tags": [
@@ -22,20 +22,35 @@
       "SVG"
     ],
     "steps": [
+      "打开作品页，点击播放34秒有声比较演示；原互动控件仍保留。",
       "固定齿圈，观察太阳轮与行星架的同向减速。",
       "切换固定行星架，观察齿圈反转。",
       "暂停并拖动输入角度，对照三个角度读数。"
     ],
     "extraProvenance": {
-      "verification": "11项运动学与控件回调测试通过，包括速比关系、反转、暂停、拖动与反复切换；SVG静帧已实际栅格化检查。当前环境 Chromium 启动受限，真实浏览器连续播放、手机实机及跨浏览器验收未完成。",
+      "verification": "34秒有声演示已导出（1280×720、24fps、816帧），含原创程序配乐与独立切换提示音；16项运动学、控件和导出时序测试通过，全文件解码与关键帧检查通过。浏览器连续播放、手机实机和完整主观听审未完成。",
       "limitations": [
         "简化梯形齿形，不是渐开线制造图，不进行接触碰撞和力学计算。",
         "运动学方程是理想节圆无滑动约束；没有扭矩、摩擦与磨损模拟。",
         "真实浏览器启动因环境 socket 权限失败；控件回调测试不等同于浏览器测试。",
-        "没有声音或已导出影片。"
+        "有声演示的完整主观听审、浏览器实际连续播放与手机实机未完成。",
+        "cv2不可用，依赖它的影片门禁未运行；编码、抽帧与模型检查不等于完整艺术验收。"
       ],
       "derivation": "24*(sun-carrier)+48*(ring-carrier)=0; planet=carrier-2*(sun-carrier). Angles in degrees; radii 120,60,240; planet center distance 180.",
-      "browserVerification": "not_completed_environment_restriction"
+      "browserVerification": "not_completed_environment_restriction",
+      "demo": {
+        "file": "demo.mp4",
+        "duration": 34,
+        "width": 1280,
+        "height": 720,
+        "fps": 24,
+        "frames": 816,
+        "audio": "AAC; original additive-synthesis BGM and separate switch SFX; no borrowed recording",
+        "source": "source.zip",
+        "interactionPreserved": true,
+        "humanContinuousPlayback": false,
+        "subjectiveListeningReview": false
+      }
     }
   }
 ]

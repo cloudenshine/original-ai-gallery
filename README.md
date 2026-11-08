@@ -385,7 +385,7 @@
 - 工具：SVG + JavaScript · 理想运动学
 - 模型：Procedural vector geometry; no generative image, video or physics solver
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/source.zip) · [来源与验证](dist/cases/between-turns/provenance.json)
-- 验证：11项运动学与控件回调测试通过，包括速比关系、反转、暂停、拖动与反复切换；SVG静帧已实际栅格化检查。当前环境 Chromium 启动受限，真实浏览器连续播放、手机实机及跨浏览器验收未完成。
+- 验证：34秒有声演示已导出（1280×720、24fps、816帧），含原创程序配乐与独立切换提示音；16项运动学、控件和导出时序测试通过，全文件解码与关键帧检查通过。浏览器连续播放、手机实机和完整主观听审未完成。 [播放34秒演示](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/index.html#demo)
 
 ## 大文件恢复
 

@@ -1,0 +1,21 @@
+{
+  "duration": 34,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "frames": 816,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "fullDecode": "passed",
+  "hubChecks": {
+    "frames": 816,
+    "planetHubChecks": 2448,
+    "minimumDarkHubPixels": 94,
+    "failed": [],
+    "criterion": "15x15 region at model center; at least12 dark hub pixels. This checks missing hubs, not readability or artwork acceptance."
+  },
+  "sha256": "e2cdac7bc800cc4d79b45c33c5525cb2ac5e3b9109033899323c7f090bfa3284",
+  "browserPlayback": "not verified: Chromium socket permission",
+  "subjectiveListening": "not performed",
+  "opencvFilmGate": "not run: cv2 unavailable"
+}
