@@ -1,0 +1,41 @@
+{
+  "id": "tidal-weave",
+  "artifact": "demo.mp4",
+  "originalSilentPreview": "preview.mp4",
+  "originalInteractive": "index.html",
+  "sources": "soundtrack-source.zip",
+  "videoSha256": "3592dca87c3a901bf9474de59d2be2e8cb4d76bbffdd530595e2c72690077d91",
+  "sourceVideoSha256": "4a84ae76b82db6cd58a7027165602e9708540ac5e6441987c473a2df81ac712e",
+  "sourceSceneSha256": "7d938c1d6df8371bcc84c1fea9bf43f16e777835c33350b6e9082230501704ad",
+  "soundtrack": "Original deterministic instrumental synthesis and separate scene-bound synthesized effects. No narration or external samples.",
+  "license": "Public reuse license not selected.",
+  "visualChange": "Original video stream preserved.",
+  "verification": {
+    "fullDecode": true,
+    "sourceArchiveMemberHashes": 9,
+    "archiveRestoreContainerIdentical": true,
+    "continuousRealtimeViewing": false,
+    "subjectiveListening": false,
+    "browserMobilePlayback": false
+  },
+  "container": {
+    "duration": 20.0,
+    "streams": [
+      {
+        "codec": "h264",
+        "type": "video",
+        "width": 960,
+        "height": 640,
+        "sampleRate": null
+      },
+      {
+        "codec": "aac",
+        "type": "audio",
+        "width": null,
+        "height": null,
+        "sampleRate": "32000"
+      }
+    ]
+  },
+  "recovery": "Media restored byte-identically from existing Git blobs; player and metadata rebuilt from recovered source and current catalogue."
+}
