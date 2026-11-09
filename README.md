@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 31 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 32 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -412,6 +412,19 @@
 - 模型：确切模型版本未披露
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/salt-echo/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/salt-echo/prompt.txt) · [来源与验证](dist/cases/salt-echo/provenance.json)
 - 验证：1536 × 1024 PNG，原始字节数与 SHA-256 已核。生成一次；完成原图目视与独立审查。虚构 AI 静态图，不是真实唱片、矿物照片或科学实验。
+
+## 橘子早市
+
+![橘子早市](dist/cases/orange-morning/original.png)
+
+剥开的橘皮卷成清晨的小摊，面包袋正在两个人之间传递。
+
+- 用途：生活叙事 · 想象插画
+- 制作方式：image-generation
+- 工具：ChatGPT 内置图像生成
+- 模型：ChatGPT 图像生成，具体模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/orange-morning/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/orange-morning/prompt.txt) · [来源与验证](dist/cases/orange-morning/provenance.json)
+- 验证：1536 × 1024 PNG，原始字节数与 SHA-256 已核。生成一次；完成原图目视与独立审查。原创虚构想象插画，不是现实摄影；无动画、无音轨。
 
 ## 大文件恢复
 

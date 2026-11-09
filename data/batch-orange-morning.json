@@ -1,0 +1,54 @@
+[
+  {
+    "id": "orange-morning",
+    "title": "橘子早市",
+    "category": "image-generation",
+    "method": "image-model",
+    "useCase": "生活叙事 · 想象插画",
+    "summary": "剥开的橘皮卷成清晨的小摊，面包袋正在两个人之间传递。",
+    "engine": "ChatGPT 内置图像生成",
+    "model": "ChatGPT 图像生成，具体模型版本未披露",
+    "createdAt": "2026-11-09",
+    "tags": [
+      "尺度错位",
+      "生活片刻",
+      "原创提示词"
+    ],
+    "verification": "1536 × 1024 PNG，原始字节数与 SHA-256 已核。生成一次；完成原图目视与独立审查。原创虚构想象插画，不是现实摄影；无动画、无音轨。",
+    "rights": "未使用现实人物、品牌或私人素材；未作互联网相似作品穷尽检索，AI 输出不构成独创性或版权法律保证。公开复用许可未选定。",
+    "steps": [
+      "打开原图，观察橘皮摊位与递交面包袋的生活动作。",
+      "阅读原创提示词与来源记录。",
+      "查看静态图像审查记录 review.md。"
+    ],
+    "source": "prompt.txt",
+    "artifact": "cases/orange-morning/index.html",
+    "poster": "cases/orange-morning/original.png",
+    "media": "original.png",
+    "extraProvenance": {
+      "title": "橘子早市",
+      "category": "image-generation",
+      "method": "image-model",
+      "engine": "ChatGPT 内置图像生成",
+      "model": "ChatGPT 图像生成，具体模型版本未披露",
+      "createdAt": "2026-11-09",
+      "generationAttemptsTotal": 1,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "eb89f07e96d8deafd66e7e5aa7882d629ec9579671bac1ff53dd44fdd4992a51",
+      "promptFile": "prompt.txt",
+      "referenceUse": "创作者实际观察用户提供的八张图，仅借鉴日常物件尺度错位与生活片刻的方法。未将参考图输入生成工具，未复制其人物、文字、场景或构图。",
+      "visualInspection": "创作者与独立审查均实际看过成品。生活动作、手部、橘皮结构、材质、构图通过；自行车后部遮挡较多和高光抢眼作为轻微限制记录。",
+      "fiction": "原创虚构想象插画，非实物摄影。",
+      "rights": "未使用现实人物、品牌或私人素材；未作互联网相似作品穷尽检索，AI 输出不构成独创性或版权法律保证。公开复用许可未选定。",
+      "references": [],
+      "bytes": 2950854,
+      "reviewFile": "review.md",
+      "limitations": [
+        "自行车后部遮挡较多，车架交叠偏密，不宜作为精密机械图。",
+        "果皮、果瓣高光略抢表情。",
+        "未对互联网相似作品作穷尽检索。"
+      ]
+    }
+  }
+]
