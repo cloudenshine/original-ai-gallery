@@ -33,6 +33,9 @@ if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 extra_file=r/'data/batch-mechanics.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 
+extra_file=r/'data/batch-salt-echo.json'
+if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
+
 # Preserve interactive pages while registering separately exported demos.
 for entry in rows:
  if entry["id"] == "phase-garden": entry["verification"] = '原有播放、暂停、重播、时间与幅度核心测试通过。新增 30 秒有声演示：1280×800、30 fps，原作算法离线导出，幅度 0.80；原创配乐与节点音效。全片解码、抽帧和源包哈希已核；浏览器连续观看与主观听审未完成。'

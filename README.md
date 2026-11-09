@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 30 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 31 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -399,6 +399,19 @@
 - 模型：Procedural vector geometry; no generative image, video or physics solver
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/between-turns/source.zip) · [来源与验证](dist/cases/between-turns/provenance.json)
 - 验证：34秒有声演示已导出（1280×720、24fps、816帧），含原创程序配乐与独立切换提示音；16项运动学、控件和导出时序测试通过，全文件解码与关键帧检查通过。浏览器连续播放、手机实机和完整主观听审未完成。
+
+## 盐的回声
+
+![盐的回声](dist/cases/salt-echo/original.png)
+
+想象声音的沟槽长出脆白的结晶：细密的黑色弧线，慢慢成为可以触摸的起伏。
+
+- 用途：感官联想 · 抽象微距视觉
+- 制作方式：image-generation
+- 工具：ChatGPT 内置图像生成
+- 模型：确切模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/salt-echo/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/salt-echo/prompt.txt) · [来源与验证](dist/cases/salt-echo/provenance.json)
+- 验证：1536 × 1024 PNG，原始字节数与 SHA-256 已核。生成一次；完成原图目视与独立审查。虚构 AI 静态图，不是真实唱片、矿物照片或科学实验。
 
 ## 大文件恢复
 

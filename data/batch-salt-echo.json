@@ -1,0 +1,44 @@
+[
+  {
+    "id": "salt-echo",
+    "title": "盐的回声",
+    "category": "image-generation",
+    "method": "image-model",
+    "useCase": "感官联想 · 抽象微距视觉",
+    "summary": "想象声音的沟槽长出脆白的结晶：细密的黑色弧线，慢慢成为可以触摸的起伏。",
+    "engine": "ChatGPT 内置图像生成",
+    "model": "确切模型版本未披露",
+    "createdAt": "2026-11-08",
+    "tags": [
+      "微距",
+      "声音与触感",
+      "原创提示词"
+    ],
+    "verification": "1536 × 1024 PNG，原始字节数与 SHA-256 已核。生成一次；完成原图目视与独立审查。虚构 AI 静态图，不是真实唱片、矿物照片或科学实验。",
+    "rights": "本次从原创提示词新生成，未使用参考图、人物或第三方音视频素材。AI 输出不构成全球独创性或版权的法律保证；未穷尽检索相似作品。公开复用许可尚未选定。",
+    "steps": [
+      "查看原始图像，沿弧线观察平面与结晶的变化。",
+      "阅读创作提示词和来源记录。",
+      "将盐与声音作为感官联想，不作材质鉴定或科学过程解释。"
+    ],
+    "source": "prompt.txt",
+    "artifact": "cases/salt-echo/index.html",
+    "poster": "cases/salt-echo/original.png",
+    "media": "original.png",
+    "extraProvenance": {
+      "references": [],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2551621,
+      "sha256": "15e6a89c933c271a796b1ecb40558e8f03071f8ceb6df45796cee300d1488132",
+      "generationAttemptsTotal": 1,
+      "visualInspection": true,
+      "independentReview": "通过入库审查：材质与弧线构图完整，听觉/触感联想明确。非旗舰作品；不夸大原创性。",
+      "limitations": [
+        "部分大结晶也可能被理解为石英或玻璃，盐是艺术设定。",
+        "右上密集结晶区域变化较少。",
+        "这是单帧生成图，没有动画、录音或物理仿真。"
+      ]
+    }
+  }
+]
