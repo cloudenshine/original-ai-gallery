@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 33 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 34 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -438,6 +438,19 @@
 - 模型：ChatGPT 图像生成，具体模型版本未披露
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/sugar-crossing/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/sugar-crossing/prompt.txt) · [来源与验证](dist/cases/sugar-crossing/provenance.json)
 - 验证：1536 × 1024 PNG，原始字节数与 SHA-256 已核。单次生成，无参考图输入；原图目视与独立静态审查通过，保留脚点承重与凹蚀形态的轻微局限。原创虚构静态图像，不是实拍、物理模拟或动画。
+
+## 借一束晚光
+
+![借一束晚光](dist/cases/borrowed-evening-light/original.png)
+
+巷子里的最后一束晚光，被女孩用小镜子借给了老人手里的针线。一个安静的动作，让缝补处重新亮起来。
+
+- 用途：温情叙事 · 人物场景
+- 制作方式：image-generation
+- 工具：ChatGPT 内置图像生成与编辑
+- 模型：实际模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/borrowed-evening-light/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/borrowed-evening-light/prompt.txt) · [来源与验证](dist/cases/borrowed-evening-light/provenance.json)
+- 验证：1536 × 1024 PNG，字节数与 SHA-256 已核。1 次新生成、1 次定向编辑；已目视检查。当前为待用户审定的候选作品，不是用户精选。画面人物与场景均为虚构，非纪实摄影；未进行物理光路验证。
 
 ## 大文件恢复
 

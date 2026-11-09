@@ -1,0 +1,28 @@
+{
+  "title": "借一束晚光",
+  "category": "image-generation",
+  "method": "image-model",
+  "engine": "ChatGPT 内置图像生成与编辑",
+  "model": "实际模型版本未披露",
+  "rights": "自拟场景与提示词，未输入外部参考图。编辑输入为本作品首版生成图。原创不表示全网唯一或已完成相似性、版权排查；公开复用许可尚未选定。",
+  "verification": "1536 × 1024 PNG，字节数与 SHA-256 已核。1 次新生成、1 次定向编辑；已目视检查。当前为待用户审定的候选作品，不是用户精选。画面人物与场景均为虚构，非纪实摄影；未进行物理光路验证。",
+  "createdAt": "2026-11-09",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "references": [],
+  "width": 1536,
+  "height": 1024,
+  "bytes": 2173307,
+  "sha256": "8b144f0279ebd61bb2021768774d8a24cb1d5dd736c253f066b215c353bc603c",
+  "generationAttemptsTotal": 1,
+  "editAttemptsTotal": 1,
+  "externalReferenceImages": false,
+  "fictionalPeopleAndScene": true,
+  "visualInspection": true,
+  "userApproved": false,
+  "selectionStatus": "候选，待用户审定",
+  "limitations": [
+    "无法仅凭画面严格验证反射光路。",
+    "女孩目光偏向镜面。",
+    "自拟场景不保证全网唯一，未完成穷尽相似性或版权检索。"
+  ]
+}
