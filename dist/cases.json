@@ -1864,6 +1864,62 @@
         ]
       },
       "provenance": "cases/orange-morning/provenance.json"
+    },
+    {
+      "method": "image-model",
+      "model": "ChatGPT 图像生成，具体模型版本未披露",
+      "rights": "未使用现实人物、品牌或私人素材；未作互联网相似作品穷尽检索，AI 输出不构成独创性或版权法律保证。公开复用许可未选定。",
+      "createdAt": "2026-11-09",
+      "id": "sugar-crossing",
+      "title": "赶在糖化之前",
+      "category": "image-generation",
+      "useCase": "微观叙事 · 虚构插画",
+      "summary": "方糖的湿润下缘正在松散，一位旅人握住伸来的手，跨向纸船。",
+      "engine": "ChatGPT 内置图像生成",
+      "tags": [
+        "材料叙事",
+        "微观寓言",
+        "原创提示词"
+      ],
+      "verification": "1536 × 1024 PNG，原始字节数与 SHA-256 已核。单次生成，无参考图输入；原图目视与独立静态审查通过，保留脚点承重与凹蚀形态的轻微局限。原创虚构静态图像，不是实拍、物理模拟或动画。",
+      "steps": [
+        "观察湿糖边缘、相握的手与跨向纸船的动作。",
+        "阅读原创提示词与来源记录。",
+        "查看静态视觉审查记录 review.md。"
+      ],
+      "source": "cases/sugar-crossing/prompt.txt",
+      "artifact": "cases/sugar-crossing/index.html",
+      "poster": "cases/sugar-crossing/original.png",
+      "media": "original.png",
+      "extraProvenance": {
+        "title": "赶在糖化之前",
+        "category": "image-generation",
+        "method": "image-model",
+        "engine": "ChatGPT 内置图像生成",
+        "model": "ChatGPT 图像生成，具体模型版本未披露",
+        "createdAt": "2026-11-09",
+        "generationAttemptsTotal": 1,
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c3448b2efcf52dea2bafa6a943a655aa8f29c716ec8704f44f0cfd44c90738c1",
+        "promptFile": "prompt.txt",
+        "referenceUse": "单次原创文本生图，未输入参考图；不公开用户参考图或私人资料。",
+        "visualInspection": "创作者与独立审查均实际查看成品。材料叙事、握手扶助、尺度与画面主次通过；脚点承重略显摆拍，凹蚀形态属于虚构表现。",
+        "fiction": "原创虚构微观叙事。茶为创作设定，单凭成品只能辨认棕色热饮。不是实拍、物理或化学模拟、动画或已验证的连续动作。",
+        "rights": "未使用现实人物、品牌或私人素材；未作互联网相似作品穷尽检索，AI 输出不构成独创性或版权法律保证。公开复用许可未选定。",
+        "references": [],
+        "bytes": 2025409,
+        "reviewFile": "review.md",
+        "limitations": [
+          "脚点支撑略显摆拍，不证明已安全登船或船体稳定。",
+          "糖的凹蚀与晶粒脱落为虚构表现，不是物理或化学模拟。",
+          "人物动作在缩略图中略小。",
+          "未对互联网相似作品作穷尽检索。"
+        ],
+        "promptSha256": "a072142662b47125bab9296f6c73af24939f928c9c5b59314f0d4aedad7a3de6",
+        "referenceImageInputs": 0
+      },
+      "provenance": "cases/sugar-crossing/provenance.json"
     }
   ]
 }

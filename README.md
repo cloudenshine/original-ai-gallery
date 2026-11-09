@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 32 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 33 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -425,6 +425,19 @@
 - 模型：ChatGPT 图像生成，具体模型版本未披露
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/orange-morning/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/orange-morning/prompt.txt) · [来源与验证](dist/cases/orange-morning/provenance.json)
 - 验证：1536 × 1024 PNG，原始字节数与 SHA-256 已核。生成一次；完成原图目视与独立审查。原创虚构想象插画，不是现实摄影；无动画、无音轨。
+
+## 赶在糖化之前
+
+![赶在糖化之前](dist/cases/sugar-crossing/original.png)
+
+方糖的湿润下缘正在松散，一位旅人握住伸来的手，跨向纸船。
+
+- 用途：微观叙事 · 虚构插画
+- 制作方式：image-generation
+- 工具：ChatGPT 内置图像生成
+- 模型：ChatGPT 图像生成，具体模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/sugar-crossing/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/sugar-crossing/prompt.txt) · [来源与验证](dist/cases/sugar-crossing/provenance.json)
+- 验证：1536 × 1024 PNG，原始字节数与 SHA-256 已核。单次生成，无参考图输入；原图目视与独立静态审查通过，保留脚点承重与凹蚀形态的轻微局限。原创虚构静态图像，不是实拍、物理模拟或动画。
 
 ## 大文件恢复
 
