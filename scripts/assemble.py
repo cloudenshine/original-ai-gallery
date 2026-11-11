@@ -45,6 +45,9 @@ if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 extra_file=r/'data/batch-borrowed-evening-light.json'
 if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
 
+extra_file=r/'data/batch-five-20261111.json'
+if extra_file.exists():rows.extend(json.loads(extra_file.read_text()))
+
 # Preserve interactive pages while registering separately exported demos.
 for entry in rows:
  if entry["id"] == "phase-garden": entry["verification"] = '原有播放、暂停、重播、时间与幅度核心测试通过。新增 30 秒有声演示：1280×800、30 fps，原作算法离线导出，幅度 0.80；原创配乐与节点音效。全片解码、抽帧和源包哈希已核；浏览器连续观看与主观听审未完成。'
@@ -60,7 +63,7 @@ for c in rows:
   media=(f'<video controls playsinline preload="metadata" poster="{escape(Path(c["poster"]).name)}"><source src="{escape(c["media"])}" type="video/mp4">请下载影片后播放。</video>' if c['media'].endswith('.mp4') else f'<img src="{escape(c["media"])}" alt="{title}">')
   if c.get('gif'):media+=f'<h2>代码制作 GIF（无声）</h2><img src="{escape(c["gif"])}" alt="{title} GIF"><p>此 GIF 为代码合成，并非图像工具原生 GIF 输出。</p>'
   if c.get('sourceImage'):media+=f'<h2>编辑前图像</h2><img src="{escape(c["sourceImage"])}" alt="编辑前图像">'
-  links=f'<a href="{escape(c["media"])}">打开媒体文件</a> · <a href="{escape(c["source"])}">下载源码与提示词</a> · <a href="provenance.json">来源与验证</a>'
+  links=f'<a href="{escape(c["media"])}">打开媒体文件</a> · <a href="{escape(c["source"])}">{escape(c.get("sourceLabel", "下载源码与提示词"))}</a> · <a href="provenance.json">来源与验证</a>'
   if c['id']=='sugar-crossing':links+=' · <a href="review.md">静态视觉审查</a>'
   if isinstance(c.get("demo"),str):links+=f' · <a href="../../{escape(c["demo"],quote=True)}">播放有声演示</a>'
   if c.get('master'):links+=f' · <a href="{escape(c["master"])}">下载完整分辨率母版</a>'
@@ -81,6 +84,6 @@ for c in items:
  source_link='https://cloudenshine.github.io/original-ai-gallery/'+c['source']
  artifact_link='https://cloudenshine.github.io/original-ai-gallery/'+c['artifact']
  readme+=f"## {c['title']}\n\n![{c['title']}](dist/{c['poster']})\n\n{c['summary']}\n\n- 用途：{c['useCase']}\n- 制作方式：{c['category']}\n- 工具：{c['engine']}\n- 模型：{c['model']}\n- [真实产物]({artifact_link}) · [源码或提示词]({source_link}) · [来源与验证](dist/{c['provenance']})\n- 验证：{c['verification']}\n\n"
-readme+='## 大文件恢复\n\n仓库以 9,000,000 字节分块保存六个大文件。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。\n\n[风的信完整母版](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/master.mp4)\n\n'
+readme+='## 大文件恢复\n\n仓库以 9,000,000 字节分块保存大文件，完整列表见 binary-parts/manifest.json。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。\n\n[风的信完整母版](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/master.mp4)\n\n'
 readme+='## 原创与参考\n\n以下仓库仅提供案例组织与展示思路，未复制其图片、提示词、代码或故事：\n\n- https://github.com/Evolink-AI/awesome-gpt-image-2-6-prompts-and-api\n- https://github.com/guanmo-ai/awesome-ai-motion\n- https://github.com/lemomo-ai/lemo-opuscar\n\n## 权利\n\n原创源码与媒体均为本次任务新制。AI 生成并非版权或独创性法律保证。公开复用许可尚未选定，不默认授予开源或媒体复用许可。\n'
 (r/'README.md').write_text(readme)

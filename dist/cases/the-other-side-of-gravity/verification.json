@@ -1,0 +1,176 @@
+{
+  "title": "重力的另一面 / The Other Side of Gravity",
+  "verification_date": "2026-11-11",
+  "video": {
+    "codec_name": "h264",
+    "width": 1280,
+    "height": 720,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "24/1",
+    "nb_frames": "576",
+    "duration": "24.000000"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "channel_layout": "stereo",
+    "duration": "24.000000"
+  },
+  "complete_decode": {
+    "exit_code": 0,
+    "stderr": "",
+    "decoded_video_frames": 576,
+    "decoded_audio_samples": 1152000,
+    "decoded_audio_seconds": 24.0
+  },
+  "motion_signal": {
+    "preview_resolution": [
+      160,
+      90
+    ],
+    "unique_decoded_frame_hashes": 576,
+    "mean_rgb_change_min": 0.007499999832361937,
+    "mean_rgb_change_max": 1.9615278244018555,
+    "mean_rgb_change_p95": 0.9058678150177002,
+    "dark_frame_mean_min": 94.90034722222222,
+    "note": "Numerical change confirms no repeated frozen frames; it does not establish cinematic rhythm."
+  },
+  "final_aac_signal": {
+    "finite": true,
+    "clipped_samples": 0,
+    "sample_peak_dbfs": -1.2324680089950562,
+    "integrated_lufs": -16.44,
+    "true_peak_dbtp": -1.23,
+    "lra_lu": 11.7
+  },
+  "source_sha256": "284c472488c96b729fbfed3152de4dcffb9448a44e0c7824308f032024fa9e82",
+  "film_sha256": "e0319561f1fb161c6c9ecb02c86dd984870c6c0e9e1c2446323685ccb20d349d",
+  "film_size_bytes": 10325924,
+  "geometry": {
+    "frames_checked": 576,
+    "contact_frame": 145,
+    "contact_gap_min": -1.5258789076710855e-07,
+    "contact_gap_max": 8.583068855649856e-08,
+    "lowest_center_time": 7.708333333333333,
+    "lowest_center_z": 0.44999998807907104,
+    "highest_center_time": 20.0,
+    "highest_center_z": 2.069999933242798,
+    "bead_center_occluded_frames": [],
+    "bead_center_ndc_min": [
+      0.49999991059303284,
+      0.4135577082633972
+    ],
+    "bead_center_ndc_max": [
+      0.5000001788139343,
+      0.8831857442855835
+    ],
+    "out_of_order_geometry_hash_equal": true,
+    "hash": "ed92244b9a0fd50581bbf7167c0d09f2c91aa0de5ae970983f493aa89cd4160e",
+    "caveat": "Ray checks test center visibility, not every silhouette point. Stylized prescribed deformation, not physics simulation.",
+    "final_render_source_sha256": "284c472488c96b729fbfed3152de4dcffb9448a44e0c7824308f032024fa9e82",
+    "source_note": "Final 0.475 thin-seam geometry; subsequent sole source change creates the stills output directory."
+  },
+  "pixel_reproducibility": {
+    "frame": 337,
+    "sha256": [
+      "20b1d56a4bb4ad14d096e6a04dd1949988c3a16b25153a9a62539cdc54840a44",
+      "eff37c80f59f642020f4dfa24354b075d95b88b68eba9a0e90e558535bff10f3"
+    ],
+    "byte_identical": false,
+    "final_render_source_sha256": "284c472488c96b729fbfed3152de4dcffb9448a44e0c7824308f032024fa9e82",
+    "source_note": "Final 0.475 thin-seam geometry; subsequent sole source change creates the stills output directory.",
+    "pixel_identical": true,
+    "pixel_sha256": [
+      "2f21877466a3e3d5c00b98538cf5c925831fdb639b49939e28906a3c835ca16b",
+      "2f21877466a3e3d5c00b98538cf5c925831fdb639b49939e28906a3c835ca16b"
+    ],
+    "file_hash_note": "PNG timestamp metadata differs; decoded pixel comparison is authoritative."
+  },
+  "visual_review": {
+    "sampled_frames_and_contact_sheets": true,
+    "revisions": "Replaced 44 uniform pleats with 24 asymmetric lamellae; removed coplanar overlap; showed bead and center lift. Full-film sample review recorded separately.",
+    "full_speed_continuous_viewing": false,
+    "final_contact_sheet_times_seconds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5.5,
+      6,
+      6.5,
+      7,
+      7.708,
+      8.5,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      22,
+      23.958
+    ],
+    "full_resolution_samples_seconds": [
+      0,
+      2,
+      6,
+      7.5,
+      7.708,
+      17.458,
+      19,
+      20
+    ],
+    "sampled_verdict": "Final sampled sequence shows approach, pressure, delayed curl and independent central lift. Earlier overlap artifacts were fixed. Restrained mechanical-sculpture character remains.",
+    "independent_review_verdict": "Suitable for delivery as an independent original candidate. No blocking visual issue in the final 24-node contact sheet and poster. Still a restrained mechanical sculpture; pacing and sound require subjective review."
+  },
+  "subjective_listening": {
+    "verified": false,
+    "reason": "Available audio-input tool reported audio input unsupported."
+  },
+  "actual_browser_playback": {
+    "verified": false,
+    "reason": "Cloud browser could not reach execution-host localhost; two explicit local-server attempts returned ERR_CONNECTION_REFUSED."
+  },
+  "limitations": [
+    "Prescribed stylized geometry, not physical simulation.",
+    "Static .blend snapshot; final_render.py regenerates the animation.",
+    "Technical verification and sampled imagery are not final subjective audiovisual acceptance."
+  ],
+  "source_frame_continuity": {
+    "frame_count": 576,
+    "resolution": [
+      1280,
+      720
+    ],
+    "frames_in_exact_sequence": true,
+    "frame_delta_mae_min": 0.01607638970017433,
+    "frame_delta_mae_max": 2.3476619720458984,
+    "frame_delta_mae_median": 0.3789178133010864,
+    "abrupt_change_candidates": [],
+    "blank_frame_candidates": [],
+    "duplicate_consecutive_candidates": [],
+    "final_render_source_sha256": "284c472488c96b729fbfed3152de4dcffb9448a44e0c7824308f032024fa9e82",
+    "scope": "Metrics use 320x180 RGB downsample. They detect gross discontinuities; they do not prove subjective playback quality."
+  },
+  "source_restore_test": {
+    "restored_from_zip": true,
+    "blender_validate_exit_code": 0,
+    "matching_checks": [
+      "frames_checked",
+      "contact_gap_min",
+      "contact_gap_max",
+      "lowest_center_z",
+      "highest_center_z",
+      "bead_center_occluded_frames",
+      "hash"
+    ],
+    "all_match": true
+  }
+}

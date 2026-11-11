@@ -1,0 +1,33 @@
+{
+  "title": "为一粒种子靠岸",
+  "category": "coding-film",
+  "method": "code",
+  "engine": "Canvas / Node.js + Python 原创声音 + FFmpeg",
+  "model": "ChatGPT 协作，确切底层模型版本未披露",
+  "rights": "图形、动画、音乐与声效为本任务原创程序制作，未使用外部图片、采样音乐或三维模型。依赖工具保留各自许可。未作穷尽相似性检索，不作版权法律保证；公开复用许可尚未选定。",
+  "verification": "20 秒，1280×720 / 24 fps，480 帧，H.264/AAC。完整解码、原包 CRC 与 13 个成员哈希已核；纸艺接触编排已抽帧检查。完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。",
+  "createdAt": "2026-11-09",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "references": [],
+  "bytes": 1796482,
+  "sha256": "4ebf9e5055c779395395d2e0b6895767092a302042a4159b6e27b3ca1684402f",
+  "userApproved": false,
+  "selectionStatus": "已制作候选，非用户精选",
+  "sourceBytes": 3003355,
+  "sourceSha256": "75542a3352d0dc0150dca5278fb8bcc9e277fec28c51d3ae186d3d67e44ceacb",
+  "independentWorkCount": 1,
+  "durationSeconds": 20,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "fullDecodeVerified": true,
+  "subjectiveListeningVerified": false,
+  "fullSpeedViewingVerified": false,
+  "sourceArchiveMembersVerified": 13,
+  "sourceArchivePreserved": true,
+  "limitations": [
+    "二维纸艺编排，非流体或刚体仿真。",
+    "GIF 为无声派生预览，不是独立案例或无缝循环。",
+    "完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。"
+  ]
+}

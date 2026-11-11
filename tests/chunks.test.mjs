@@ -6,7 +6,7 @@ import {execFileSync} from 'node:child_process';
 const root=new URL('../',import.meta.url);
 const manifest=JSON.parse(fs.readFileSync(new URL('binary-parts/manifest.json',root)));
 const hash=b=>createHash('sha256').update(b).digest('hex');
-test('six chunked files preserve every part and full original hash',()=>{assert.equal(manifest.length,6);for(const e of manifest){let chunks=[];for(const p of e.parts){const b=fs.readFileSync(new URL(p.path,root));assert.equal(b.length,p.bytes);assert.ok(b.length<=9000000);assert.equal(hash(b),p.sha256);chunks.push(b)}const raw=Buffer.concat(chunks);assert.equal(raw.length,e.bytes);assert.equal(hash(raw),e.sha256);assert.equal(hash(fs.readFileSync(new URL(e.target,root))),e.sha256)}});
+test('seven chunked files preserve every part and full original hash',()=>{assert.equal(manifest.length,7);for(const e of manifest){let chunks=[];for(const p of e.parts){const b=fs.readFileSync(new URL(p.path,root));assert.equal(b.length,p.bytes);assert.ok(b.length<=9000000);assert.equal(hash(b),p.sha256);chunks.push(b)}const raw=Buffer.concat(chunks);assert.equal(raw.length,e.bytes);assert.equal(hash(raw),e.sha256);assert.equal(hash(fs.readFileSync(new URL(e.target,root))),e.sha256)}});
 test('restore rejects corrupt chunks without replacing existing target',()=>{execFileSync('python3',['-c',`import importlib.util,tempfile,json,pathlib,hashlib
 spec=importlib.util.spec_from_file_location('restore','scripts/restore-binaries.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 with tempfile.TemporaryDirectory() as t:

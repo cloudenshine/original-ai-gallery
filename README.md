@@ -8,7 +8,7 @@
 
 ## 在线作品集
 
-[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 34 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
+[打开造物案例馆](https://cloudenshine.github.io/original-ai-gallery/) · 39 件作品。部署是否完成以 GitHub Actions 的 Pages 结果为准。
 
 ## 把黄昏折成一座山
 
@@ -452,9 +452,74 @@
 - [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/borrowed-evening-light/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/borrowed-evening-light/prompt.txt) · [来源与验证](dist/cases/borrowed-evening-light/provenance.json)
 - 验证：1536 × 1024 PNG，字节数与 SHA-256 已核。1 次新生成、1 次定向编辑；已目视检查。当前为待用户审定的候选作品，不是用户精选。画面人物与场景均为虚构，非纪实摄影；未进行物理光路验证。
 
+## 为一粒种子靠岸
+
+![为一粒种子靠岸](dist/cases/landing-for-a-seed/poster.png)
+
+薄叶漂向岸边，波脊抬起叶底，一粒橡实沿叶面滚过接缝，最后停在泥土上。
+
+- 用途：纸艺叙事短片
+- 制作方式：coding-film
+- 工具：Canvas / Node.js + Python 原创声音 + FFmpeg
+- 模型：ChatGPT 协作，确切底层模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/landing-for-a-seed/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/landing-for-a-seed/source.zip) · [来源与验证](dist/cases/landing-for-a-seed/provenance.json)
+- 验证：20 秒，1280×720 / 24 fps，480 帧，H.264/AAC。完整解码、原包 CRC 与 13 个成员哈希已核；纸艺接触编排已抽帧检查。完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。
+
+## 矿物潮汐
+
+![矿物潮汐](dist/cases/mineral-tide/mineral-tide.png)
+
+淡绿矿物层理与弯曲的白色薄边，把岩石剖面组织成潮水般的视觉。
+
+- 用途：原创概念视觉
+- 制作方式：image-generation
+- 工具：ChatGPT 内置图像生成
+- 模型：ChatGPT 协作，确切底层模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/mineral-tide/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/mineral-tide/source-notes.md) · [来源与验证](dist/cases/mineral-tide/provenance.json)
+- 验证：1536×1024 PNG，原图字节与 SHA-256 已核，已目视检查，用户已认可。原始提示词未找到，仅提供可核实的来源说明；不声称逐像素复现。
+
+## 一弧升起
+
+![一弧升起](dist/cases/one-arc-rises/poster.png)
+
+同一根黄铜轴带动七枚凸轮，依次托起白陶叶片，形成中央高、两端低的一道弧。
+
+- 用途：程序化动力雕塑
+- 制作方式：blender-film
+- 工具：Blender 4.3.2 + Python 原创声音 + FFmpeg
+- 模型：ChatGPT 协作，确切底层模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/one-arc-rises/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/one-arc-rises/one-arc-rises-source.zip) · [来源与验证](dist/cases/one-arc-rises/provenance.json)
+- 验证：20 秒，1280×720 / 24 fps，480 个场景时点，H.264/AAC。完整解码、原包 CRC 与 12 个成员哈希已核。源包保留完整 Blender 场景与时轴；最终静止段采用经核验的缓存。完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。
+
+## 缝隙记得
+
+![缝隙记得](dist/cases/the-seam-remembers/the-seam-remembers.png)
+
+暗靛蓝布面中透出一线暖光，四针不齐的红线把裂口轻轻接住。
+
+- 用途：原创概念视觉
+- 制作方式：image-generation
+- 工具：ChatGPT 内置图像生成
+- 模型：ChatGPT 协作，确切底层模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/the-seam-remembers/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/the-seam-remembers/the-seam-remembers-source.zip) · [来源与验证](dist/cases/the-seam-remembers/provenance.json)
+- 验证：1536×1024 PNG，单次生成，原图与完整原始提示词保留。目视、独立静态审查、原包 CRC 与 5 个成员哈希已核。画面偏暗，穿针结构不作工艺证据；作为候选发布，不代表用户已认可。
+
+## 重力的另一面
+
+![重力的另一面](dist/cases/the-other-side-of-gravity/poster.png)
+
+银珠压低铜盘，弯曲沿薄铜片展开，中央托座最后把银珠抬回光里。
+
+- 用途：程序化动力雕塑
+- 制作方式：blender-film
+- 工具：Blender 4.3.2 EEVEE + Python 原创声音 + FFmpeg
+- 模型：ChatGPT 协作，确切底层模型版本未披露
+- [真实产物](https://cloudenshine.github.io/original-ai-gallery/cases/the-other-side-of-gravity/index.html) · [源码或提示词](https://cloudenshine.github.io/original-ai-gallery/cases/the-other-side-of-gravity/the-other-side-of-gravity-source.zip) · [来源与验证](dist/cases/the-other-side-of-gravity/provenance.json)
+- 验证：24 秒，1280×720 / 24 fps，576 帧真实渲染，H.264/AAC。完整解码、连续性检查、原包 CRC / 22 个文件哈希与解压重建的 576 时点验证通过；最终音轨 -16.44 LUFS / -1.23 dBTP。完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。 .blend 为静态快照，完整动画由 final_render.py 重建。
+
 ## 大文件恢复
 
-仓库以 9,000,000 字节分块保存六个大文件。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。
+仓库以 9,000,000 字节分块保存大文件，完整列表见 binary-parts/manifest.json。运行 `python3 scripts/restore-binaries.py` 校验每块与完整 SHA-256 并原子恢复；`npm test` 和 `npm run build` 自动执行恢复。无需网络。在线下载链接指向 Pages，是否已部署请检查 GitHub Actions。
 
 [风的信完整母版](https://cloudenshine.github.io/original-ai-gallery/cases/letter-to-the-wind/master.mp4)
 

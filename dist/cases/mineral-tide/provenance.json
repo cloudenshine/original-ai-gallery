@@ -1,0 +1,28 @@
+{
+  "title": "矿物潮汐",
+  "category": "image-generation",
+  "method": "image-model",
+  "engine": "ChatGPT 内置图像生成",
+  "model": "ChatGPT 协作，确切底层模型版本未披露",
+  "rights": "本任务的生成式原创概念图，非真实矿物摄影。原提示词未保留，不补写未知生成参数；当前画面未见人物、品牌或私人素材。未作穷尽相似性检索，不作版权法律保证；公开复用许可尚未选定。",
+  "verification": "1536×1024 PNG，原图字节与 SHA-256 已核，已目视检查，用户已认可。原始提示词未找到，仅提供可核实的来源说明；不声称逐像素复现。",
+  "createdAt": "2026-11-10",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "references": [],
+  "bytes": 2417613,
+  "sha256": "24cf74334a9266d605fcff11c4e471f7b8b3a6f86e36af9d091317b8eb763eb3",
+  "userApproved": true,
+  "selectionStatus": "用户已认可",
+  "sourceBytes": 986,
+  "sourceSha256": "ab270d97755e521e31e6924f6ef73ff7ed6b164cd16381d5e8bc97108b29a582",
+  "independentWorkCount": 1,
+  "width": 1536,
+  "height": 1024,
+  "visualInspection": true,
+  "originalPromptAvailable": false,
+  "promptStatus": "原始提示词未找到，来源说明不是原始提示词。",
+  "limitations": [
+    "生成式视觉，不是地质学图解或实物摄影。",
+    "确切模型版本与原始生成参数未披露或未保留。"
+  ]
+}

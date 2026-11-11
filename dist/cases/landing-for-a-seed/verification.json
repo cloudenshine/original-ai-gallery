@@ -1,0 +1,79 @@
+{
+  "status": "rendered_candidate",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "nativeFrames": 480,
+    "uniqueNativeFrames": 480,
+    "durationSeconds": 20,
+    "fullDecode": "passed",
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac"
+  },
+  "gif": {
+    "width": 640,
+    "height": 360,
+    "frames": 240,
+    "durationMs": 20000,
+    "nominalFps": 12,
+    "silent": true,
+    "seamlessLoop": false
+  },
+  "audio": {
+    "master": {
+      "sampleRate": 48000,
+      "samplesPerChannel": 960000,
+      "channels": 2,
+      "FLACRoundTrip": "bit_exact",
+      "PCMsha256": "5a2939890b490170e0e67ad7887fb9a9a8335960c1dca61c054166276b3c8f30"
+    },
+    "music": {
+      "sampleRate": 48000,
+      "samplesPerChannel": 960000,
+      "channels": 2,
+      "FLACRoundTrip": "bit_exact",
+      "PCMsha256": "c8ebedad68d5bebbbfe13737bb25dcfd74771b44078cdc48d4b464a7625f052a"
+    },
+    "foley": {
+      "sampleRate": 48000,
+      "samplesPerChannel": 960000,
+      "channels": 2,
+      "FLACRoundTrip": "bit_exact",
+      "PCMsha256": "9bdc9e1a92e7c5dd3e955d386a77e4a24e0e1d2c480c0b891fb6a40e23d9c4b4"
+    }
+  },
+  "stemSumMaxQuantizationErrorLSB": 1,
+  "musicSilentWindowSeconds": [
+    8,
+    16.2
+  ],
+  "firstSoilSupportTime": 14.041666666666666,
+  "maxWaveContactGapPixels": 5.684341886080802e-14,
+  "seedFrozenFromSeconds": 16,
+  "leafAndUnderLeafWaveFrozenFromSeconds": 18,
+  "staticReview": "passed_for_candidate_generation",
+  "continuousOriginalSpeedViewing": "not_verified",
+  "subjectiveListening": "not_verified",
+  "browserPlayback": "not_verified_local_browser_launch_blocked",
+  "copyright": "original procedural art and audio, no external image/audio/font/model assets; no new reuse license",
+  "paidServicesUsed": false,
+  "files": [
+    {
+      "path": "film.mp4",
+      "bytes": 1796482,
+      "sha256": "4ebf9e5055c779395395d2e0b6895767092a302042a4159b6e27b3ca1684402f"
+    },
+    {
+      "path": "preview.gif",
+      "bytes": 3184285,
+      "sha256": "e7636c6f906dbf779180a467f6148672e5cc9a3da4937bea529a6c4ad6d07727"
+    },
+    {
+      "path": "poster.png",
+      "bytes": 1024118,
+      "sha256": "6b6f21ec8aab64c143dff34709ecc503ee124b638308b84291e0b60f4e4fa948"
+    }
+  ]
+}

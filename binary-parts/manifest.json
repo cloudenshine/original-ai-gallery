@@ -140,5 +140,22 @@
         "sha256": "5eb4f1333b25ed8a1c08a23ddd927a3e28b29f8f44d07e0508cffda4dd31a55c"
       }
     ]
+  },
+  {
+    "target": "dist/cases/the-other-side-of-gravity/the-other-side-of-gravity.mp4",
+    "bytes": 10325924,
+    "sha256": "e0319561f1fb161c6c9ecb02c86dd984870c6c0e9e1c2446323685ccb20d349d",
+    "parts": [
+      {
+        "path": "binary-parts/gravity-film/part-001.bin",
+        "bytes": 9000000,
+        "sha256": "7d8aef97bf742f50263909ee738c0eb4d81155293b99bd51de716539128a9ed4"
+      },
+      {
+        "path": "binary-parts/gravity-film/part-002.bin",
+        "bytes": 1325924,
+        "sha256": "177cf2c4c38525de1d874d446bd01307e9f227f90061ee2cac4a6cb46f2a5af5"
+      }
+    ]
   }
 ]

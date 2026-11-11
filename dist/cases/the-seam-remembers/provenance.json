@@ -1,0 +1,32 @@
+{
+  "title": "缝隙记得",
+  "category": "image-generation",
+  "method": "image-model",
+  "engine": "ChatGPT 内置图像生成",
+  "model": "ChatGPT 协作，确切底层模型版本未披露",
+  "rights": "本任务原创主题、构图与提示词，一次生成，无输入参考图或外部图像。非实物摄影；未作穷尽相似性检索，不作版权法律保证。公开复用许可尚未选定。",
+  "verification": "1536×1024 PNG，单次生成，原图与完整原始提示词保留。目视、独立静态审查、原包 CRC 与 5 个成员哈希已核。画面偏暗，穿针结构不作工艺证据；作为候选发布，不代表用户已认可。",
+  "createdAt": "2026-11-10",
+  "originality": "本次新制；未复制参考仓库的图片、提示词、故事或源码。未对互联网相似作品作穷尽检索。",
+  "references": [],
+  "bytes": 2639136,
+  "sha256": "64395bf0cebb76f0ec1e0614a9fab931fd03951b99feaf0686063bdb3d7190e2",
+  "userApproved": false,
+  "selectionStatus": "已制作候选，非用户精选",
+  "sourceBytes": 2564864,
+  "sourceSha256": "8efde88946d677c6214ee08dd2d4a9d520a2c9582273e9f8ee64e1f7a31a583c",
+  "independentWorkCount": 1,
+  "width": 1536,
+  "height": 1024,
+  "generationAttemptsTotal": 1,
+  "externalReferenceImages": false,
+  "visualInspection": true,
+  "originalPromptAvailable": true,
+  "sourceArchiveMembersVerified": 5,
+  "sourceArchivePreserved": true,
+  "limitations": [
+    "画面偏暗，红线与裂口可能产生创口联想。",
+    "局部穿针方式不是可复现纺织工艺说明。",
+    "原包 README 保留交付时等待批量上传的历史状态；当前发布状态以本页为准。"
+  ]
+}

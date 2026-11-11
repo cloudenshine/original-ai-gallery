@@ -1,0 +1,263 @@
+[
+  {
+    "id": "landing-for-a-seed",
+    "title": "为一粒种子靠岸",
+    "category": "coding-film",
+    "method": "code",
+    "useCase": "纸艺叙事短片",
+    "summary": "薄叶漂向岸边，波脊抬起叶底，一粒橡实沿叶面滚过接缝，最后停在泥土上。",
+    "engine": "Canvas / Node.js + Python 原创声音 + FFmpeg",
+    "model": "ChatGPT 协作，确切底层模型版本未披露",
+    "createdAt": "2026-11-09",
+    "batch": "five-20261111",
+    "tags": [
+      "二维纸艺",
+      "原创配乐",
+      "候选"
+    ],
+    "verification": "20 秒，1280×720 / 24 fps，480 帧，H.264/AAC。完整解码、原包 CRC 与 13 个成员哈希已核；纸艺接触编排已抽帧检查。完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。",
+    "rights": "图形、动画、音乐与声效为本任务原创程序制作，未使用外部图片、采样音乐或三维模型。依赖工具保留各自许可。未作穷尽相似性检索，不作版权法律保证；公开复用许可尚未选定。",
+    "steps": [
+      "查看完整作品与制作说明。",
+      "下载保留的源码、原始提示词或来源说明。",
+      "对照验证记录与未验证边界。"
+    ],
+    "source": "source.zip",
+    "artifact": "cases/landing-for-a-seed/index.html",
+    "poster": "cases/landing-for-a-seed/poster.png",
+    "media": "film.mp4",
+    "extraProvenance": {
+      "references": [],
+      "bytes": 1796482,
+      "sha256": "4ebf9e5055c779395395d2e0b6895767092a302042a4159b6e27b3ca1684402f",
+      "userApproved": false,
+      "selectionStatus": "已制作候选，非用户精选",
+      "sourceBytes": 3003355,
+      "sourceSha256": "75542a3352d0dc0150dca5278fb8bcc9e277fec28c51d3ae186d3d67e44ceacb",
+      "independentWorkCount": 1,
+      "durationSeconds": 20,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "fullDecodeVerified": true,
+      "subjectiveListeningVerified": false,
+      "fullSpeedViewingVerified": false,
+      "sourceArchiveMembersVerified": 13,
+      "sourceArchivePreserved": true,
+      "limitations": [
+        "二维纸艺编排，非流体或刚体仿真。",
+        "GIF 为无声派生预览，不是独立案例或无缝循环。",
+        "完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。"
+      ]
+    },
+    "gif": "preview.gif"
+  },
+  {
+    "id": "mineral-tide",
+    "title": "矿物潮汐",
+    "category": "image-generation",
+    "method": "image-model",
+    "useCase": "原创概念视觉",
+    "summary": "淡绿矿物层理与弯曲的白色薄边，把岩石剖面组织成潮水般的视觉。",
+    "engine": "ChatGPT 内置图像生成",
+    "model": "ChatGPT 协作，确切底层模型版本未披露",
+    "createdAt": "2026-11-10",
+    "batch": "five-20261111",
+    "tags": [
+      "矿物层理",
+      "静态图像",
+      "用户已认可"
+    ],
+    "verification": "1536×1024 PNG，原图字节与 SHA-256 已核，已目视检查，用户已认可。原始提示词未找到，仅提供可核实的来源说明；不声称逐像素复现。",
+    "rights": "本任务的生成式原创概念图，非真实矿物摄影。原提示词未保留，不补写未知生成参数；当前画面未见人物、品牌或私人素材。未作穷尽相似性检索，不作版权法律保证；公开复用许可尚未选定。",
+    "steps": [
+      "查看完整作品与制作说明。",
+      "下载保留的源码、原始提示词或来源说明。",
+      "对照验证记录与未验证边界。"
+    ],
+    "source": "source-notes.md",
+    "artifact": "cases/mineral-tide/index.html",
+    "poster": "cases/mineral-tide/mineral-tide.png",
+    "media": "mineral-tide.png",
+    "extraProvenance": {
+      "references": [],
+      "bytes": 2417613,
+      "sha256": "24cf74334a9266d605fcff11c4e471f7b8b3a6f86e36af9d091317b8eb763eb3",
+      "userApproved": true,
+      "selectionStatus": "用户已认可",
+      "sourceBytes": 986,
+      "sourceSha256": "ab270d97755e521e31e6924f6ef73ff7ed6b164cd16381d5e8bc97108b29a582",
+      "independentWorkCount": 1,
+      "width": 1536,
+      "height": 1024,
+      "visualInspection": true,
+      "originalPromptAvailable": false,
+      "promptStatus": "原始提示词未找到，来源说明不是原始提示词。",
+      "limitations": [
+        "生成式视觉，不是地质学图解或实物摄影。",
+        "确切模型版本与原始生成参数未披露或未保留。"
+      ]
+    },
+    "sourceLabel": "阅读来源说明（原提示词未保留）"
+  },
+  {
+    "id": "one-arc-rises",
+    "title": "一弧升起",
+    "category": "blender-film",
+    "method": "3d-render",
+    "useCase": "程序化动力雕塑",
+    "summary": "同一根黄铜轴带动七枚凸轮，依次托起白陶叶片，形成中央高、两端低的一道弧。",
+    "engine": "Blender 4.3.2 + Python 原创声音 + FFmpeg",
+    "model": "ChatGPT 协作，确切底层模型版本未披露",
+    "createdAt": "2026-11-10",
+    "batch": "five-20261111",
+    "tags": [
+      "凸轮机构",
+      "Blender",
+      "候选"
+    ],
+    "verification": "20 秒，1280×720 / 24 fps，480 个场景时点，H.264/AAC。完整解码、原包 CRC 与 12 个成员哈希已核。源包保留完整 Blender 场景与时轴；最终静止段采用经核验的缓存。完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。",
+    "rights": "图形、动画、音乐与声效为本任务原创程序制作，未使用外部图片、采样音乐或三维模型。依赖工具保留各自许可。未作穷尽相似性检索，不作版权法律保证；公开复用许可尚未选定。",
+    "steps": [
+      "查看完整作品与制作说明。",
+      "下载保留的源码、原始提示词或来源说明。",
+      "对照验证记录与未验证边界。"
+    ],
+    "source": "one-arc-rises-source.zip",
+    "artifact": "cases/one-arc-rises/index.html",
+    "poster": "cases/one-arc-rises/poster.png",
+    "media": "one-arc-rises.mp4",
+    "extraProvenance": {
+      "references": [],
+      "bytes": 1746276,
+      "sha256": "00ace2d0a96320d142a85214b66617011e02f81e975df8b57a273375ecee3c69",
+      "userApproved": false,
+      "selectionStatus": "已制作候选，非用户精选",
+      "sourceBytes": 4328969,
+      "sourceSha256": "c0f34b645756fc60bc61ec5bae23518b70ede31f1687fea9609348d3a99172b8",
+      "independentWorkCount": 1,
+      "durationSeconds": 20,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "fullDecodeVerified": true,
+      "subjectiveListeningVerified": false,
+      "fullSpeedViewingVerified": false,
+      "blendContainsCompleteAnimation": true,
+      "sourceArchiveMembersVerified": 12,
+      "sourceArchivePreserved": true,
+      "limitations": [
+        "按实际凸轮网格计算的几何约束动画，非接触动力学仿真或工程认证。",
+        "源包部分参数保留早期试渲记录；交付影片与 README 的最终范围为准。",
+        "完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。"
+      ]
+    },
+    "gif": "one-arc-rises-preview.gif"
+  },
+  {
+    "id": "the-seam-remembers",
+    "title": "缝隙记得",
+    "category": "image-generation",
+    "method": "image-model",
+    "useCase": "原创概念视觉",
+    "summary": "暗靛蓝布面中透出一线暖光，四针不齐的红线把裂口轻轻接住。",
+    "engine": "ChatGPT 内置图像生成",
+    "model": "ChatGPT 协作，确切底层模型版本未披露",
+    "createdAt": "2026-11-10",
+    "batch": "five-20261111",
+    "tags": [
+      "织物",
+      "暖光",
+      "候选"
+    ],
+    "verification": "1536×1024 PNG，单次生成，原图与完整原始提示词保留。目视、独立静态审查、原包 CRC 与 5 个成员哈希已核。画面偏暗，穿针结构不作工艺证据；作为候选发布，不代表用户已认可。",
+    "rights": "本任务原创主题、构图与提示词，一次生成，无输入参考图或外部图像。非实物摄影；未作穷尽相似性检索，不作版权法律保证。公开复用许可尚未选定。",
+    "steps": [
+      "查看完整作品与制作说明。",
+      "下载保留的源码、原始提示词或来源说明。",
+      "对照验证记录与未验证边界。"
+    ],
+    "source": "the-seam-remembers-source.zip",
+    "artifact": "cases/the-seam-remembers/index.html",
+    "poster": "cases/the-seam-remembers/the-seam-remembers.png",
+    "media": "the-seam-remembers.png",
+    "extraProvenance": {
+      "references": [],
+      "bytes": 2639136,
+      "sha256": "64395bf0cebb76f0ec1e0614a9fab931fd03951b99feaf0686063bdb3d7190e2",
+      "userApproved": false,
+      "selectionStatus": "已制作候选，非用户精选",
+      "sourceBytes": 2564864,
+      "sourceSha256": "8efde88946d677c6214ee08dd2d4a9d520a2c9582273e9f8ee64e1f7a31a583c",
+      "independentWorkCount": 1,
+      "width": 1536,
+      "height": 1024,
+      "generationAttemptsTotal": 1,
+      "externalReferenceImages": false,
+      "visualInspection": true,
+      "originalPromptAvailable": true,
+      "sourceArchiveMembersVerified": 5,
+      "sourceArchivePreserved": true,
+      "limitations": [
+        "画面偏暗，红线与裂口可能产生创口联想。",
+        "局部穿针方式不是可复现纺织工艺说明。",
+        "原包 README 保留交付时等待批量上传的历史状态；当前发布状态以本页为准。"
+      ]
+    }
+  },
+  {
+    "id": "the-other-side-of-gravity",
+    "title": "重力的另一面",
+    "category": "blender-film",
+    "method": "3d-render",
+    "useCase": "程序化动力雕塑",
+    "summary": "银珠压低铜盘，弯曲沿薄铜片展开，中央托座最后把银珠抬回光里。",
+    "engine": "Blender 4.3.2 EEVEE + Python 原创声音 + FFmpeg",
+    "model": "ChatGPT 协作，确切底层模型版本未披露",
+    "createdAt": "2026-11-11",
+    "batch": "five-20261111",
+    "tags": [
+      "薄铜片",
+      "Blender",
+      "候选"
+    ],
+    "verification": "24 秒，1280×720 / 24 fps，576 帧真实渲染，H.264/AAC。完整解码、连续性检查、原包 CRC / 22 个文件哈希与解压重建的 576 时点验证通过；最终音轨 -16.44 LUFS / -1.23 dBTP。完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。 .blend 为静态快照，完整动画由 final_render.py 重建。",
+    "rights": "图形、动画、音乐与声效为本任务原创程序制作，未使用外部图片、采样音乐或三维模型。依赖工具保留各自许可。未作穷尽相似性检索，不作版权法律保证；公开复用许可尚未选定。",
+    "steps": [
+      "查看完整作品与制作说明。",
+      "下载保留的源码、原始提示词或来源说明。",
+      "对照验证记录与未验证边界。"
+    ],
+    "source": "the-other-side-of-gravity-source.zip",
+    "artifact": "cases/the-other-side-of-gravity/index.html",
+    "poster": "cases/the-other-side-of-gravity/poster.png",
+    "media": "the-other-side-of-gravity.mp4",
+    "extraProvenance": {
+      "references": [],
+      "bytes": 10325924,
+      "sha256": "e0319561f1fb161c6c9ecb02c86dd984870c6c0e9e1c2446323685ccb20d349d",
+      "userApproved": false,
+      "selectionStatus": "已制作候选，非用户精选",
+      "sourceBytes": 7382210,
+      "sourceSha256": "f2b059c7fe30258cefc32b69cf071c5bde85ea33f123bd5f9ad73c606f2a23d0",
+      "independentWorkCount": 1,
+      "durationSeconds": 24,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 576,
+      "fullDecodeVerified": true,
+      "subjectiveListeningVerified": false,
+      "fullSpeedViewingVerified": false,
+      "blendContainsCompleteAnimation": false,
+      "sourceArchiveMembersVerified": 22,
+      "sourceArchivePreserved": true,
+      "sourceRestoreGeometryVerified": true,
+      "limitations": [
+        "规定轨迹的风格化几何，不是铜片物理仿真。",
+        "静态 .blend 不独立保存完整动画；final_render.py 重建动画。",
+        "完整原速连续观看与主观听审尚未完成；技术检查不等于用户艺术验收。"
+      ]
+    }
+  }
+]
